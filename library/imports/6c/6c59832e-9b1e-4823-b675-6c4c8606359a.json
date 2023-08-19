@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "cashier",
+    "texture": "209acaf3-5dd0-4595-9698-b774295a884e",
+    "atlas": "",
+    "rect": [
+      15,
+      2,
+      1091,
+      113
+    ],
+    "offset": [
+      6.5,
+      0
+    ],
+    "originalSize": [
+      1108,
+      117
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

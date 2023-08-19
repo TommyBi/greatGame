@@ -1,0 +1,125 @@
+
+shengji.png
+size: 383,974
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+00
+  rotate: false
+  xy: 2, 529
+  size: 306, 443
+  orig: 318, 460
+  offset: 6, 5
+  index: -1
+01
+  rotate: true
+  xy: 2, 77
+  size: 28, 348
+  orig: 32, 376
+  offset: 2, 3
+  index: -1
+02
+  rotate: true
+  xy: 2, 2
+  size: 23, 340
+  orig: 27, 345
+  offset: 2, 2
+  index: -1
+11
+  rotate: true
+  xy: 2, 2
+  size: 23, 340
+  orig: 27, 345
+  offset: 2, 2
+  index: -1
+03
+  rotate: false
+  xy: 310, 596
+  size: 46, 376
+  orig: 50, 381
+  offset: 2, 2
+  index: -1
+07
+  rotate: false
+  xy: 310, 596
+  size: 46, 376
+  orig: 50, 381
+  offset: 2, 2
+  index: -1
+10
+  rotate: false
+  xy: 310, 596
+  size: 46, 376
+  orig: 50, 381
+  offset: 2, 2
+  index: -1
+04
+  rotate: true
+  xy: 2, 52
+  size: 23, 376
+  orig: 27, 382
+  offset: 2, 2
+  index: -1
+05
+  rotate: false
+  xy: 347, 219
+  size: 28, 372
+  orig: 32, 378
+  offset: 2, 3
+  index: -1
+13
+  rotate: false
+  xy: 347, 219
+  size: 28, 372
+  orig: 32, 378
+  offset: 2, 3
+  index: -1
+06
+  rotate: false
+  xy: 358, 593
+  size: 23, 379
+  orig: 27, 384
+  offset: 2, 2
+  index: -1
+08
+  rotate: false
+  xy: 310, 223
+  size: 35, 371
+  orig: 39, 379
+  offset: 2, 4
+  index: -1
+12
+  rotate: false
+  xy: 310, 223
+  size: 35, 371
+  orig: 39, 379
+  offset: 2, 4
+  index: -1
+09
+  rotate: true
+  xy: 2, 27
+  size: 23, 376
+  orig: 27, 382
+  offset: 2, 2
+  index: -1
+21
+  rotate: true
+  xy: 2, 112
+  size: 415, 286
+  orig: 427, 298
+  offset: 6, 6
+  index: -1
+xx
+  rotate: false
+  xy: 290, 107
+  size: 70, 70
+  orig: 77, 76
+  offset: 3, 3
+  index: -1
+yy
+  rotate: true
+  xy: 290, 179
+  size: 42, 44
+  orig: 48, 48
+  offset: 3, 2
+  index: -1

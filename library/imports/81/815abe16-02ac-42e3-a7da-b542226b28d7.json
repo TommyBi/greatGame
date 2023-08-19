@@ -1,0 +1,216 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "yanwu",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "NtP31S/6B6H6u2dnU2fLDI5uIPw",
+      "spine": "3.8.99",
+      "x": -163.5,
+      "y": -146.81,
+      "width": 327,
+      "height": 325,
+      "images": "../psd/images/",
+      "audio": "F:/项目/新游戏/幸福集市/psd"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "bone",
+        "parent": "root",
+        "length": 83.52,
+        "rotation": 90
+      }
+    ],
+    "slots": [
+      {
+        "name": "1",
+        "bone": "bone",
+        "attachment": "4"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "1": {
+            "1": {
+              "rotation": -90,
+              "width": 156,
+              "height": 112
+            },
+            "2": {
+              "rotation": -90,
+              "width": 160,
+              "height": 190
+            },
+            "3": {
+              "rotation": -90,
+              "width": 325,
+              "height": 235
+            },
+            "4": {
+              "x": 15.69,
+              "rotation": -90,
+              "width": 327,
+              "height": 325
+            },
+            "5": {
+              "rotation": -90,
+              "width": 262,
+              "height": 277
+            },
+            "6": {
+              "rotation": -90,
+              "width": 216,
+              "height": 229
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "animation": {
+        "slots": {
+          "1": {
+            "attachment": [
+              {
+                "time": 0.0667,
+                "name": "2"
+              },
+              {
+                "time": 0.1333,
+                "name": "3"
+              },
+              {
+                "time": 0.2,
+                "name": "4"
+              },
+              {
+                "time": 0.3,
+                "name": "5"
+              },
+              {
+                "time": 0.3667,
+                "name": "6"
+              },
+              {
+                "time": 0.4333,
+                "name": "2"
+              },
+              {
+                "time": 0.5,
+                "name": "1"
+              },
+              {
+                "time": 0.5667,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "bone": {
+            "scale": [
+              {
+                "x": 0.722,
+                "y": 0.722,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0333,
+                "x": 0.895,
+                "y": 0.895
+              },
+              {
+                "time": 0.0667,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1,
+                "x": 1.105,
+                "y": 1.105
+              },
+              {
+                "time": 0.1333,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "x": 1.171,
+                "y": 1.171
+              },
+              {
+                "time": 0.2,
+                "x": 1.088,
+                "y": 1.088,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2333,
+                "x": 1.202,
+                "y": 1.202
+              },
+              {
+                "time": 0.2667,
+                "x": 1.273,
+                "y": 1.273
+              },
+              {
+                "time": 0.3,
+                "x": 1.196,
+                "y": 1.196,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "x": 0.975,
+                "y": 0.975
+              },
+              {
+                "time": 0.3667,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4,
+                "x": 0.953,
+                "y": 0.953
+              },
+              {
+                "time": 0.4333,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4667,
+                "x": 0.929,
+                "y": 0.929
+              },
+              {
+                "time": 0.5,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5333,
+                "x": 0.839,
+                "y": 0.839
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nyanwu.png\nsize: 1200,329\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n1\n  rotate: false\n  xy: 1040, 27\n  size: 154, 110\n  orig: 156, 112\n  offset: 1, 1\n  index: -1\n2\n  rotate: false\n  xy: 1040, 139\n  size: 158, 188\n  orig: 160, 190\n  offset: 1, 1\n  index: -1\n3\n  rotate: true\n  xy: 327, 4\n  size: 323, 233\n  orig: 325, 235\n  offset: 1, 1\n  index: -1\n4\n  rotate: true\n  xy: 2, 2\n  size: 325, 323\n  orig: 327, 325\n  offset: 1, 1\n  index: -1\n5\n  rotate: false\n  xy: 562, 52\n  size: 260, 275\n  orig: 262, 277\n  offset: 1, 1\n  index: -1\n6\n  rotate: false\n  xy: 824, 100\n  size: 214, 227\n  orig: 216, 229\n  offset: 1, 1\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "a58efcc8-aef1-4058-a257-911b44357c74"
+    }
+  ],
+  "textureNames": [
+    "yanwu.png"
+  ],
+  "scale": 1
+}

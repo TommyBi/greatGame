@@ -1,0 +1,1 @@
+{"version":3,"sources":["assets/src/game/consts/Global.ts"],"names":[],"mappings":";;;;;;AAAA;IAAA;IAGA,CAAC;IAFiB,sBAAe,GAAG,EAAE,CAAC;IACrB,gBAAS,GAAG,SAAS,CAAC;IACxC,aAAC;CAHD,AAGC,IAAA;kBAHoB,MAAM","file":"","sourceRoot":"/","sourcesContent":["export default class Global {\n    public static JSON_SERVER_URL = \"\";\n    public static JSON_FILE = \"allConf\";\n}"]}

@@ -1,0 +1,241 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "shui",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "e7EcEXohxSUBkPvMwDA6ReGLhPE",
+      "spine": "3.8.99",
+      "x": -41.5,
+      "y": -20.48,
+      "width": 83,
+      "height": 27.74,
+      "images": "./水流/images/",
+      "audio": "F:/项目/新游戏/幸福集市/动画/水流"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "bone",
+        "parent": "root",
+        "length": 22.91,
+        "rotation": 90,
+        "x": -0.4,
+        "y": 0.95
+      },
+      {
+        "name": "bone2",
+        "parent": "root",
+        "length": 24.64,
+        "rotation": 90
+      }
+    ],
+    "slots": [
+      {
+        "name": "101",
+        "bone": "bone",
+        "attachment": "101"
+      },
+      {
+        "name": "201",
+        "bone": "bone2",
+        "attachment": "203"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "101": {
+            "101": {
+              "x": -0.19,
+              "y": -0.04,
+              "rotation": -90,
+              "width": 14,
+              "height": 13
+            },
+            "102": {
+              "x": 0.31,
+              "y": -0.54,
+              "rotation": -90,
+              "width": 25,
+              "height": 12
+            },
+            "103": {
+              "x": 0.31,
+              "y": -0.54,
+              "rotation": -90,
+              "width": 54,
+              "height": 21
+            },
+            "104": {
+              "x": 0.31,
+              "y": -0.54,
+              "rotation": -90,
+              "width": 59,
+              "height": 23
+            },
+            "105": {
+              "x": 0.31,
+              "y": -0.54,
+              "rotation": -90,
+              "width": 64,
+              "height": 26
+            },
+            "106": {
+              "x": 0.31,
+              "y": -0.54,
+              "rotation": -90,
+              "width": 66,
+              "height": 27
+            },
+            "107": {
+              "x": 0.31,
+              "y": -0.54,
+              "rotation": -90,
+              "width": 69,
+              "height": 28
+            },
+            "108": {
+              "x": 0.31,
+              "y": -0.54,
+              "rotation": -90,
+              "width": 71,
+              "height": 28
+            },
+            "109": {
+              "x": 0.31,
+              "y": -0.54,
+              "rotation": -90,
+              "width": 79,
+              "height": 30
+            },
+            "110": {
+              "x": 0.31,
+              "y": -0.54,
+              "rotation": -90,
+              "width": 76,
+              "height": 31
+            },
+            "111": {
+              "x": 0.31,
+              "y": -0.54,
+              "rotation": -90,
+              "width": 54,
+              "height": 29
+            }
+          },
+          "201": {
+            "201": {
+              "rotation": -90,
+              "width": 49,
+              "height": 22
+            },
+            "202": {
+              "rotation": -90,
+              "width": 74,
+              "height": 32
+            },
+            "203": {
+              "x": -7.48,
+              "rotation": -90,
+              "width": 83,
+              "height": 26
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "bowen": {
+        "slots": {
+          "101": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "201": {
+            "color": [
+              {
+                "time": 0.1333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffffc5"
+              },
+              {
+                "time": 0.2,
+                "color": "ffffff7e"
+              }
+            ],
+            "attachment": [
+              {
+                "name": null
+              },
+              {
+                "time": 0.0333,
+                "name": "201"
+              },
+              {
+                "time": 0.1,
+                "name": "202"
+              },
+              {
+                "time": 0.1667,
+                "name": "203"
+              },
+              {
+                "time": 0.2333,
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "bone2": {
+            "scale": [
+              {
+                "time": 0.0333,
+                "x": 0.511,
+                "y": 0.511,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0667,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1333,
+                "x": 1.321,
+                "y": 1.321,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2,
+                "x": 1.662,
+                "y": 1.662
+              }
+            ]
+          }
+        }
+      },
+      "shuibo": {}
+    }
+  },
+  "_atlasText": "\nshui.png\nsize: 170,142\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n101\n  rotate: false\n  xy: 148, 80\n  size: 11, 11\n  orig: 14, 13\n  offset: 2, 1\n  index: -1\n102\n  rotate: true\n  xy: 156, 55\n  size: 23, 10\n  orig: 25, 12\n  offset: 1, 1\n  index: -1\n103\n  rotate: true\n  xy: 54, 9\n  size: 52, 19\n  orig: 54, 21\n  offset: 1, 1\n  index: -1\n104\n  rotate: true\n  xy: 31, 4\n  size: 57, 21\n  orig: 59, 23\n  offset: 1, 1\n  index: -1\n105\n  rotate: true\n  xy: 75, 2\n  size: 62, 24\n  orig: 64, 26\n  offset: 1, 1\n  index: -1\n106\n  rotate: true\n  xy: 101, 2\n  size: 64, 25\n  orig: 66, 27\n  offset: 1, 1\n  index: -1\n107\n  rotate: true\n  xy: 128, 2\n  size: 67, 26\n  orig: 69, 28\n  offset: 1, 1\n  index: -1\n108\n  rotate: true\n  xy: 121, 71\n  size: 69, 25\n  orig: 71, 28\n  offset: 1, 2\n  index: -1\n109\n  rotate: true\n  xy: 28, 63\n  size: 77, 28\n  orig: 79, 30\n  offset: 1, 1\n  index: -1\n110\n  rotate: true\n  xy: 58, 66\n  size: 74, 29\n  orig: 76, 31\n  offset: 1, 1\n  index: -1\n111\n  rotate: true\n  xy: 2, 5\n  size: 52, 27\n  orig: 54, 29\n  offset: 1, 1\n  index: -1\n201\n  rotate: true\n  xy: 148, 93\n  size: 47, 20\n  orig: 49, 22\n  offset: 1, 1\n  index: -1\n202\n  rotate: true\n  xy: 89, 68\n  size: 72, 30\n  orig: 74, 32\n  offset: 1, 1\n  index: -1\n203\n  rotate: true\n  xy: 2, 59\n  size: 81, 24\n  orig: 83, 26\n  offset: 1, 1\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "d2fafc92-89ad-4e0e-8e0a-c0a72e196421"
+    }
+  ],
+  "textureNames": [
+    "shui.png"
+  ],
+  "scale": 1
+}

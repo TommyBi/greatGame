@@ -1,0 +1,104 @@
+
+shui.png
+size: 170,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+101
+  rotate: false
+  xy: 148, 80
+  size: 11, 11
+  orig: 14, 13
+  offset: 2, 1
+  index: -1
+102
+  rotate: true
+  xy: 156, 55
+  size: 23, 10
+  orig: 25, 12
+  offset: 1, 1
+  index: -1
+103
+  rotate: true
+  xy: 54, 9
+  size: 52, 19
+  orig: 54, 21
+  offset: 1, 1
+  index: -1
+104
+  rotate: true
+  xy: 31, 4
+  size: 57, 21
+  orig: 59, 23
+  offset: 1, 1
+  index: -1
+105
+  rotate: true
+  xy: 75, 2
+  size: 62, 24
+  orig: 64, 26
+  offset: 1, 1
+  index: -1
+106
+  rotate: true
+  xy: 101, 2
+  size: 64, 25
+  orig: 66, 27
+  offset: 1, 1
+  index: -1
+107
+  rotate: true
+  xy: 128, 2
+  size: 67, 26
+  orig: 69, 28
+  offset: 1, 1
+  index: -1
+108
+  rotate: true
+  xy: 121, 71
+  size: 69, 25
+  orig: 71, 28
+  offset: 1, 2
+  index: -1
+109
+  rotate: true
+  xy: 28, 63
+  size: 77, 28
+  orig: 79, 30
+  offset: 1, 1
+  index: -1
+110
+  rotate: true
+  xy: 58, 66
+  size: 74, 29
+  orig: 76, 31
+  offset: 1, 1
+  index: -1
+111
+  rotate: true
+  xy: 2, 5
+  size: 52, 27
+  orig: 54, 29
+  offset: 1, 1
+  index: -1
+201
+  rotate: true
+  xy: 148, 93
+  size: 47, 20
+  orig: 49, 22
+  offset: 1, 1
+  index: -1
+202
+  rotate: true
+  xy: 89, 68
+  size: 72, 30
+  orig: 74, 32
+  offset: 1, 1
+  index: -1
+203
+  rotate: true
+  xy: 2, 59
+  size: 81, 24
+  orig: 83, 26
+  offset: 1, 1
+  index: -1
