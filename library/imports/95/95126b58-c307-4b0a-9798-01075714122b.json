@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "taskBtn2",
+    "texture": "33599872-9cbb-4e15-8a10-8f7bed2acf54",
+    "atlas": "",
+    "rect": [
+      3,
+      3,
+      198,
+      92
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      204,
+      100
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

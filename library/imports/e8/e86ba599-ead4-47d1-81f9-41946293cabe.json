@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "order_lvIcon_3",
+    "texture": "362d5d05-9d48-4cd1-9874-1280c60db946",
+    "atlas": "",
+    "rect": [
+      36,
+      30,
+      135,
+      139
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      206,
+      198
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -4,6 +4,7 @@ cc._RF.push(module, 'a3c189Gbd1Bnrfpx4fA56Fd', 'MusicManager');
 
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+var Global_1 = require("../../game/consts/Global");
 var PlayerModel_1 = require("../../game/datas/PlayerModel");
 var StorageHelper_1 = require("../helper/StorageHelper");
 var MusicManager = /** @class */ (function () {
@@ -174,7 +175,24 @@ var MusicManager = /** @class */ (function () {
         StorageHelper_1.default.saveValueByKey('music', value);
     };
     MusicManager.prototype.getEffectSwitch = function () {
-        return PlayerModel_1.default.getSoundYinXiaoSwitch() == true;
+        // let statusStr = StorageHelper.getValueByKey('audio');
+        // let status = true;
+        // if (statusStr != null) {
+        //     if(typeof statusStr != "boolean")
+        //     {
+        //         if(statusStr === 'false') {
+        //             status = false;
+        //         } else {
+        //             status = true;
+        //         }
+        //     } else {
+        //         status = statusStr;
+        //     }
+        // } else {
+        //     status = true;
+        // }
+        // return status;
+        return PlayerModel_1.default.getSoundYinXiaoSwitch() == Global_1.default.SOUND_YINXIAO_SWITCH_OPEN;
     };
     MusicManager.prototype.getMusicSwitch = function () {
         // let statusStr = StorageHelper.getValueByKey('music');
@@ -194,7 +212,7 @@ var MusicManager = /** @class */ (function () {
         //     status = true;
         // }
         // return status;
-        return PlayerModel_1.default.getSoundSwitch() == true;
+        return PlayerModel_1.default.getSoundSwitch() == Global_1.default.SOUND_SWITCH_OPEN;
     };
     MusicManager.prototype.initMusic = function () {
         this._switchEffect = this.getEffectSwitch();

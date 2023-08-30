@@ -1,3 +1,6 @@
+import UIType from "../../game/consts/UIType";
+import EffectManager from "../../game/manager/EffectManager";
+import MessageCenter from "../../game/manager/MessageCenter";
 import Handler from "../base/Handler";
 import LoaderManager from "../manager/LoaderManager";
 import UIMananger from "../manager/UIMananger";

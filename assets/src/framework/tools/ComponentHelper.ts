@@ -543,6 +543,16 @@ export default class ComponentHelper {
             node.runAction(cc.repeatForever(action));
         }
     }
+    public static setRotation(node: cc.Node, time: number = 0.5, x: number = 20) {
+        if (cc.isValid(node)) {
+            node.stopAllActions();
+            let pos = cc.v2(node.x, node.y)
+            let moveUp = cc.rotateTo(time, 10);
+            let moveDown = cc.rotateTo(time, -10);
+            let action = cc.sequence(moveUp, moveDown);
+            node.runAction(cc.repeatForever(action));
+        }
+    }
 
     public static setScaleGuoDong(node: cc.Node, time: number = 0.1, isStartBig: boolean = true, bigScale: number = 1.3, smallScale: number = 1.0): void {
         if (cc.isValid(node)) {

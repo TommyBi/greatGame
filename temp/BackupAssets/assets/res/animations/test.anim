@@ -1,0 +1,35 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "test",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2.5,
+  "sample": 10,
+  "speed": 0.5,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "x": [
+        {
+          "frame": 0,
+          "value": -372.722
+        },
+        {
+          "frame": 2.5,
+          "value": 214.209
+        }
+      ],
+      "y": [
+        {
+          "frame": 0,
+          "value": -154.23
+        },
+        {
+          "frame": 2.5,
+          "value": 111.388
+        }
+      ]
+    }
+  },
+  "events": []
+}

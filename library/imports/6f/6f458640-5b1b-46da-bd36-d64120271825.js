@@ -9,6 +9,7 @@ var LoaderManager_1 = require("../../framework/manager/LoaderManager");
 var ModuleType;
 (function (ModuleType) {
     ModuleType["commonRes"] = "commonRes";
+    ModuleType["gameRes"] = "gameRes";
 })(ModuleType = exports.ModuleType || (exports.ModuleType = {}));
 var LoaderType = /** @class */ (function () {
     function LoaderType() {
@@ -38,10 +39,11 @@ var LoaderType = /** @class */ (function () {
     };
     LoaderType.UIURL = "prefab/";
     LoaderType.textures = {
-        'commonRes': { mname: 'common', url: 'texture/common', isRelease: false },
+        'commonRes': { mname: 'commonRes', url: 'texture/common', isRelease: false },
+        'gameRes': { mname: 'gameRes', url: 'texture/itemIcon1', isRelease: false },
     };
     LoaderType.prefabs = {
-        itemIcon: { mname: 'itemIcon', url: 'main', isRelease: true },
+        itemIcon: { mname: 'itemIcon', url: 'prefab/main', isRelease: true },
     };
     LoaderType.config = { mname: 'config', url: 'config', isRelease: true };
     return LoaderType;

@@ -1,0 +1,1 @@
+{"version":3,"sources":["assets/src/game/view/Message.ts"],"names":[],"mappings":";;;;;;;AAAA,IAAY,OAIX;AAJD,WAAY,OAAO;IAEf,yDAAgB,CAAA;AAEpB,CAAC,EAJW,OAAO,GAAP,eAAO,KAAP,eAAO,QAIlB","file":"","sourceRoot":"/","sourcesContent":["export enum Message\r\n{\r\n    configComplete=1,//配置文件加载完成\r\n    \r\n}\r\n\r\n"]}

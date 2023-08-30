@@ -24,7 +24,7 @@ var DataManager = /** @class */ (function () {
         var _this = this;
         var baseUrl = "config/";
         var jsonList = [
-            "allConf"
+            "barrage"
         ];
         var _loop_1 = function (i) {
             var jsonFile = baseUrl + jsonList[i];

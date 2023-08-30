@@ -493,6 +493,9 @@ export default class Utils {
     static create<T>(C: { new(): T }): T {
         return new C();
     }
+    static returnTime( ) {
+        return new Date().getTime();
+    }
 
     /**
      * 适配节点到相对于舞台的的边角位置

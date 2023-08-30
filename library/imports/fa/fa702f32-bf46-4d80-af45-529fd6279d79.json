@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lvUp_tabBg",
+    "texture": "0ede5106-617f-4c0f-80e5-894ef898cf0f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      282,
+      111
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      282,
+      111
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

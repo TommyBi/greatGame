@@ -127,7 +127,7 @@ var SortUtils = /** @class */ (function () {
      * @isBig 是否是从大到小排序
      * @returns 返回排序好的集合
      */
-    SortUtils.quickSort = function (collects, key, isBig) {
+    SortUtils.quickSort = function (collects, isBig, key) {
         if (isBig === void 0) { isBig = true; }
         SortUtils.quickSortHandle(collects, 0, collects.length - 1, key);
         return collects;

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sellBg",
+    "texture": "74890934-8b67-4fb2-8653-20d8f80031b9",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      122,
+      93
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      122,
+      93
+    ],
+    "capInsets": [
+      17,
+      17,
+      17,
+      17
+    ]
+  }
+}

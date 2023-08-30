@@ -1,0 +1,649 @@
+{
+  "projectPath": "E:\\work\\idiom_letu\\happyocean",
+  "actualPlatform": "android",
+  "mtimes": {
+    "ac309d5a-e8b4-489c-9d8d-3527e8637052": {
+      "assetMtime": 1657779637752,
+      "metaMtime": 1657779849235
+    },
+    "13156c59-a63e-4290-8260-db2c859808c0": {
+      "assetMtime": 1657779637753,
+      "metaMtime": 1657779849301
+    },
+    "c64b118e-ce45-4969-81b9-02a7620095c0": {
+      "assetMtime": 1657779637753,
+      "metaMtime": 1657779849301
+    },
+    "1fe09a2d-3394-44bc-9cc1-7405be34ba41": {
+      "assetMtime": 1657779637760,
+      "metaMtime": 1657779849357
+    },
+    "93d5ec9a-2b36-4b3e-bf75-89a3a3d68dbc": {
+      "assetMtime": 1657779637760,
+      "metaMtime": 1657779849357
+    },
+    "325c3825-9d66-49a5-aebd-dbbc153be630": {
+      "assetMtime": 1657779637693,
+      "metaMtime": 1657779849249
+    },
+    "8afdfdd2-d901-41dd-abc5-7ae439f0e577": {
+      "assetMtime": 1657779637693,
+      "metaMtime": 1657779849249
+    },
+    "32b826bf-beba-4f45-a705-36853c45384f": {
+      "assetMtime": 1657779637689,
+      "metaMtime": 1657779849231
+    },
+    "67cece9b-8e7d-415f-a219-e0ab3a3c905f": {
+      "assetMtime": 1657779637689,
+      "metaMtime": 1657779849231
+    },
+    "4600be8c-88fe-475d-9e35-cf10653ee964": {
+      "assetMtime": 1657779637691,
+      "metaMtime": 1657779849240
+    },
+    "e1c57c72-f4a2-4ce5-a5d1-d8ff214f8e53": {
+      "assetMtime": 1657779637691,
+      "metaMtime": 1657779849240
+    },
+    "532f0f73-68db-4495-81ca-45c3f5def889": {
+      "assetMtime": 1657779637755,
+      "metaMtime": 1657779849310
+    },
+    "46d87013-f523-408c-984c-ece09499cc3b": {
+      "assetMtime": 1657779637755,
+      "metaMtime": 1657779849310
+    },
+    "56506452-4341-4fd5-a3ac-c48c2e74cb5e": {
+      "assetMtime": 1657779637756,
+      "metaMtime": 1657779849321
+    },
+    "3c6b92c0-b16f-4b33-8b65-a4d61629cf88": {
+      "assetMtime": 1657779637756,
+      "metaMtime": 1657779849321
+    },
+    "5671a950-c6fa-4b7a-9c7d-18b55c155d6f": {
+      "assetMtime": 1657779637696,
+      "metaMtime": 1657779849272
+    },
+    "a9b70405-971a-459f-af16-dcdd64ab4ca5": {
+      "assetMtime": 1657779637696,
+      "metaMtime": 1657779849272
+    },
+    "638ac1bd-ce74-43ab-835f-0261aae9f729": {
+      "assetMtime": 1657779637755,
+      "metaMtime": 1657779849313
+    },
+    "a33a0bfe-0fb3-4e23-b099-955cf2ee582f": {
+      "assetMtime": 1657779637755,
+      "metaMtime": 1657779849313
+    },
+    "6da0a424-96fb-4e0e-bc4b-93a3fd675b5a": {
+      "assetMtime": 1657779637746,
+      "metaMtime": 1657779849288
+    },
+    "76a51d55-d808-4c3d-aaf8-c9e41dd0b29a": {
+      "assetMtime": 1657779637746,
+      "metaMtime": 1657779849288
+    },
+    "8833e5fd-0369-4b1b-890a-aed57f2b7c96": {
+      "assetMtime": 1657779637701,
+      "metaMtime": 1657779849292
+    },
+    "6518bfa7-b949-421f-9b16-73e5c1bcf1a8": {
+      "assetMtime": 1657779637701,
+      "metaMtime": 1657779849292
+    },
+    "89555227-d609-4df7-a527-113350e3472e": {
+      "assetMtime": 1657779637699,
+      "metaMtime": 1657779849280
+    },
+    "a6cd3dbf-5d64-49d2-9ad7-5d89d1bba3f7": {
+      "assetMtime": 1657779637699,
+      "metaMtime": 1657779849280
+    },
+    "8a43d2b5-1c24-4dbd-a195-c80e257996f8": {
+      "assetMtime": 1657779637751,
+      "metaMtime": 1657779849304
+    },
+    "bb01d6c9-e243-4935-b240-8f83b474373d": {
+      "assetMtime": 1657779637751,
+      "metaMtime": 1657779849304
+    },
+    "92d6b6e3-95e5-48b4-a4cc-102234cd0cf0": {
+      "assetMtime": 1657779637695,
+      "metaMtime": 1657779849252
+    },
+    "d5173456-2ce9-47df-be68-d9d084cfafb2": {
+      "assetMtime": 1657779637695,
+      "metaMtime": 1657779849252
+    },
+    "9dca760f-54db-497e-86e7-0e742a25284e": {
+      "assetMtime": 1657779637754,
+      "metaMtime": 1657779849298
+    },
+    "c2df5e85-5669-43b9-8e4e-acc69d94ec72": {
+      "assetMtime": 1657779637754,
+      "metaMtime": 1657779849298
+    },
+    "b42f12c9-28b8-4ff3-a9f4-e3e61f7568e0": {
+      "assetMtime": 1657779637758,
+      "metaMtime": 1657779849319
+    },
+    "bd74944a-ce90-4345-9bdf-aa5f6e365676": {
+      "assetMtime": 1657779637758,
+      "metaMtime": 1657779849319
+    },
+    "bac7019a-9d06-4884-863e-cde62cd3d225": {
+      "assetMtime": 1657779637759,
+      "metaMtime": 1657779849343
+    },
+    "66c62c02-f23b-40de-8dcd-5c189f2d949c": {
+      "assetMtime": 1657779637759,
+      "metaMtime": 1657779849343
+    },
+    "bd300b45-86ab-4606-b8ea-9d3dd8ef3e7e": {
+      "assetMtime": 1657779637688,
+      "metaMtime": 1657779849228
+    },
+    "a8971401-7b2b-4f6b-b4b9-26a737e1db17": {
+      "assetMtime": 1657779637688,
+      "metaMtime": 1657779849228
+    },
+    "c857d22d-0da5-42f4-89a6-c02192ebf823": {
+      "assetMtime": 1657779637757,
+      "metaMtime": 1657779849316
+    },
+    "eb338fa1-3f49-4458-abfe-45d0c185b8b8": {
+      "assetMtime": 1657779637757,
+      "metaMtime": 1657779849316
+    }
+  },
+  "result": {
+    "name": "scene3Animal",
+    "width": 1024,
+    "height": 1024,
+    "ver": "1.2.5",
+    "uuid": "ac309d5a-e8b4-489c-9d8d-3527e8637052",
+    "importer": "auto-atlas",
+    "maxWidth": 1024,
+    "maxHeight": 1024,
+    "padding": 2,
+    "compressionLevel": 6,
+    "allowRotation": true,
+    "forceSquared": false,
+    "powerOfTwo": false,
+    "algorithm": "MaxRects",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": true,
+    "paddingBleed": true,
+    "filterUnused": true,
+    "packable": false,
+    "premultiplyAlpha": false,
+    "filterMode": "bilinear",
+    "platformSettings": {},
+    "subMetas": {},
+    "bleed": 1,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "shadow_10",
+            "uuid": "13156c59-a63e-4290-8260-db2c859808c0",
+            "textureUuid": "c64b118e-ce45-4969-81b9-02a7620095c0",
+            "path": "E:\\work\\idiom_letu\\happyocean\\temp\\trimImages\\spritesheet_js_1657793248299_image_0.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 237,
+              "height": 236,
+              "rotatedWidth": 237,
+              "rotatedHeight": 236
+            },
+            "rawWidth": 238,
+            "rawHeight": 238,
+            "width": 243,
+            "height": 242,
+            "originalPath": "E:/work/idiom_letu/happyocean/library/imports/c6/c64b118e-ce45-4969-81b9-02a7620095c0.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 243,
+            "rotatedHeight": 242
+          },
+          {
+            "name": "10",
+            "uuid": "32b826bf-beba-4f45-a705-36853c45384f",
+            "textureUuid": "67cece9b-8e7d-415f-a219-e0ab3a3c905f",
+            "path": "E:\\work\\idiom_letu\\happyocean\\temp\\trimImages\\spritesheet_js_1657793248301_image_3.png",
+            "trim": {
+              "x": 246,
+              "y": 3,
+              "width": 237,
+              "height": 236,
+              "rotatedWidth": 237,
+              "rotatedHeight": 236
+            },
+            "rawWidth": 238,
+            "rawHeight": 238,
+            "width": 243,
+            "height": 242,
+            "originalPath": "E:/work/idiom_letu/happyocean/library/imports/67/67cece9b-8e7d-415f-a219-e0ab3a3c905f.png",
+            "x": 243,
+            "y": 0,
+            "rotatedWidth": 243,
+            "rotatedHeight": 242
+          },
+          {
+            "name": "shadow_9",
+            "uuid": "1fe09a2d-3394-44bc-9cc1-7405be34ba41",
+            "textureUuid": "93d5ec9a-2b36-4b3e-bf75-89a3a3d68dbc",
+            "path": "E:\\work\\idiom_letu\\happyocean\\temp\\trimImages\\spritesheet_js_1657793248301_image_1.png",
+            "trim": {
+              "x": 3,
+              "y": 245,
+              "width": 179,
+              "height": 176,
+              "rotatedWidth": 179,
+              "rotatedHeight": 176
+            },
+            "rawWidth": 238,
+            "rawHeight": 238,
+            "width": 185,
+            "height": 182,
+            "originalPath": "E:/work/idiom_letu/happyocean/library/imports/93/93d5ec9a-2b36-4b3e-bf75-89a3a3d68dbc.png",
+            "x": 0,
+            "y": 242,
+            "rotatedWidth": 185,
+            "rotatedHeight": 182
+          },
+          {
+            "name": "9",
+            "uuid": "8a43d2b5-1c24-4dbd-a195-c80e257996f8",
+            "textureUuid": "bb01d6c9-e243-4935-b240-8f83b474373d",
+            "path": "E:\\work\\idiom_letu\\happyocean\\temp\\trimImages\\spritesheet_js_1657793248302_image_12.png",
+            "trim": {
+              "x": 188,
+              "y": 245,
+              "width": 179,
+              "height": 176,
+              "rotatedWidth": 179,
+              "rotatedHeight": 176
+            },
+            "rawWidth": 238,
+            "rawHeight": 238,
+            "width": 185,
+            "height": 182,
+            "originalPath": "E:/work/idiom_letu/happyocean/library/imports/bb/bb01d6c9-e243-4935-b240-8f83b474373d.png",
+            "x": 185,
+            "y": 242,
+            "rotatedWidth": 185,
+            "rotatedHeight": 182
+          },
+          {
+            "name": "8",
+            "uuid": "6da0a424-96fb-4e0e-bc4b-93a3fd675b5a",
+            "textureUuid": "76a51d55-d808-4c3d-aaf8-c9e41dd0b29a",
+            "path": "E:\\work\\idiom_letu\\happyocean\\temp\\trimImages\\spritesheet_js_1657793248302_image_9.png",
+            "trim": {
+              "x": 373,
+              "y": 245,
+              "width": 171,
+              "height": 171,
+              "rotatedWidth": 171,
+              "rotatedHeight": 171
+            },
+            "rawWidth": 238,
+            "rawHeight": 238,
+            "width": 177,
+            "height": 177,
+            "originalPath": "E:/work/idiom_letu/happyocean/library/imports/76/76a51d55-d808-4c3d-aaf8-c9e41dd0b29a.png",
+            "x": 370,
+            "y": 242,
+            "rotatedWidth": 177,
+            "rotatedHeight": 177
+          },
+          {
+            "name": "shadow_8",
+            "uuid": "bac7019a-9d06-4884-863e-cde62cd3d225",
+            "textureUuid": "66c62c02-f23b-40de-8dcd-5c189f2d949c",
+            "path": "E:\\work\\idiom_letu\\happyocean\\temp\\trimImages\\spritesheet_js_1657793248303_image_16.png",
+            "trim": {
+              "x": 373,
+              "y": 422,
+              "width": 171,
+              "height": 171,
+              "rotatedWidth": 171,
+              "rotatedHeight": 171
+            },
+            "rawWidth": 238,
+            "rawHeight": 238,
+            "width": 177,
+            "height": 177,
+            "originalPath": "E:/work/idiom_letu/happyocean/library/imports/66/66c62c02-f23b-40de-8dcd-5c189f2d949c.png",
+            "x": 370,
+            "y": 419,
+            "rotatedWidth": 177,
+            "rotatedHeight": 177
+          },
+          {
+            "name": "shadow_7",
+            "uuid": "b42f12c9-28b8-4ff3-a9f4-e3e61f7568e0",
+            "textureUuid": "bd74944a-ce90-4345-9bdf-aa5f6e365676",
+            "path": "E:\\work\\idiom_letu\\happyocean\\temp\\trimImages\\spritesheet_js_1657793248303_image_15.png",
+            "trim": {
+              "x": 3,
+              "y": 427,
+              "width": 156,
+              "height": 150,
+              "rotatedWidth": 156,
+              "rotatedHeight": 150
+            },
+            "rawWidth": 238,
+            "rawHeight": 238,
+            "width": 162,
+            "height": 156,
+            "originalPath": "E:/work/idiom_letu/happyocean/library/imports/bd/bd74944a-ce90-4345-9bdf-aa5f6e365676.png",
+            "x": 0,
+            "y": 424,
+            "rotatedWidth": 162,
+            "rotatedHeight": 156
+          },
+          {
+            "name": "7",
+            "uuid": "8833e5fd-0369-4b1b-890a-aed57f2b7c96",
+            "textureUuid": "6518bfa7-b949-421f-9b16-73e5c1bcf1a8",
+            "path": "E:\\work\\idiom_letu\\happyocean\\temp\\trimImages\\spritesheet_js_1657793248302_image_10.png",
+            "trim": {
+              "x": 165,
+              "y": 427,
+              "width": 155,
+              "height": 149,
+              "rotatedWidth": 155,
+              "rotatedHeight": 149
+            },
+            "rawWidth": 238,
+            "rawHeight": 238,
+            "width": 161,
+            "height": 155,
+            "originalPath": "E:/work/idiom_letu/happyocean/library/imports/65/6518bfa7-b949-421f-9b16-73e5c1bcf1a8.png",
+            "x": 162,
+            "y": 424,
+            "rotatedWidth": 161,
+            "rotatedHeight": 155
+          },
+          {
+            "name": "shadow_6",
+            "uuid": "c857d22d-0da5-42f4-89a6-c02192ebf823",
+            "textureUuid": "eb338fa1-3f49-4458-abfe-45d0c185b8b8",
+            "path": "E:\\work\\idiom_letu\\happyocean\\temp\\trimImages\\spritesheet_js_1657793248303_image_18.png",
+            "trim": {
+              "x": 165,
+              "y": 582,
+              "width": 148,
+              "height": 150,
+              "rotatedWidth": 150,
+              "rotatedHeight": 148
+            },
+            "rawWidth": 238,
+            "rawHeight": 238,
+            "width": 154,
+            "height": 156,
+            "originalPath": "E:/work/idiom_letu/happyocean/library/imports/eb/eb338fa1-3f49-4458-abfe-45d0c185b8b8.png",
+            "x": 162,
+            "y": 579,
+            "rotated": true,
+            "rotatedWidth": 156,
+            "rotatedHeight": 154
+          },
+          {
+            "name": "6",
+            "uuid": "89555227-d609-4df7-a527-113350e3472e",
+            "textureUuid": "a6cd3dbf-5d64-49d2-9ad7-5d89d1bba3f7",
+            "path": "E:\\work\\idiom_letu\\happyocean\\temp\\trimImages\\spritesheet_js_1657793248302_image_11.png",
+            "trim": {
+              "x": 3,
+              "y": 583,
+              "width": 147,
+              "height": 150,
+              "rotatedWidth": 150,
+              "rotatedHeight": 147
+            },
+            "rawWidth": 238,
+            "rawHeight": 238,
+            "width": 153,
+            "height": 156,
+            "originalPath": "E:/work/idiom_letu/happyocean/library/imports/a6/a6cd3dbf-5d64-49d2-9ad7-5d89d1bba3f7.png",
+            "x": 0,
+            "y": 580,
+            "rotated": true,
+            "rotatedWidth": 156,
+            "rotatedHeight": 153
+          },
+          {
+            "name": "shadow_5",
+            "uuid": "56506452-4341-4fd5-a3ac-c48c2e74cb5e",
+            "textureUuid": "3c6b92c0-b16f-4b33-8b65-a4d61629cf88",
+            "path": "E:\\work\\idiom_letu\\happyocean\\temp\\trimImages\\spritesheet_js_1657793248302_image_6.png",
+            "trim": {
+              "x": 321,
+              "y": 599,
+              "width": 149,
+              "height": 147,
+              "rotatedWidth": 149,
+              "rotatedHeight": 147
+            },
+            "rawWidth": 238,
+            "rawHeight": 238,
+            "width": 155,
+            "height": 153,
+            "originalPath": "E:/work/idiom_letu/happyocean/library/imports/3c/3c6b92c0-b16f-4b33-8b65-a4d61629cf88.png",
+            "x": 318,
+            "y": 596,
+            "rotatedWidth": 155,
+            "rotatedHeight": 153
+          },
+          {
+            "name": "5",
+            "uuid": "5671a950-c6fa-4b7a-9c7d-18b55c155d6f",
+            "textureUuid": "a9b70405-971a-459f-af16-dcdd64ab4ca5",
+            "path": "E:\\work\\idiom_letu\\happyocean\\temp\\trimImages\\spritesheet_js_1657793248302_image_7.png",
+            "trim": {
+              "x": 3,
+              "y": 752,
+              "width": 149,
+              "height": 146,
+              "rotatedWidth": 146,
+              "rotatedHeight": 149
+            },
+            "rawWidth": 238,
+            "rawHeight": 238,
+            "width": 155,
+            "height": 152,
+            "originalPath": "E:/work/idiom_letu/happyocean/library/imports/a9/a9b70405-971a-459f-af16-dcdd64ab4ca5.png",
+            "x": 0,
+            "y": 749,
+            "rotated": true,
+            "rotatedWidth": 152,
+            "rotatedHeight": 155
+          },
+          {
+            "name": "1",
+            "uuid": "bd300b45-86ab-4606-b8ea-9d3dd8ef3e7e",
+            "textureUuid": "a8971401-7b2b-4f6b-b4b9-26a737e1db17",
+            "path": "E:\\work\\idiom_letu\\happyocean\\temp\\trimImages\\spritesheet_js_1657793248303_image_17.png",
+            "trim": {
+              "x": 3,
+              "y": 907,
+              "width": 111,
+              "height": 103,
+              "rotatedWidth": 103,
+              "rotatedHeight": 111
+            },
+            "rawWidth": 238,
+            "rawHeight": 238,
+            "width": 117,
+            "height": 109,
+            "originalPath": "E:/work/idiom_letu/happyocean/library/imports/a8/a8971401-7b2b-4f6b-b4b9-26a737e1db17.png",
+            "x": 0,
+            "y": 904,
+            "rotated": true,
+            "rotatedWidth": 109,
+            "rotatedHeight": 117
+          },
+          {
+            "name": "shadow_4",
+            "uuid": "638ac1bd-ce74-43ab-835f-0261aae9f729",
+            "textureUuid": "a33a0bfe-0fb3-4e23-b099-955cf2ee582f",
+            "path": "E:\\work\\idiom_letu\\happyocean\\temp\\trimImages\\spritesheet_js_1657793248302_image_8.png",
+            "trim": {
+              "x": 155,
+              "y": 736,
+              "width": 141,
+              "height": 138,
+              "rotatedWidth": 141,
+              "rotatedHeight": 138
+            },
+            "rawWidth": 238,
+            "rawHeight": 238,
+            "width": 147,
+            "height": 144,
+            "originalPath": "E:/work/idiom_letu/happyocean/library/imports/a3/a33a0bfe-0fb3-4e23-b099-955cf2ee582f.png",
+            "x": 152,
+            "y": 733,
+            "rotatedWidth": 147,
+            "rotatedHeight": 144
+          },
+          {
+            "name": "4",
+            "uuid": "92d6b6e3-95e5-48b4-a4cc-102234cd0cf0",
+            "textureUuid": "d5173456-2ce9-47df-be68-d9d084cfafb2",
+            "path": "E:\\work\\idiom_letu\\happyocean\\temp\\trimImages\\spritesheet_js_1657793248302_image_13.png",
+            "trim": {
+              "x": 155,
+              "y": 880,
+              "width": 140,
+              "height": 138,
+              "rotatedWidth": 138,
+              "rotatedHeight": 140
+            },
+            "rawWidth": 238,
+            "rawHeight": 238,
+            "width": 146,
+            "height": 144,
+            "originalPath": "E:/work/idiom_letu/happyocean/library/imports/d5/d5173456-2ce9-47df-be68-d9d084cfafb2.png",
+            "x": 152,
+            "y": 877,
+            "rotated": true,
+            "rotatedWidth": 144,
+            "rotatedHeight": 146
+          },
+          {
+            "name": "3",
+            "uuid": "325c3825-9d66-49a5-aebd-dbbc153be630",
+            "textureUuid": "8afdfdd2-d901-41dd-abc5-7ae439f0e577",
+            "path": "E:\\work\\idiom_letu\\happyocean\\temp\\trimImages\\spritesheet_js_1657793248301_image_2.png",
+            "trim": {
+              "x": 299,
+              "y": 880,
+              "width": 134,
+              "height": 132,
+              "rotatedWidth": 132,
+              "rotatedHeight": 134
+            },
+            "rawWidth": 238,
+            "rawHeight": 238,
+            "width": 140,
+            "height": 138,
+            "originalPath": "E:/work/idiom_letu/happyocean/library/imports/8a/8afdfdd2-d901-41dd-abc5-7ae439f0e577.png",
+            "x": 296,
+            "y": 877,
+            "rotated": true,
+            "rotatedWidth": 138,
+            "rotatedHeight": 140
+          },
+          {
+            "name": "shadow_2",
+            "uuid": "9dca760f-54db-497e-86e7-0e742a25284e",
+            "textureUuid": "c2df5e85-5669-43b9-8e4e-acc69d94ec72",
+            "path": "E:\\work\\idiom_letu\\happyocean\\temp\\trimImages\\spritesheet_js_1657793248303_image_14.png",
+            "trim": {
+              "x": 302,
+              "y": 752,
+              "width": 124,
+              "height": 121,
+              "rotatedWidth": 124,
+              "rotatedHeight": 121
+            },
+            "rawWidth": 238,
+            "rawHeight": 238,
+            "width": 130,
+            "height": 127,
+            "originalPath": "E:/work/idiom_letu/happyocean/library/imports/c2/c2df5e85-5669-43b9-8e4e-acc69d94ec72.png",
+            "x": 299,
+            "y": 749,
+            "rotatedWidth": 130,
+            "rotatedHeight": 127
+          },
+          {
+            "name": "2",
+            "uuid": "4600be8c-88fe-475d-9e35-cf10653ee964",
+            "textureUuid": "e1c57c72-f4a2-4ce5-a5d1-d8ff214f8e53",
+            "path": "E:\\work\\idiom_letu\\happyocean\\temp\\trimImages\\spritesheet_js_1657793248301_image_4.png",
+            "trim": {
+              "x": 432,
+              "y": 752,
+              "width": 124,
+              "height": 120,
+              "rotatedWidth": 124,
+              "rotatedHeight": 120
+            },
+            "rawWidth": 238,
+            "rawHeight": 238,
+            "width": 130,
+            "height": 126,
+            "originalPath": "E:/work/idiom_letu/happyocean/library/imports/e1/e1c57c72-f4a2-4ce5-a5d1-d8ff214f8e53.png",
+            "x": 429,
+            "y": 749,
+            "rotatedWidth": 130,
+            "rotatedHeight": 126
+          },
+          {
+            "name": "shadow_3",
+            "uuid": "532f0f73-68db-4495-81ca-45c3f5def889",
+            "textureUuid": "46d87013-f523-408c-984c-ece09499cc3b",
+            "path": "E:\\work\\idiom_letu\\happyocean\\temp\\trimImages\\spritesheet_js_1657793248301_image_5.png",
+            "trim": {
+              "x": 437,
+              "y": 878,
+              "width": 134,
+              "height": 132,
+              "rotatedWidth": 134,
+              "rotatedHeight": 132
+            },
+            "rawWidth": 238,
+            "rawHeight": 238,
+            "width": 140,
+            "height": 138,
+            "originalPath": "E:/work/idiom_letu/happyocean/library/imports/46/46d87013-f523-408c-984c-ece09499cc3b.png",
+            "x": 434,
+            "y": 875,
+            "rotatedWidth": 140,
+            "rotatedHeight": 138
+          }
+        ],
+        "width": 574,
+        "height": 1023,
+        "name": "scene3Animal-1",
+        "imagePath": "E:\\work\\idiom_letu\\happyocean\\temp\\TexturePacker\\build\\native\\assets\\resources\\texture\\itemIcon1\\scene1\\scene3Animal.pac\\scene3Animal-1.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "E:\\work\\idiom_letu\\happyocean\\temp\\TexturePacker\\build\\native\\assets\\resources\\texture\\itemIcon1\\scene1\\scene3Animal.pac\\compressed\\scene3Animal-1"
+        }
+      }
+    ],
+    "unpackedTextures": []
+  }
+}

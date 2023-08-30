@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hbIcon",
+    "texture": "e4b44a28-17c3-43f5-a9a8-c51fc816f977",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      149,
+      138
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      149,
+      138
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

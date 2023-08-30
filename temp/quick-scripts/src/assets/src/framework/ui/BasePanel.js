@@ -40,6 +40,8 @@ var BasePanel = /** @class */ (function (_super) {
         _this._ismask = true;
         _this.effect = null;
         _this.clickOtherClose = false;
+        _this.closeBack = null;
+        _this.isVideoClose = false;
         return _this;
     }
     BasePanel.prototype.init = function (clickClose) {
@@ -76,8 +78,9 @@ var BasePanel = /** @class */ (function (_super) {
         }
     };
     //打开面板前 先执行的函数
-    BasePanel.prototype._show_ = function (args) {
+    BasePanel.prototype._show_ = function (closeBack, args) {
         this.inData = args;
+        this.closeBack = closeBack;
         this.upDateState(UIState_1.StateType.opening);
     };
     /**
@@ -87,10 +90,22 @@ var BasePanel = /** @class */ (function (_super) {
         return true;
     };
     BasePanel.prototype.startHide = function () {
+        // if (this.isVideoClose) SDKManager.reportTrigger();
     };
     BasePanel.prototype.startShow = function () {
     };
     BasePanel.prototype._hide_ = function () {
+        // if (LoaderManager.isRelease(this.moduleName)) {
+        //     this.node.destroy();
+        //     GamePoolManager.clearByTarget(this); 
+        //     this._destroyClear(); 
+        // } else {
+        //     GamePoolManager.putBackByTarget(this);
+        //     if (!!this.node.parent) {
+        //         this.node.removeFromParent(false);
+        //     }
+        //     this._closeClear();
+        // }
         this._hideModeule();
         this.upDateState(UIState_1.StateType.close);
         this.node.destroy();
@@ -116,6 +131,13 @@ var BasePanel = /** @class */ (function (_super) {
         this._hideModeule();
     };
     BasePanel.prototype.close = function () {
+        if (this.closeBack)
+            this.closeBack();
+        EventDispath_1.default.removeEventListeners(this);
+        UIMananger_1.default.hidePanel(this.uiName);
+    };
+    BasePanel.prototype.close1 = function () {
+        this.closeBack = null;
         EventDispath_1.default.removeEventListeners(this);
         UIMananger_1.default.hidePanel(this.uiName);
     };
@@ -143,8 +165,8 @@ var BasePanel = /** @class */ (function (_super) {
     BasePanel.prototype._showModuleAction = function () {
         if (cc.isValid(this.modelUI)) {
             this.modelUI.stopAllActions();
-            this.modelUI.opacity = 0;
-            this.modelUI.runAction(cc.fadeTo(0.2, 150));
+            this.modelUI.opacity = 170;
+            // this.modelUI.runAction(cc.fadeTo(0.2, 170));
         }
     };
     BasePanel.prototype._hideModeule = function () {

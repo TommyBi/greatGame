@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "BarrageBg",
+    "texture": "5fcc6941-ebc6-4172-a10c-f74e53230b1e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      622,
+      56
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      622,
+      56
+    ],
+    "capInsets": [
+      23,
+      17,
+      24,
+      18
+    ]
+  }
+}

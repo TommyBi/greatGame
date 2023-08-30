@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pest1",
+    "texture": "c0a57399-fc5e-4b8c-a637-c4156d823d87",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      231,
+      197
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      232,
+      198
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

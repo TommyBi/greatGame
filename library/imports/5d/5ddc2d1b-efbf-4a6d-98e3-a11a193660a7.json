@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lvUp_bg2",
+    "texture": "60c59d9c-3ae8-402c-aff4-5ddeb5b4a590",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      201,
+      173
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      204,
+      176
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

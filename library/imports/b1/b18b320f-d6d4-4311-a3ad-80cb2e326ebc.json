@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "order_unlock_bg",
+    "texture": "9cc973d4-ce66-49e3-8778-e509a7c05137",
+    "atlas": "",
+    "rect": [
+      2,
+      3,
+      847,
+      321
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      851,
+      327
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

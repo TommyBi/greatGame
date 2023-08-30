@@ -78,9 +78,9 @@ var Launcher = /** @class */ (function (_super) {
         this.vibrate(100);
     };
     //领红包奖励接口
-    Launcher.prototype.getRedPacketReward = function (configId, isVideo) {
+    Launcher.prototype.getRedPackReward = function (configId, isVideo) {
         if (this.isAndroid()) {
-            jsb.reflection.callStaticMethod(this._moudelPath_android, "getRedPacketReward", "(Ljava/lang/String;Z)V", configId, isVideo);
+            jsb.reflection.callStaticMethod(this._moudelPath_android, "getRedPackReward", "(Ljava/lang/String;Z)V", configId, isVideo);
         }
         else if (this.isIphone()) {
         }

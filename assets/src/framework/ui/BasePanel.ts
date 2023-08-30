@@ -5,6 +5,7 @@ import GamePoolManager from "../manager/GamePoolManager";
 import UIMananger from "../manager/UIMananger";
 import { UIState, StateType } from "./UIState";
 import EventDispath from "../message/EventDispath";
+import SDKManager from "../manager/SDKManager";
 
 const { ccclass, property } = cc._decorator;
 
@@ -21,6 +22,8 @@ export default class BasePanel extends cc.Component {
     public inData: any;
     private modelUI: cc.Node;//背景
     private uiState: UIState;
+    closeBack: Function = null;
+    isVideoClose = false;
     init(clickClose) {
         if (this._ismask) {
             this._initModule();
@@ -63,8 +66,9 @@ export default class BasePanel extends cc.Component {
     }
 
     //打开面板前 先执行的函数
-    _show_(args) {
+    _show_(closeBack, args) {
         this.inData = args;
+        this.closeBack = closeBack;
         this.upDateState(StateType.opening);
     }
 
@@ -76,7 +80,7 @@ export default class BasePanel extends cc.Component {
     }
 
     startHide() {
-
+        // if (this.isVideoClose) SDKManager.reportTrigger();
     }
 
     startShow() {
@@ -84,6 +88,17 @@ export default class BasePanel extends cc.Component {
     }
 
     _hide_() {
+        // if (LoaderManager.isRelease(this.moduleName)) {
+        //     this.node.destroy();
+        //     GamePoolManager.clearByTarget(this); 
+        //     this._destroyClear(); 
+        // } else {
+        //     GamePoolManager.putBackByTarget(this);
+        //     if (!!this.node.parent) {
+        //         this.node.removeFromParent(false);
+        //     }
+        //     this._closeClear();
+        // }
         this._hideModeule();
         this.upDateState(StateType.close);
         this.node.destroy();
@@ -117,6 +132,12 @@ export default class BasePanel extends cc.Component {
     }
 
     close() {
+        if (this.closeBack) this.closeBack();
+        EventDispath.removeEventListeners(this);
+        UIMananger.hidePanel(this.uiName);
+    }
+    close1() {
+        this.closeBack = null;
         EventDispath.removeEventListeners(this);
         UIMananger.hidePanel(this.uiName);
     }
@@ -148,8 +169,8 @@ export default class BasePanel extends cc.Component {
     private _showModuleAction() {
         if (cc.isValid(this.modelUI)) {
             this.modelUI.stopAllActions();
-            this.modelUI.opacity = 0;
-            this.modelUI.runAction(cc.fadeTo(0.2, 150));
+            this.modelUI.opacity = 170;
+            // this.modelUI.runAction(cc.fadeTo(0.2, 170));
         }
     }
 

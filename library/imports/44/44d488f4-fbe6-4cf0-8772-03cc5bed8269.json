@@ -4,3650 +4,3247 @@
   "_objFlags": 0,
   "_native": "",
   "json": {
-    "accept_degree": [
+    "crop_time": [
       {
-        "degree_min": 0,
-        "solicit_num": 20,
-        "auto_solicit_interval": 10,
-        "sparrow_show_num": 24,
-        "sparrow_rate": 1,
-        "guest_buy2_rate": 0.4,
-        "guest_buy3_rate": 0.5
+        "id": 100,
+        "name": "种植次数",
+        "unlock": -1,
+        "desc": -1,
+        "value1": 0,
+        "value2": 20,
+        "value3": 40,
+        "value4": 60,
+        "value5": 80,
+        "value6": 100,
+        "value7": 120,
+        "value8": 140,
+        "value9": 160,
+        "value10": 180,
+        "value11": 200
       },
-      {
-        "degree_min": 50,
-        "solicit_num": 15,
-        "auto_solicit_interval": 15,
-        "sparrow_show_num": 18,
-        "sparrow_rate": 0.8,
-        "guest_buy2_rate": 0.4,
-        "guest_buy3_rate": 0.5
-      },
-      {
-        "degree_min": 100,
-        "solicit_num": 15,
-        "auto_solicit_interval": 15,
-        "sparrow_show_num": 12,
-        "sparrow_rate": 0.6,
-        "guest_buy2_rate": 0.5,
-        "guest_buy3_rate": 0.5
-      },
-      {
-        "degree_min": 120,
-        "solicit_num": 7,
-        "auto_solicit_interval": 20,
-        "sparrow_show_num": 8,
-        "sparrow_rate": 0.6,
-        "guest_buy2_rate": 0.5,
-        "guest_buy3_rate": 0.5
-      },
-      {
-        "degree_min": 140,
-        "solicit_num": 5,
-        "auto_solicit_interval": 30,
-        "sparrow_show_num": 6,
-        "sparrow_rate": 0.5,
-        "guest_buy2_rate": 0.6,
-        "guest_buy3_rate": 0.5
-      },
-      {
-        "degree_min": 150,
-        "solicit_num": 3,
-        "auto_solicit_interval": 40,
-        "sparrow_show_num": 6,
-        "sparrow_rate": 0.6,
-        "guest_buy2_rate": 0.7,
-        "guest_buy3_rate": 0.6
-      }
-    ],
-    "crop": [
       {
         "id": 1,
-        "name": "西红柿",
-        "money": 58,
-        "degee": -1,
-        "time": 60,
-        "getNum": 8,
-        "price": 40,
-        "taskMoney": 400,
-        "offline": 4,
-        "fudai": 800
+        "name": "玉米",
+        "unlock": 1,
+        "desc": "营养价值较高，是优良的粮食作物",
+        "value1": 60,
+        "value2": 90,
+        "value3": 120,
+        "value4": 150,
+        "value5": 180,
+        "value6": 210,
+        "value7": 240,
+        "value8": 270,
+        "value9": 300,
+        "value10": 330,
+        "value11": 360
       },
       {
         "id": 2,
-        "name": "土豆",
-        "money": 90,
-        "degee": 35,
-        "time": 120,
-        "getNum": 8,
-        "price": 80,
-        "taskMoney": 800,
-        "offline": 8,
-        "fudai": 1600
+        "name": "红薯",
+        "unlock": 1,
+        "desc": "高产而适应性强的粮食作物，与生产和生活关系密切",
+        "value1": 60,
+        "value2": 90,
+        "value3": 120,
+        "value4": 150,
+        "value5": 180,
+        "value6": 210,
+        "value7": 240,
+        "value8": 270,
+        "value9": 300,
+        "value10": 330,
+        "value11": 360
       },
       {
         "id": 3,
-        "name": "红薯",
-        "money": 122,
-        "degee": 58,
-        "time": 120,
-        "getNum": 8,
-        "price": 90,
-        "taskMoney": 900,
-        "offline": 9,
-        "fudai": 1800
+        "name": "白菜",
+        "unlock": 1,
+        "desc": "营养丰富，具有一定的药用价值",
+        "value1": 90,
+        "value2": 120,
+        "value3": 150,
+        "value4": 180,
+        "value5": 210,
+        "value6": 240,
+        "value7": 270,
+        "value8": 300,
+        "value9": 330,
+        "value10": 360,
+        "value11": 390
       },
       {
         "id": 4,
-        "name": "白菜",
-        "money": 158,
-        "degee": 78,
-        "time": 180,
-        "getNum": 8,
-        "price": 135,
-        "taskMoney": 1350,
-        "offline": 14,
-        "fudai": 2700
+        "name": "西红柿",
+        "unlock": 1,
+        "desc": "果实营养丰富，具特殊风味，可以生食、煮食",
+        "value1": 90,
+        "value2": 120,
+        "value3": 150,
+        "value4": 180,
+        "value5": 210,
+        "value6": 240,
+        "value7": 270,
+        "value8": 300,
+        "value9": 330,
+        "value10": 360,
+        "value11": 390
       },
       {
         "id": 5,
-        "name": "玉米",
-        "money": 186,
-        "degee": 95,
-        "time": 240,
-        "getNum": 8,
-        "price": 180,
-        "taskMoney": 1800,
-        "offline": 18,
-        "fudai": 3600
+        "name": "洋葱",
+        "unlock": 1,
+        "desc": "可用于降低血压、提神醒脑、缓解压力、预防感冒",
+        "value1": 120,
+        "value2": 150,
+        "value3": 180,
+        "value4": 210,
+        "value5": 240,
+        "value6": 270,
+        "value7": 300,
+        "value8": 330,
+        "value9": 360,
+        "value10": 390,
+        "value11": 420
       },
       {
         "id": 6,
-        "name": "红萝卜",
-        "money": 218,
-        "degee": 110,
-        "time": 240,
-        "getNum": 8,
-        "price": 190,
-        "taskMoney": 1900,
-        "offline": 19,
-        "fudai": 3800
+        "name": "黄瓜",
+        "unlock": 1,
+        "desc": "中国各地夏季主要菜蔬之一，广泛种植于温带和热带地区",
+        "value1": 120,
+        "value2": 150,
+        "value3": 180,
+        "value4": 210,
+        "value5": 240,
+        "value6": 270,
+        "value7": 300,
+        "value8": 330,
+        "value9": 360,
+        "value10": 390,
+        "value11": 420
       },
       {
         "id": 7,
         "name": "南瓜",
-        "money": 250,
-        "degee": 123,
-        "time": 300,
-        "getNum": 8,
-        "price": 240,
-        "taskMoney": 2400,
-        "offline": 24,
-        "fudai": 4800
+        "unlock": 1,
+        "desc": "果实作菜肴，亦可代粮食，全株各部可供药用",
+        "value1": 150,
+        "value2": 180,
+        "value3": 210,
+        "value4": 240,
+        "value5": 270,
+        "value6": 300,
+        "value7": 330,
+        "value8": 360,
+        "value9": 390,
+        "value10": 420,
+        "value11": 450
       },
       {
         "id": 8,
-        "name": "茄子",
-        "money": 282,
-        "degee": 133,
-        "time": 300,
-        "getNum": 8,
-        "price": 250,
-        "taskMoney": 2500,
-        "offline": 25,
-        "fudai": 5000
+        "name": "胡萝卜",
+        "unlock": 1,
+        "desc": "每天吃点胡萝卜有预防肺癌的作用",
+        "value1": 150,
+        "value2": 180,
+        "value3": 210,
+        "value4": 240,
+        "value5": 270,
+        "value6": 300,
+        "value7": 330,
+        "value8": 360,
+        "value9": 390,
+        "value10": 420,
+        "value11": 450
       },
       {
         "id": 9,
-        "name": "黄瓜",
-        "money": 320,
-        "degee": 141,
-        "time": 360,
-        "getNum": 8,
-        "price": 310,
-        "taskMoney": 3100,
-        "offline": 31,
-        "fudai": 6200
+        "name": "茄子",
+        "unlock": 1,
+        "desc": "原产亚洲热带，在全世界都有分布，以亚洲栽培最多",
+        "value1": 180,
+        "value2": 210,
+        "value3": 240,
+        "value4": 270,
+        "value5": 300,
+        "value6": 330,
+        "value7": 360,
+        "value8": 390,
+        "value9": 420,
+        "value10": 450,
+        "value11": 480
       },
       {
         "id": 10,
-        "name": "胡萝卜",
-        "money": 360,
-        "degee": 146,
-        "time": 360,
-        "getNum": 8,
-        "price": 330,
-        "taskMoney": 3300,
-        "offline": 33,
-        "fudai": 6600
+        "name": "辣椒",
+        "unlock": 1,
+        "desc": "原分布区在墨西哥到哥伦比亚，世界各国普遍栽培",
+        "value1": 180,
+        "value2": 210,
+        "value3": 240,
+        "value4": 270,
+        "value5": 300,
+        "value6": 330,
+        "value7": 360,
+        "value8": 390,
+        "value9": 420,
+        "value10": 450,
+        "value11": 480
       },
       {
         "id": 11,
-        "name": "花菜",
-        "money": 380,
-        "degee": 150,
-        "time": 420,
-        "getNum": 8,
-        "price": 400,
-        "taskMoney": 4000,
-        "offline": 40,
-        "fudai": 8000
+        "name": "菜花",
+        "unlock": 0,
+        "desc": "营养丰富，可助消化，增食欲，生津止渴",
+        "value1": 210,
+        "value2": 240,
+        "value3": 270,
+        "value4": 300,
+        "value5": 330,
+        "value6": 360,
+        "value7": 390,
+        "value8": 420,
+        "value9": 450,
+        "value10": 480,
+        "value11": 510
       },
       {
         "id": 12,
-        "name": "大蒜",
-        "money": 410,
-        "degee": 154,
-        "time": 420,
-        "getNum": 8,
-        "price": 420,
-        "taskMoney": 4200,
-        "offline": 42,
-        "fudai": 8400
+        "name": "香蕉",
+        "unlock": 0,
+        "desc": "具有清热解毒、养阴润燥等的功效",
+        "value1": 210,
+        "value2": 240,
+        "value3": 270,
+        "value4": 300,
+        "value5": 330,
+        "value6": 360,
+        "value7": 390,
+        "value8": 420,
+        "value9": 450,
+        "value10": 480,
+        "value11": 510
       },
       {
         "id": 13,
-        "name": "洋葱",
-        "money": 460,
-        "degee": 158,
-        "time": 480,
-        "getNum": 8,
-        "price": 500,
-        "taskMoney": 5000,
-        "offline": 50,
-        "fudai": 10000
+        "name": "西瓜",
+        "unlock": 0,
+        "desc": "果肉味甜，能降温去暑，有清热利尿之效",
+        "value1": 240,
+        "value2": 270,
+        "value3": 300,
+        "value4": 330,
+        "value5": 360,
+        "value6": 390,
+        "value7": 420,
+        "value8": 450,
+        "value9": 480,
+        "value10": 510,
+        "value11": 540
       },
       {
         "id": 14,
-        "name": "辣椒",
-        "money": 500,
-        "degee": 162,
-        "time": 480,
-        "getNum": 8,
-        "price": 540,
-        "taskMoney": 5400,
-        "offline": 54,
-        "fudai": 10800
+        "name": "蓝莓",
+        "unlock": 0,
+        "desc": "经济价值和开发前景较高，被誉为“浆果之王”",
+        "value1": 240,
+        "value2": 270,
+        "value3": 300,
+        "value4": 330,
+        "value5": 360,
+        "value6": 390,
+        "value7": 420,
+        "value8": 450,
+        "value9": 480,
+        "value10": 510,
+        "value11": 540
       },
       {
         "id": 15,
-        "name": "西瓜",
-        "money": 510,
-        "degee": 166,
-        "time": 540,
-        "getNum": 8,
-        "price": 620,
-        "taskMoney": 6200,
-        "offline": 62,
-        "fudai": 12400
-      },
-      {
-        "id": 16,
-        "name": "葡萄",
-        "money": 540,
-        "degee": 170,
-        "time": 540,
-        "getNum": 8,
-        "price": 650,
-        "taskMoney": 6500,
-        "offline": 65,
-        "fudai": 13000
-      },
-      {
-        "id": 17,
         "name": "菠萝",
-        "money": 570,
-        "degee": 174,
-        "time": 600,
-        "getNum": 8,
-        "price": 750,
-        "taskMoney": 7500,
-        "offline": 75,
-        "fudai": 15000
-      },
-      {
-        "id": 18,
-        "name": "草莓",
-        "money": 600,
-        "degee": 178,
-        "time": 600,
-        "getNum": 8,
-        "price": 800,
-        "taskMoney": 8000,
-        "offline": 80,
-        "fudai": 16000
-      },
-      {
-        "id": 19,
-        "name": "蓝莓",
-        "money": 640,
-        "degee": 182,
-        "time": 660,
-        "getNum": 8,
-        "price": 900,
-        "taskMoney": 9000,
-        "offline": 90,
-        "fudai": 18000
-      },
-      {
-        "id": 20,
-        "name": "香蕉",
-        "money": 660,
-        "degee": 186,
-        "time": 720,
-        "getNum": 8,
-        "price": 1000,
-        "taskMoney": 10000,
-        "offline": 100,
-        "fudai": 20000
-      },
-      {
-        "id": 21,
-        "name": "火龙果",
-        "money": 700,
-        "degee": 190,
-        "time": 840,
-        "getNum": 8,
-        "price": 1200,
-        "taskMoney": 12000,
-        "offline": 120,
-        "fudai": 24000
-      },
-      {
-        "id": 22,
-        "name": "猕猴桃",
-        "money": 780,
-        "degee": 194,
-        "time": 900,
-        "getNum": 8,
-        "price": 1500,
-        "taskMoney": 15000,
-        "offline": 150,
-        "fudai": 30000
-      }
-    ],
-    "dialy_task": [
-      {
-        "id": 1,
-        "desc": "每日登录1次",
-        "type": 1,
-        "target": 1
-      },
-      {
-        "id": 2,
-        "desc": "今日获得20元红包",
-        "type": 2,
-        "target": 2000
-      },
-      {
-        "id": 3,
-        "desc": "今日招揽100次",
-        "type": 3,
-        "target": 100
-      },
-      {
-        "id": 4,
-        "desc": "今日招待100位顾客",
-        "type": 4,
-        "target": 100
-      },
-      {
-        "id": 5,
-        "desc": "获得5点【顾客满意度】",
-        "type": 5,
-        "target": 5
-      },
-      {
-        "id": 6,
-        "desc": "今日观看广告10次",
-        "type": 6,
-        "target": 10
+        "unlock": 0,
+        "desc": "营养丰富，对身体健康有着不同的功效",
+        "value1": 270,
+        "value2": 300,
+        "value3": 330,
+        "value4": 360,
+        "value5": 390,
+        "value6": 420,
+        "value7": 450,
+        "value8": 480,
+        "value9": 510,
+        "value10": 540,
+        "value11": 570
       }
     ],
     "field": [
       {
-        "id": 101,
-        "name": "普通土地",
-        "type": 1,
+        "id": 1101,
+        "name": "1号土地",
+        "type": 11,
+        "unlock_state": 1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 3,
+        "add_type": 1,
+        "add_num": 0,
+        "add_desc": "作物生长时间无变化"
+      },
+      {
+        "id": 1102,
+        "name": "1号土地",
+        "type": 11,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 4,
+        "add_type": 1,
+        "add_num": 10,
+        "add_desc": "作物生长时间减少10%"
+      },
+      {
+        "id": 1103,
+        "name": "1号土地",
+        "type": 11,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 5,
+        "add_type": 1,
+        "add_num": 15,
+        "add_desc": "作物生长时间减少15%"
+      },
+      {
+        "id": 1104,
+        "name": "1号土地",
+        "type": 11,
+        "unlock_state": -1,
+        "money": 5000,
+        "video_num": 2,
+        "reward": 8,
+        "add_type": 1,
+        "add_num": 20,
+        "add_desc": "作物生长时间减少20%"
+      },
+      {
+        "id": 1105,
+        "name": "1号土地",
+        "type": 11,
+        "unlock_state": -1,
+        "money": 6000,
+        "video_num": 2,
+        "reward": 10,
+        "add_type": 1,
+        "add_num": 30,
+        "add_desc": "作物生长时间减少30%"
+      },
+      {
+        "id": 1106,
+        "name": "1号土地",
+        "type": 11,
+        "unlock_state": -1,
         "money": -1,
-        "need_degree": -1,
-        "reward_degree": 0,
-        "other_reward_type": 1,
-        "other_reward": 0,
-        "other_reward_desc": "只能保证基本产量",
-        "video_money": -1
+        "video_num": -1,
+        "reward": -1,
+        "add_type": 1,
+        "add_num": 40,
+        "add_desc": "作物生长时间减少40%"
+      },
+      {
+        "id": 1201,
+        "name": "2号土地",
+        "type": 12,
+        "unlock_state": 1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 3,
+        "add_type": 1,
+        "add_num": 0,
+        "add_desc": "作物生长时间无变化"
+      },
+      {
+        "id": 1202,
+        "name": "2号土地",
+        "type": 12,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 4,
+        "add_type": 1,
+        "add_num": 10,
+        "add_desc": "作物生长时间减少10%"
+      },
+      {
+        "id": 1203,
+        "name": "2号土地",
+        "type": 12,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 5,
+        "add_type": 1,
+        "add_num": 15,
+        "add_desc": "作物生长时间减少15%"
+      },
+      {
+        "id": 1204,
+        "name": "2号土地",
+        "type": 12,
+        "unlock_state": -1,
+        "money": 5000,
+        "video_num": 2,
+        "reward": 8,
+        "add_type": 1,
+        "add_num": 20,
+        "add_desc": "作物生长时间减少20%"
+      },
+      {
+        "id": 1205,
+        "name": "2号土地",
+        "type": 12,
+        "unlock_state": -1,
+        "money": 6000,
+        "video_num": 2,
+        "reward": 10,
+        "add_type": 1,
+        "add_num": 30,
+        "add_desc": "作物生长时间减少30%"
+      },
+      {
+        "id": 1206,
+        "name": "2号土地",
+        "type": 12,
+        "unlock_state": -1,
+        "money": -1,
+        "video_num": -1,
+        "reward": -1,
+        "add_type": 1,
+        "add_num": 40,
+        "add_desc": "作物生长时间减少40%"
+      },
+      {
+        "id": 1301,
+        "name": "3号土地",
+        "type": 13,
+        "unlock_state": 1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 3,
+        "add_type": 1,
+        "add_num": 0,
+        "add_desc": "作物生长时间无变化"
+      },
+      {
+        "id": 1302,
+        "name": "3号土地",
+        "type": 13,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 4,
+        "add_type": 1,
+        "add_num": 10,
+        "add_desc": "作物生长时间减少10%"
+      },
+      {
+        "id": 1303,
+        "name": "3号土地",
+        "type": 13,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 5,
+        "add_type": 1,
+        "add_num": 15,
+        "add_desc": "作物生长时间减少15%"
+      },
+      {
+        "id": 1304,
+        "name": "3号土地",
+        "type": 13,
+        "unlock_state": -1,
+        "money": 5000,
+        "video_num": 2,
+        "reward": 8,
+        "add_type": 1,
+        "add_num": 20,
+        "add_desc": "作物生长时间减少20%"
+      },
+      {
+        "id": 1305,
+        "name": "3号土地",
+        "type": 13,
+        "unlock_state": -1,
+        "money": 6000,
+        "video_num": 2,
+        "reward": 10,
+        "add_type": 1,
+        "add_num": 30,
+        "add_desc": "作物生长时间减少30%"
+      },
+      {
+        "id": 1306,
+        "name": "3号土地",
+        "type": 13,
+        "unlock_state": -1,
+        "money": -1,
+        "video_num": -1,
+        "reward": -1,
+        "add_type": 1,
+        "add_num": 40,
+        "add_desc": "作物生长时间减少40%"
+      },
+      {
+        "id": 1401,
+        "name": "4号土地",
+        "type": 14,
+        "unlock_state": 1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 3,
+        "add_type": 1,
+        "add_num": 0,
+        "add_desc": "作物生长时间无变化"
+      },
+      {
+        "id": 1402,
+        "name": "4号土地",
+        "type": 14,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 4,
+        "add_type": 1,
+        "add_num": 10,
+        "add_desc": "作物生长时间减少10%"
+      },
+      {
+        "id": 1403,
+        "name": "4号土地",
+        "type": 14,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 5,
+        "add_type": 1,
+        "add_num": 15,
+        "add_desc": "作物生长时间减少15%"
+      },
+      {
+        "id": 1404,
+        "name": "4号土地",
+        "type": 14,
+        "unlock_state": -1,
+        "money": 5000,
+        "video_num": 2,
+        "reward": 8,
+        "add_type": 1,
+        "add_num": 20,
+        "add_desc": "作物生长时间减少20%"
+      },
+      {
+        "id": 1405,
+        "name": "4号土地",
+        "type": 14,
+        "unlock_state": -1,
+        "money": 6000,
+        "video_num": 2,
+        "reward": 10,
+        "add_type": 1,
+        "add_num": 30,
+        "add_desc": "作物生长时间减少30%"
+      },
+      {
+        "id": 1406,
+        "name": "4号土地",
+        "type": 14,
+        "unlock_state": -1,
+        "money": -1,
+        "video_num": -1,
+        "reward": -1,
+        "add_type": 1,
+        "add_num": 40,
+        "add_desc": "作物生长时间减少40%"
+      },
+      {
+        "id": 1501,
+        "name": "5号土地",
+        "type": 15,
+        "unlock_state": 0,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 3,
+        "add_type": 1,
+        "add_num": 0,
+        "add_desc": "作物生长时间无变化"
+      },
+      {
+        "id": 1502,
+        "name": "5号土地",
+        "type": 15,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 4,
+        "add_type": 1,
+        "add_num": 10,
+        "add_desc": "作物生长时间减少10%"
+      },
+      {
+        "id": 1503,
+        "name": "5号土地",
+        "type": 15,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 5,
+        "add_type": 1,
+        "add_num": 15,
+        "add_desc": "作物生长时间减少15%"
+      },
+      {
+        "id": 1504,
+        "name": "5号土地",
+        "type": 15,
+        "unlock_state": -1,
+        "money": 5000,
+        "video_num": 2,
+        "reward": 8,
+        "add_type": 1,
+        "add_num": 20,
+        "add_desc": "作物生长时间减少20%"
+      },
+      {
+        "id": 1505,
+        "name": "5号土地",
+        "type": 15,
+        "unlock_state": -1,
+        "money": 6000,
+        "video_num": 2,
+        "reward": 10,
+        "add_type": 1,
+        "add_num": 30,
+        "add_desc": "作物生长时间减少30%"
+      },
+      {
+        "id": 1506,
+        "name": "5号土地",
+        "type": 15,
+        "unlock_state": -1,
+        "money": -1,
+        "video_num": -1,
+        "reward": -1,
+        "add_type": 1,
+        "add_num": 40,
+        "add_desc": "作物生长时间减少40%"
+      },
+      {
+        "id": 1601,
+        "name": "6号土地",
+        "type": 16,
+        "unlock_state": 0,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 3,
+        "add_type": 1,
+        "add_num": 0,
+        "add_desc": "作物生长时间无变化"
+      },
+      {
+        "id": 1602,
+        "name": "6号土地",
+        "type": 16,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 4,
+        "add_type": 1,
+        "add_num": 10,
+        "add_desc": "作物生长时间减少10%"
+      },
+      {
+        "id": 1603,
+        "name": "6号土地",
+        "type": 16,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 5,
+        "add_type": 1,
+        "add_num": 15,
+        "add_desc": "作物生长时间减少15%"
+      },
+      {
+        "id": 1604,
+        "name": "6号土地",
+        "type": 16,
+        "unlock_state": -1,
+        "money": 5000,
+        "video_num": 2,
+        "reward": 8,
+        "add_type": 1,
+        "add_num": 20,
+        "add_desc": "作物生长时间减少20%"
+      },
+      {
+        "id": 1605,
+        "name": "6号土地",
+        "type": 16,
+        "unlock_state": -1,
+        "money": 6000,
+        "video_num": 2,
+        "reward": 10,
+        "add_type": 1,
+        "add_num": 30,
+        "add_desc": "作物生长时间减少30%"
+      },
+      {
+        "id": 1606,
+        "name": "6号土地",
+        "type": 16,
+        "unlock_state": -1,
+        "money": -1,
+        "video_num": -1,
+        "reward": -1,
+        "add_type": 1,
+        "add_num": 40,
+        "add_desc": "作物生长时间减少40%"
+      }
+    ],
+    "level": [
+      {
+        "level": 1,
+        "sdzl": 5,
+        "gks": 5
+      },
+      {
+        "level": 2,
+        "sdzl": 5,
+        "gks": 5
+      },
+      {
+        "level": 3,
+        "sdzl": 5,
+        "gks": 5
+      },
+      {
+        "level": 4,
+        "sdzl": 5,
+        "gks": 5
+      },
+      {
+        "level": 5,
+        "sdzl": 5,
+        "gks": 6
+      },
+      {
+        "level": 6,
+        "sdzl": 3,
+        "gks": 6
+      },
+      {
+        "level": 7,
+        "sdzl": 3,
+        "gks": 6
+      },
+      {
+        "level": 8,
+        "sdzl": 3,
+        "gks": 6
+      },
+      {
+        "level": 9,
+        "sdzl": 3,
+        "gks": 6
+      },
+      {
+        "level": 10,
+        "sdzl": 3,
+        "gks": 8
+      },
+      {
+        "level": 11,
+        "sdzl": 3,
+        "gks": 8
+      },
+      {
+        "level": 12,
+        "sdzl": 3,
+        "gks": 8
+      },
+      {
+        "level": 13,
+        "sdzl": 3,
+        "gks": 8
+      },
+      {
+        "level": 14,
+        "sdzl": 3,
+        "gks": 8
+      },
+      {
+        "level": 15,
+        "sdzl": 3,
+        "gks": 10
+      },
+      {
+        "level": 16,
+        "sdzl": 3,
+        "gks": 10
+      },
+      {
+        "level": 17,
+        "sdzl": 3,
+        "gks": 10
+      },
+      {
+        "level": 18,
+        "sdzl": 3,
+        "gks": 10
+      },
+      {
+        "level": 19,
+        "sdzl": 3,
+        "gks": 10
+      },
+      {
+        "level": 20,
+        "sdzl": 3,
+        "gks": 10
+      },
+      {
+        "level": 21,
+        "sdzl": 3,
+        "gks": 10
+      },
+      {
+        "level": 22,
+        "sdzl": 3,
+        "gks": 10
+      },
+      {
+        "level": 23,
+        "sdzl": 3,
+        "gks": 10
+      },
+      {
+        "level": 24,
+        "sdzl": 3,
+        "gks": 10
+      },
+      {
+        "level": 25,
+        "sdzl": 3,
+        "gks": 10
+      },
+      {
+        "level": 26,
+        "sdzl": 3,
+        "gks": 10
+      },
+      {
+        "level": 27,
+        "sdzl": 3,
+        "gks": 10
+      },
+      {
+        "level": 28,
+        "sdzl": 3,
+        "gks": 10
+      },
+      {
+        "level": 29,
+        "sdzl": 3,
+        "gks": 10
+      },
+      {
+        "level": 30,
+        "sdzl": 3,
+        "gks": 10
+      }
+    ],
+    "order": [
+      {
+        "id": 0,
+        "quality": 0,
+        "crop1": 1,
+        "crop2": 2,
+        "num1": 1,
+        "num2": 1
+      },
+      {
+        "id": 101,
+        "quality": 1,
+        "crop1": 1,
+        "crop2": 3,
+        "crop3": 5,
+        "crop4": 7,
+        "num1": 6,
+        "num2": 6,
+        "num3": 5,
+        "num4": 5
       },
       {
         "id": 102,
-        "name": "黑土地",
-        "type": 1,
-        "money": 6916,
-        "need_degree": 92,
-        "reward_degree": 3,
-        "other_reward_type": 1,
-        "other_reward": 10,
-        "other_reward_desc": "作物产量提升10%",
-        "video_money": 3300
+        "quality": 1,
+        "crop1": 2,
+        "crop2": 4,
+        "crop3": 6,
+        "crop4": 8,
+        "num1": 6,
+        "num2": 6,
+        "num3": 5,
+        "num4": 5
       },
       {
         "id": 103,
-        "name": "红土地",
-        "type": 1,
-        "money": 19335,
-        "need_degree": 132,
-        "reward_degree": 1,
-        "other_reward_type": 1,
-        "other_reward": 15,
-        "other_reward_desc": "作物产量提升15%",
-        "video_money": 5200
+        "quality": 1,
+        "crop1": 3,
+        "crop2": 5,
+        "crop3": 7,
+        "crop4": 9,
+        "num1": 6,
+        "num2": 5,
+        "num3": 5,
+        "num4": 5
       },
       {
         "id": 104,
-        "name": "金土地",
-        "type": 1,
-        "money": 69103,
-        "need_degree": 150,
-        "reward_degree": 1,
-        "other_reward_type": 1,
-        "other_reward": 20,
-        "other_reward_desc": "作物产量提升20%",
-        "video_money": 11000
+        "quality": 1,
+        "crop1": 4,
+        "crop2": 6,
+        "crop3": 8,
+        "crop4": 10,
+        "num1": 6,
+        "num2": 5,
+        "num3": 5,
+        "num4": 5
       },
       {
         "id": 105,
-        "name": "紫晶土地",
-        "type": 1,
-        "money": 169060,
-        "need_degree": 168,
-        "reward_degree": 1,
-        "other_reward_type": 1,
-        "other_reward": 25,
-        "other_reward_desc": "作物产量提升25%",
-        "video_money": 18500
+        "quality": 1,
+        "crop1": 1,
+        "crop2": 5,
+        "crop3": 7,
+        "crop4": 11,
+        "num1": 6,
+        "num2": 5,
+        "num3": 5,
+        "num4": 4
       },
       {
         "id": 106,
-        "name": "五彩土地",
-        "type": 1,
-        "money": 550634,
-        "need_degree": 186,
-        "reward_degree": 1,
-        "other_reward_type": 1,
-        "other_reward": 30,
-        "other_reward_desc": "作物产量提升30%",
-        "video_money": 40700
+        "quality": 1,
+        "crop1": 2,
+        "crop2": 6,
+        "crop3": 8,
+        "crop4": 12,
+        "num1": 6,
+        "num2": 5,
+        "num3": 5,
+        "num4": 4
+      },
+      {
+        "id": 107,
+        "quality": 1,
+        "crop1": 3,
+        "crop2": 7,
+        "crop3": 9,
+        "crop4": 13,
+        "num1": 6,
+        "num2": 5,
+        "num3": 5,
+        "num4": 4
+      },
+      {
+        "id": 108,
+        "quality": 1,
+        "crop1": 4,
+        "crop2": 8,
+        "crop3": 10,
+        "crop4": 14,
+        "num1": 6,
+        "num2": 5,
+        "num3": 5,
+        "num4": 4
+      },
+      {
+        "id": 109,
+        "quality": 1,
+        "crop1": 1,
+        "crop2": 6,
+        "crop3": 10,
+        "crop4": 11,
+        "num1": 6,
+        "num2": 5,
+        "num3": 5,
+        "num4": 4
+      },
+      {
+        "id": 110,
+        "quality": 1,
+        "crop1": 2,
+        "crop2": 5,
+        "crop3": 9,
+        "crop4": 12,
+        "num1": 6,
+        "num2": 5,
+        "num3": 5,
+        "num4": 4
+      },
+      {
+        "id": 111,
+        "quality": 1,
+        "crop1": 3,
+        "crop2": 9,
+        "crop3": 11,
+        "crop4": 13,
+        "num1": 6,
+        "num2": 5,
+        "num3": 4,
+        "num4": 4
+      },
+      {
+        "id": 112,
+        "quality": 1,
+        "crop1": 4,
+        "crop2": 10,
+        "crop3": 12,
+        "crop4": 14,
+        "num1": 6,
+        "num2": 5,
+        "num3": 4,
+        "num4": 4
+      },
+      {
+        "id": 113,
+        "quality": 1,
+        "crop1": 1,
+        "crop2": 4,
+        "crop3": 8,
+        "crop4": 9,
+        "num1": 6,
+        "num2": 6,
+        "num3": 5,
+        "num4": 5
+      },
+      {
+        "id": 114,
+        "quality": 1,
+        "crop1": 2,
+        "crop2": 3,
+        "crop3": 7,
+        "crop4": 10,
+        "num1": 6,
+        "num2": 6,
+        "num3": 5,
+        "num4": 5
+      },
+      {
+        "id": 115,
+        "quality": 1,
+        "crop1": 3,
+        "crop2": 6,
+        "crop3": 9,
+        "crop4": 11,
+        "num1": 6,
+        "num2": 5,
+        "num3": 5,
+        "num4": 4
+      },
+      {
+        "id": 116,
+        "quality": 1,
+        "crop1": 4,
+        "crop2": 5,
+        "crop3": 10,
+        "crop4": 12,
+        "num1": 6,
+        "num2": 5,
+        "num3": 5,
+        "num4": 4
+      },
+      {
+        "id": 117,
+        "quality": 1,
+        "crop1": 1,
+        "crop2": 5,
+        "crop3": 12,
+        "crop4": 13,
+        "num1": 6,
+        "num2": 5,
+        "num3": 4,
+        "num4": 4
+      },
+      {
+        "id": 118,
+        "quality": 1,
+        "crop1": 2,
+        "crop2": 6,
+        "crop3": 11,
+        "crop4": 14,
+        "num1": 6,
+        "num2": 5,
+        "num3": 4,
+        "num4": 4
+      },
+      {
+        "id": 119,
+        "quality": 1,
+        "crop1": 1,
+        "crop2": 7,
+        "crop3": 9,
+        "crop4": 13,
+        "num1": 6,
+        "num2": 5,
+        "num3": 5,
+        "num4": 4
+      },
+      {
+        "id": 120,
+        "quality": 1,
+        "crop1": 2,
+        "crop2": 8,
+        "crop3": 10,
+        "crop4": 14,
+        "num1": 6,
+        "num2": 5,
+        "num3": 5,
+        "num4": 4
       },
       {
         "id": 201,
-        "name": "普通土地",
-        "type": 2,
-        "money": -1,
-        "need_degree": -1,
-        "reward_degree": 0,
-        "other_reward_type": 1,
-        "other_reward": 0,
-        "other_reward_desc": "只能保证基本产量",
-        "video_money": -1
+        "quality": 2,
+        "crop1": 1,
+        "crop2": 3,
+        "crop3": 5,
+        "crop4": 7,
+        "num1": 7,
+        "num2": 7,
+        "num3": 6,
+        "num4": 6
       },
       {
         "id": 202,
-        "name": "黑土地",
-        "type": 2,
-        "money": 7223,
-        "need_degree": 95,
-        "reward_degree": 3,
-        "other_reward_type": 1,
-        "other_reward": 10,
-        "other_reward_desc": "作物产量提升10%",
-        "video_money": 3400
+        "quality": 2,
+        "crop1": 2,
+        "crop2": 4,
+        "crop3": 6,
+        "crop4": 8,
+        "num1": 7,
+        "num2": 7,
+        "num3": 6,
+        "num4": 6
       },
       {
         "id": 203,
-        "name": "红土地",
-        "type": 2,
-        "money": 24877,
-        "need_degree": 133,
-        "reward_degree": 1,
-        "other_reward_type": 1,
-        "other_reward": 15,
-        "other_reward_desc": "作物产量提升15%",
-        "video_money": 6400
+        "quality": 2,
+        "crop1": 3,
+        "crop2": 5,
+        "crop3": 7,
+        "crop4": 9,
+        "num1": 7,
+        "num2": 6,
+        "num3": 6,
+        "num4": 6
       },
       {
         "id": 204,
-        "name": "金土地",
-        "type": 2,
-        "money": 71107,
-        "need_degree": 151,
-        "reward_degree": 1,
-        "other_reward_type": 1,
-        "other_reward": 20,
-        "other_reward_desc": "作物产量提升20%",
-        "video_money": 11200
+        "quality": 2,
+        "crop1": 4,
+        "crop2": 6,
+        "crop3": 8,
+        "crop4": 10,
+        "num1": 7,
+        "num2": 6,
+        "num3": 6,
+        "num4": 6
       },
       {
         "id": 205,
-        "name": "紫晶土地",
-        "type": 2,
-        "money": 173441,
-        "need_degree": 169,
-        "reward_degree": 1,
-        "other_reward_type": 1,
-        "other_reward": 25,
-        "other_reward_desc": "作物产量提升25%",
-        "video_money": 18700
+        "quality": 2,
+        "crop1": 1,
+        "crop2": 5,
+        "crop3": 7,
+        "crop4": 11,
+        "num1": 7,
+        "num2": 6,
+        "num3": 6,
+        "num4": 5
       },
       {
         "id": 206,
-        "name": "五彩土地",
-        "type": 2,
-        "money": 628489,
-        "need_degree": 187,
-        "reward_degree": 1,
-        "other_reward_type": 1,
-        "other_reward": 30,
-        "other_reward_desc": "作物产量提升30%",
-        "video_money": 45200
+        "quality": 2,
+        "crop1": 2,
+        "crop2": 6,
+        "crop3": 8,
+        "crop4": 12,
+        "num1": 7,
+        "num2": 6,
+        "num3": 6,
+        "num4": 5
+      },
+      {
+        "id": 207,
+        "quality": 2,
+        "crop1": 3,
+        "crop2": 7,
+        "crop3": 9,
+        "crop4": 13,
+        "num1": 7,
+        "num2": 6,
+        "num3": 6,
+        "num4": 5
+      },
+      {
+        "id": 208,
+        "quality": 2,
+        "crop1": 4,
+        "crop2": 8,
+        "crop3": 10,
+        "crop4": 14,
+        "num1": 7,
+        "num2": 6,
+        "num3": 6,
+        "num4": 5
+      },
+      {
+        "id": 209,
+        "quality": 2,
+        "crop1": 1,
+        "crop2": 6,
+        "crop3": 10,
+        "crop4": 11,
+        "num1": 7,
+        "num2": 6,
+        "num3": 6,
+        "num4": 5
+      },
+      {
+        "id": 210,
+        "quality": 2,
+        "crop1": 2,
+        "crop2": 5,
+        "crop3": 9,
+        "crop4": 12,
+        "num1": 7,
+        "num2": 6,
+        "num3": 6,
+        "num4": 5
+      },
+      {
+        "id": 211,
+        "quality": 2,
+        "crop1": 3,
+        "crop2": 9,
+        "crop3": 11,
+        "crop4": 13,
+        "num1": 7,
+        "num2": 6,
+        "num3": 5,
+        "num4": 5
+      },
+      {
+        "id": 212,
+        "quality": 2,
+        "crop1": 4,
+        "crop2": 10,
+        "crop3": 12,
+        "crop4": 14,
+        "num1": 7,
+        "num2": 6,
+        "num3": 5,
+        "num4": 5
+      },
+      {
+        "id": 213,
+        "quality": 2,
+        "crop1": 1,
+        "crop2": 4,
+        "crop3": 8,
+        "crop4": 9,
+        "num1": 7,
+        "num2": 7,
+        "num3": 6,
+        "num4": 6
+      },
+      {
+        "id": 214,
+        "quality": 2,
+        "crop1": 2,
+        "crop2": 3,
+        "crop3": 7,
+        "crop4": 10,
+        "num1": 7,
+        "num2": 7,
+        "num3": 6,
+        "num4": 6
+      },
+      {
+        "id": 215,
+        "quality": 2,
+        "crop1": 3,
+        "crop2": 6,
+        "crop3": 9,
+        "crop4": 11,
+        "num1": 7,
+        "num2": 6,
+        "num3": 6,
+        "num4": 5
+      },
+      {
+        "id": 216,
+        "quality": 2,
+        "crop1": 4,
+        "crop2": 5,
+        "crop3": 10,
+        "crop4": 12,
+        "num1": 7,
+        "num2": 6,
+        "num3": 6,
+        "num4": 5
+      },
+      {
+        "id": 217,
+        "quality": 2,
+        "crop1": 1,
+        "crop2": 5,
+        "crop3": 12,
+        "crop4": 13,
+        "num1": 7,
+        "num2": 6,
+        "num3": 5,
+        "num4": 5
+      },
+      {
+        "id": 218,
+        "quality": 2,
+        "crop1": 2,
+        "crop2": 6,
+        "crop3": 11,
+        "crop4": 14,
+        "num1": 7,
+        "num2": 6,
+        "num3": 5,
+        "num4": 5
+      },
+      {
+        "id": 219,
+        "quality": 2,
+        "crop1": 1,
+        "crop2": 7,
+        "crop3": 9,
+        "crop4": 13,
+        "num1": 7,
+        "num2": 6,
+        "num3": 6,
+        "num4": 5
+      },
+      {
+        "id": 220,
+        "quality": 2,
+        "crop1": 2,
+        "crop2": 8,
+        "crop3": 10,
+        "crop4": 14,
+        "num1": 7,
+        "num2": 6,
+        "num3": 6,
+        "num4": 5
       },
       {
         "id": 301,
-        "name": "普通土地",
-        "type": 3,
-        "money": -1,
-        "need_degree": -1,
-        "reward_degree": 0,
-        "other_reward_type": 1,
-        "other_reward": 0,
-        "other_reward_desc": "只能保证基本产量",
-        "video_money": -1
+        "quality": 3,
+        "crop1": 1,
+        "crop2": 3,
+        "crop3": 5,
+        "crop4": 7,
+        "num1": 8,
+        "num2": 8,
+        "num3": 7,
+        "num4": 7
       },
       {
         "id": 302,
-        "name": "黑土地",
-        "type": 3,
-        "money": 7528,
-        "need_degree": 98,
-        "reward_degree": 3,
-        "other_reward_type": 1,
-        "other_reward": 10,
-        "other_reward_desc": "作物产量提升10%",
-        "video_money": 3400
+        "quality": 3,
+        "crop1": 2,
+        "crop2": 4,
+        "crop3": 6,
+        "crop4": 8,
+        "num1": 8,
+        "num2": 8,
+        "num3": 7,
+        "num4": 7
       },
       {
         "id": 303,
-        "name": "红土地",
-        "type": 3,
-        "money": 25775,
-        "need_degree": 134,
-        "reward_degree": 1,
-        "other_reward_type": 1,
-        "other_reward": 15,
-        "other_reward_desc": "作物产量提升15%",
-        "video_money": 6300
+        "quality": 3,
+        "crop1": 3,
+        "crop2": 5,
+        "crop3": 7,
+        "crop4": 9,
+        "num1": 8,
+        "num2": 7,
+        "num3": 7,
+        "num4": 7
       },
       {
         "id": 304,
-        "name": "金土地",
-        "type": 3,
-        "money": 73106,
-        "need_degree": 152,
-        "reward_degree": 1,
-        "other_reward_type": 1,
-        "other_reward": 20,
-        "other_reward_desc": "作物产量提升20%",
-        "video_money": 11400
+        "quality": 3,
+        "crop1": 4,
+        "crop2": 6,
+        "crop3": 8,
+        "crop4": 10,
+        "num1": 8,
+        "num2": 7,
+        "num3": 7,
+        "num4": 7
       },
       {
         "id": 305,
-        "name": "紫晶土地",
-        "type": 3,
-        "money": 189663,
-        "need_degree": 170,
-        "reward_degree": 1,
-        "other_reward_type": 1,
-        "other_reward": 25,
-        "other_reward_desc": "作物产量提升25%",
-        "video_money": 20100
+        "quality": 3,
+        "crop1": 1,
+        "crop2": 5,
+        "crop3": 7,
+        "crop4": 11,
+        "num1": 8,
+        "num2": 7,
+        "num3": 7,
+        "num4": 6
       },
       {
         "id": 306,
-        "name": "五彩土地",
-        "type": 3,
-        "money": 813879,
-        "need_degree": 188,
-        "reward_degree": 1,
-        "other_reward_type": 1,
-        "other_reward": 30,
-        "other_reward_desc": "作物产量提升30%",
-        "video_money": 56900
+        "quality": 3,
+        "crop1": 2,
+        "crop2": 6,
+        "crop3": 8,
+        "crop4": 12,
+        "num1": 8,
+        "num2": 7,
+        "num3": 7,
+        "num4": 6
+      },
+      {
+        "id": 307,
+        "quality": 3,
+        "crop1": 3,
+        "crop2": 7,
+        "crop3": 9,
+        "crop4": 13,
+        "num1": 8,
+        "num2": 7,
+        "num3": 7,
+        "num4": 6
+      },
+      {
+        "id": 308,
+        "quality": 3,
+        "crop1": 4,
+        "crop2": 8,
+        "crop3": 10,
+        "crop4": 14,
+        "num1": 8,
+        "num2": 7,
+        "num3": 7,
+        "num4": 6
+      },
+      {
+        "id": 309,
+        "quality": 3,
+        "crop1": 1,
+        "crop2": 6,
+        "crop3": 10,
+        "crop4": 11,
+        "num1": 8,
+        "num2": 7,
+        "num3": 7,
+        "num4": 6
+      },
+      {
+        "id": 310,
+        "quality": 3,
+        "crop1": 2,
+        "crop2": 5,
+        "crop3": 9,
+        "crop4": 12,
+        "num1": 8,
+        "num2": 7,
+        "num3": 7,
+        "num4": 6
+      },
+      {
+        "id": 311,
+        "quality": 3,
+        "crop1": 3,
+        "crop2": 9,
+        "crop3": 11,
+        "crop4": 13,
+        "num1": 8,
+        "num2": 7,
+        "num3": 6,
+        "num4": 6
+      },
+      {
+        "id": 312,
+        "quality": 3,
+        "crop1": 4,
+        "crop2": 10,
+        "crop3": 12,
+        "crop4": 14,
+        "num1": 8,
+        "num2": 7,
+        "num3": 6,
+        "num4": 6
+      },
+      {
+        "id": 313,
+        "quality": 3,
+        "crop1": 1,
+        "crop2": 4,
+        "crop3": 8,
+        "crop4": 9,
+        "num1": 8,
+        "num2": 8,
+        "num3": 7,
+        "num4": 7
+      },
+      {
+        "id": 314,
+        "quality": 3,
+        "crop1": 2,
+        "crop2": 3,
+        "crop3": 7,
+        "crop4": 10,
+        "num1": 8,
+        "num2": 8,
+        "num3": 7,
+        "num4": 7
+      },
+      {
+        "id": 315,
+        "quality": 3,
+        "crop1": 3,
+        "crop2": 6,
+        "crop3": 9,
+        "crop4": 11,
+        "num1": 8,
+        "num2": 7,
+        "num3": 7,
+        "num4": 6
+      },
+      {
+        "id": 316,
+        "quality": 3,
+        "crop1": 4,
+        "crop2": 5,
+        "crop3": 10,
+        "crop4": 12,
+        "num1": 8,
+        "num2": 7,
+        "num3": 7,
+        "num4": 6
+      },
+      {
+        "id": 317,
+        "quality": 3,
+        "crop1": 1,
+        "crop2": 5,
+        "crop3": 12,
+        "crop4": 13,
+        "num1": 8,
+        "num2": 7,
+        "num3": 6,
+        "num4": 6
+      },
+      {
+        "id": 318,
+        "quality": 3,
+        "crop1": 2,
+        "crop2": 6,
+        "crop3": 11,
+        "crop4": 14,
+        "num1": 8,
+        "num2": 7,
+        "num3": 6,
+        "num4": 6
+      },
+      {
+        "id": 319,
+        "quality": 3,
+        "crop1": 1,
+        "crop2": 7,
+        "crop3": 9,
+        "crop4": 13,
+        "num1": 8,
+        "num2": 7,
+        "num3": 7,
+        "num4": 6
+      },
+      {
+        "id": 320,
+        "quality": 3,
+        "crop1": 2,
+        "crop2": 8,
+        "crop3": 10,
+        "crop4": 14,
+        "num1": 8,
+        "num2": 7,
+        "num3": 7,
+        "num4": 6
       },
       {
         "id": 401,
-        "name": "普通土地",
-        "type": 4,
-        "money": 1397,
-        "need_degree": 35,
-        "reward_degree": 5,
-        "other_reward_type": 1,
-        "other_reward": 0,
-        "other_reward_desc": "只能保证基本产量",
-        "video_money": 970
+        "quality": 4,
+        "crop1": 1,
+        "crop2": 3,
+        "crop3": 5,
+        "crop4": 7,
+        "num1": 10,
+        "num2": 10,
+        "num3": 8,
+        "num4": 8
       },
       {
         "id": 402,
-        "name": "黑土地",
-        "type": 4,
-        "money": 7833,
-        "need_degree": 101,
-        "reward_degree": 3,
-        "other_reward_type": 1,
-        "other_reward": 10,
-        "other_reward_desc": "作物产量提升10%",
-        "video_money": 3500
+        "quality": 4,
+        "crop1": 2,
+        "crop2": 4,
+        "crop3": 6,
+        "crop4": 8,
+        "num1": 10,
+        "num2": 10,
+        "num3": 8,
+        "num4": 8
       },
       {
         "id": 403,
-        "name": "红土地",
-        "type": 4,
-        "money": 26670,
-        "need_degree": 135,
-        "reward_degree": 1,
-        "other_reward_type": 1,
-        "other_reward": 15,
-        "other_reward_desc": "作物产量提升15%",
-        "video_money": 6200
+        "quality": 4,
+        "crop1": 3,
+        "crop2": 5,
+        "crop3": 7,
+        "crop4": 9,
+        "num1": 10,
+        "num2": 8,
+        "num3": 8,
+        "num4": 8
       },
       {
         "id": 404,
-        "name": "金土地",
-        "type": 4,
-        "money": 75340,
-        "need_degree": 153,
-        "reward_degree": 1,
-        "other_reward_type": 1,
-        "other_reward": 20,
-        "other_reward_desc": "作物产量提升20%",
-        "video_money": 11600
+        "quality": 4,
+        "crop1": 4,
+        "crop2": 6,
+        "crop3": 8,
+        "crop4": 10,
+        "num1": 10,
+        "num2": 8,
+        "num3": 8,
+        "num4": 8
       },
       {
         "id": 405,
-        "name": "紫晶土地",
-        "type": 4,
-        "money": 194309,
-        "need_degree": 171,
-        "reward_degree": 1,
-        "other_reward_type": 1,
-        "other_reward": 25,
-        "other_reward_desc": "作物产量提升25%",
-        "video_money": 20200
+        "quality": 4,
+        "crop1": 1,
+        "crop2": 5,
+        "crop3": 7,
+        "crop4": 11,
+        "num1": 10,
+        "num2": 8,
+        "num3": 8,
+        "num4": 7
       },
       {
         "id": 406,
-        "name": "五彩土地",
-        "type": 4,
-        "money": 1213945,
-        "need_degree": 189,
-        "reward_degree": 1,
-        "other_reward_type": 1,
-        "other_reward": 30,
-        "other_reward_desc": "作物产量提升30%",
-        "video_money": 82500
+        "quality": 4,
+        "crop1": 2,
+        "crop2": 6,
+        "crop3": 8,
+        "crop4": 12,
+        "num1": 10,
+        "num2": 8,
+        "num3": 8,
+        "num4": 7
+      },
+      {
+        "id": 407,
+        "quality": 4,
+        "crop1": 3,
+        "crop2": 7,
+        "crop3": 9,
+        "crop4": 13,
+        "num1": 10,
+        "num2": 8,
+        "num3": 8,
+        "num4": 7
+      },
+      {
+        "id": 408,
+        "quality": 4,
+        "crop1": 4,
+        "crop2": 8,
+        "crop3": 10,
+        "crop4": 14,
+        "num1": 10,
+        "num2": 8,
+        "num3": 8,
+        "num4": 7
+      },
+      {
+        "id": 409,
+        "quality": 4,
+        "crop1": 1,
+        "crop2": 6,
+        "crop3": 10,
+        "crop4": 11,
+        "num1": 10,
+        "num2": 8,
+        "num3": 8,
+        "num4": 7
+      },
+      {
+        "id": 410,
+        "quality": 4,
+        "crop1": 2,
+        "crop2": 5,
+        "crop3": 9,
+        "crop4": 12,
+        "num1": 10,
+        "num2": 8,
+        "num3": 8,
+        "num4": 7
+      },
+      {
+        "id": 411,
+        "quality": 4,
+        "crop1": 3,
+        "crop2": 9,
+        "crop3": 11,
+        "crop4": 13,
+        "num1": 10,
+        "num2": 8,
+        "num3": 7,
+        "num4": 7
+      },
+      {
+        "id": 412,
+        "quality": 4,
+        "crop1": 4,
+        "crop2": 10,
+        "crop3": 12,
+        "crop4": 14,
+        "num1": 10,
+        "num2": 8,
+        "num3": 7,
+        "num4": 7
+      },
+      {
+        "id": 413,
+        "quality": 4,
+        "crop1": 1,
+        "crop2": 4,
+        "crop3": 8,
+        "crop4": 9,
+        "num1": 10,
+        "num2": 10,
+        "num3": 8,
+        "num4": 8
+      },
+      {
+        "id": 414,
+        "quality": 4,
+        "crop1": 2,
+        "crop2": 3,
+        "crop3": 7,
+        "crop4": 10,
+        "num1": 10,
+        "num2": 10,
+        "num3": 8,
+        "num4": 8
+      },
+      {
+        "id": 415,
+        "quality": 4,
+        "crop1": 3,
+        "crop2": 6,
+        "crop3": 9,
+        "crop4": 11,
+        "num1": 10,
+        "num2": 8,
+        "num3": 8,
+        "num4": 7
+      },
+      {
+        "id": 416,
+        "quality": 4,
+        "crop1": 4,
+        "crop2": 5,
+        "crop3": 10,
+        "crop4": 12,
+        "num1": 10,
+        "num2": 8,
+        "num3": 8,
+        "num4": 7
+      },
+      {
+        "id": 417,
+        "quality": 4,
+        "crop1": 1,
+        "crop2": 5,
+        "crop3": 12,
+        "crop4": 13,
+        "num1": 10,
+        "num2": 8,
+        "num3": 7,
+        "num4": 7
+      },
+      {
+        "id": 418,
+        "quality": 4,
+        "crop1": 2,
+        "crop2": 6,
+        "crop3": 11,
+        "crop4": 14,
+        "num1": 10,
+        "num2": 8,
+        "num3": 7,
+        "num4": 7
+      },
+      {
+        "id": 419,
+        "quality": 4,
+        "crop1": 1,
+        "crop2": 7,
+        "crop3": 9,
+        "crop4": 13,
+        "num1": 10,
+        "num2": 8,
+        "num3": 8,
+        "num4": 7
+      },
+      {
+        "id": 420,
+        "quality": 4,
+        "crop1": 2,
+        "crop2": 8,
+        "crop3": 10,
+        "crop4": 14,
+        "num1": 10,
+        "num2": 8,
+        "num3": 8,
+        "num4": 7
       },
       {
         "id": 501,
-        "name": "普通土地",
-        "type": 5,
-        "money": 1500,
-        "need_degree": 40,
-        "reward_degree": 5,
-        "other_reward_type": 1,
-        "other_reward": 0,
-        "other_reward_desc": "只能保证基本产量",
-        "video_money": 1000
+        "quality": 5,
+        "crop1": 1,
+        "crop2": 3,
+        "crop3": 5,
+        "crop4": 7,
+        "num1": 12,
+        "num2": 12,
+        "num3": 10,
+        "num4": 10
       },
       {
         "id": 502,
-        "name": "黑土地",
-        "type": 5,
-        "money": 8644,
-        "need_degree": 104,
-        "reward_degree": 3,
-        "other_reward_type": 1,
-        "other_reward": 10,
-        "other_reward_desc": "作物产量提升10%",
-        "video_money": 3800
+        "quality": 5,
+        "crop1": 2,
+        "crop2": 4,
+        "crop3": 6,
+        "crop4": 8,
+        "num1": 12,
+        "num2": 12,
+        "num3": 10,
+        "num4": 10
       },
       {
         "id": 503,
-        "name": "红土地",
-        "type": 5,
-        "money": 27563,
-        "need_degree": 136,
-        "reward_degree": 1,
-        "other_reward_type": 1,
-        "other_reward": 15,
-        "other_reward_desc": "作物产量提升15%",
-        "video_money": 6100
+        "quality": 5,
+        "crop1": 3,
+        "crop2": 5,
+        "crop3": 7,
+        "crop4": 9,
+        "num1": 12,
+        "num2": 10,
+        "num3": 10,
+        "num4": 10
       },
       {
         "id": 504,
-        "name": "金土地",
-        "type": 5,
-        "money": 83773,
-        "need_degree": 154,
-        "reward_degree": 1,
-        "other_reward_type": 1,
-        "other_reward": 20,
-        "other_reward_desc": "作物产量提升20%",
-        "video_money": 12700
+        "quality": 5,
+        "crop1": 4,
+        "crop2": 6,
+        "crop3": 8,
+        "crop4": 10,
+        "num1": 12,
+        "num2": 10,
+        "num3": 10,
+        "num4": 10
       },
       {
         "id": 505,
-        "name": "紫晶土地",
-        "type": 5,
-        "money": 198941,
-        "need_degree": 172,
-        "reward_degree": 1,
-        "other_reward_type": 1,
-        "other_reward": 25,
-        "other_reward_desc": "作物产量提升25%",
-        "video_money": 20200
+        "quality": 5,
+        "crop1": 1,
+        "crop2": 5,
+        "crop3": 7,
+        "crop4": 11,
+        "num1": 12,
+        "num2": 10,
+        "num3": 10,
+        "num4": 8
       },
       {
         "id": 506,
-        "name": "五彩土地",
-        "type": 5,
-        "money": 2257564,
-        "need_degree": 190,
-        "reward_degree": 1,
-        "other_reward_type": 1,
-        "other_reward": 30,
-        "other_reward_desc": "作物产量提升30%",
-        "video_money": 112800
+        "quality": 5,
+        "crop1": 2,
+        "crop2": 6,
+        "crop3": 8,
+        "crop4": 12,
+        "num1": 12,
+        "num2": 10,
+        "num3": 10,
+        "num4": 8
+      },
+      {
+        "id": 507,
+        "quality": 5,
+        "crop1": 3,
+        "crop2": 7,
+        "crop3": 9,
+        "crop4": 13,
+        "num1": 12,
+        "num2": 10,
+        "num3": 10,
+        "num4": 8
+      },
+      {
+        "id": 508,
+        "quality": 5,
+        "crop1": 4,
+        "crop2": 8,
+        "crop3": 10,
+        "crop4": 14,
+        "num1": 12,
+        "num2": 10,
+        "num3": 10,
+        "num4": 8
+      },
+      {
+        "id": 509,
+        "quality": 5,
+        "crop1": 1,
+        "crop2": 6,
+        "crop3": 10,
+        "crop4": 11,
+        "num1": 12,
+        "num2": 10,
+        "num3": 10,
+        "num4": 8
+      },
+      {
+        "id": 510,
+        "quality": 5,
+        "crop1": 2,
+        "crop2": 5,
+        "crop3": 9,
+        "crop4": 12,
+        "num1": 12,
+        "num2": 10,
+        "num3": 10,
+        "num4": 8
+      },
+      {
+        "id": 511,
+        "quality": 5,
+        "crop1": 3,
+        "crop2": 9,
+        "crop3": 11,
+        "crop4": 13,
+        "num1": 12,
+        "num2": 10,
+        "num3": 8,
+        "num4": 8
+      },
+      {
+        "id": 512,
+        "quality": 5,
+        "crop1": 4,
+        "crop2": 10,
+        "crop3": 12,
+        "crop4": 14,
+        "num1": 12,
+        "num2": 10,
+        "num3": 8,
+        "num4": 8
+      },
+      {
+        "id": 513,
+        "quality": 5,
+        "crop1": 1,
+        "crop2": 4,
+        "crop3": 8,
+        "crop4": 9,
+        "num1": 12,
+        "num2": 12,
+        "num3": 10,
+        "num4": 10
+      },
+      {
+        "id": 514,
+        "quality": 5,
+        "crop1": 2,
+        "crop2": 3,
+        "crop3": 7,
+        "crop4": 10,
+        "num1": 12,
+        "num2": 12,
+        "num3": 10,
+        "num4": 10
+      },
+      {
+        "id": 515,
+        "quality": 5,
+        "crop1": 3,
+        "crop2": 6,
+        "crop3": 9,
+        "crop4": 11,
+        "num1": 12,
+        "num2": 10,
+        "num3": 10,
+        "num4": 8
+      },
+      {
+        "id": 516,
+        "quality": 5,
+        "crop1": 4,
+        "crop2": 5,
+        "crop3": 10,
+        "crop4": 12,
+        "num1": 12,
+        "num2": 10,
+        "num3": 10,
+        "num4": 8
+      },
+      {
+        "id": 517,
+        "quality": 5,
+        "crop1": 1,
+        "crop2": 5,
+        "crop3": 12,
+        "crop4": 13,
+        "num1": 12,
+        "num2": 10,
+        "num3": 8,
+        "num4": 8
+      },
+      {
+        "id": 518,
+        "quality": 5,
+        "crop1": 2,
+        "crop2": 6,
+        "crop3": 11,
+        "crop4": 14,
+        "num1": 12,
+        "num2": 10,
+        "num3": 8,
+        "num4": 8
+      },
+      {
+        "id": 519,
+        "quality": 5,
+        "crop1": 1,
+        "crop2": 7,
+        "crop3": 9,
+        "crop4": 13,
+        "num1": 12,
+        "num2": 10,
+        "num3": 10,
+        "num4": 8
+      },
+      {
+        "id": 520,
+        "quality": 5,
+        "crop1": 2,
+        "crop2": 8,
+        "crop3": 10,
+        "crop4": 14,
+        "num1": 12,
+        "num2": 10,
+        "num3": 10,
+        "num4": 8
       },
       {
         "id": 601,
-        "name": "普通土地",
-        "type": 6,
-        "money": 1602,
-        "need_degree": 44,
-        "reward_degree": 4,
-        "other_reward_type": 1,
-        "other_reward": 0,
-        "other_reward_desc": "只能保证基本产量",
-        "video_money": 1100
+        "quality": 6,
+        "crop1": 1,
+        "crop2": 3,
+        "crop3": 5,
+        "crop4": 7,
+        "num1": 14,
+        "num2": 14,
+        "num3": 12,
+        "num4": 12
       },
       {
         "id": 602,
-        "name": "黑土地",
-        "type": 6,
-        "money": 9018,
-        "need_degree": 107,
-        "reward_degree": 3,
-        "other_reward_type": 1,
-        "other_reward": 10,
-        "other_reward_desc": "作物产量提升10%",
-        "video_money": 3800
+        "quality": 6,
+        "crop1": 2,
+        "crop2": 4,
+        "crop3": 6,
+        "crop4": 8,
+        "num1": 14,
+        "num2": 14,
+        "num3": 12,
+        "num4": 12
       },
       {
         "id": 603,
-        "name": "红土地",
-        "type": 6,
-        "money": 28452,
-        "need_degree": 137,
-        "reward_degree": 1,
-        "other_reward_type": 1,
-        "other_reward": 15,
-        "other_reward_desc": "作物产量提升15%",
-        "video_money": 6000
+        "quality": 6,
+        "crop1": 3,
+        "crop2": 5,
+        "crop3": 7,
+        "crop4": 9,
+        "num1": 14,
+        "num2": 12,
+        "num3": 12,
+        "num4": 12
       },
       {
         "id": 604,
-        "name": "金土地",
-        "type": 6,
-        "money": 86171,
-        "need_degree": 155,
-        "reward_degree": 1,
-        "other_reward_type": 1,
-        "other_reward": 20,
-        "other_reward_desc": "作物产量提升20%",
-        "video_money": 12900
+        "quality": 6,
+        "crop1": 4,
+        "crop2": 6,
+        "crop3": 8,
+        "crop4": 10,
+        "num1": 14,
+        "num2": 12,
+        "num3": 12,
+        "num4": 12
       },
       {
         "id": 605,
-        "name": "紫晶土地",
-        "type": 6,
-        "money": 204029,
-        "need_degree": 173,
-        "reward_degree": 1,
-        "other_reward_type": 1,
-        "other_reward": 25,
-        "other_reward_desc": "作物产量提升25%",
-        "video_money": 20400
+        "quality": 6,
+        "crop1": 1,
+        "crop2": 5,
+        "crop3": 7,
+        "crop4": 11,
+        "num1": 14,
+        "num2": 12,
+        "num3": 12,
+        "num4": 10
       },
       {
         "id": 606,
-        "name": "五彩土地",
-        "type": 6,
-        "money": 5444120,
-        "need_degree": 191,
-        "reward_degree": 1,
-        "other_reward_type": 1,
-        "other_reward": 30,
-        "other_reward_desc": "作物产量提升30%",
-        "video_money": 272200
+        "quality": 6,
+        "crop1": 2,
+        "crop2": 6,
+        "crop3": 8,
+        "crop4": 12,
+        "num1": 14,
+        "num2": 12,
+        "num3": 12,
+        "num4": 10
       },
-      {},
-      {},
-      {},
-      {},
-      {},
-      {}
+      {
+        "id": 607,
+        "quality": 6,
+        "crop1": 3,
+        "crop2": 7,
+        "crop3": 9,
+        "crop4": 13,
+        "num1": 14,
+        "num2": 12,
+        "num3": 12,
+        "num4": 10
+      },
+      {
+        "id": 608,
+        "quality": 6,
+        "crop1": 4,
+        "crop2": 8,
+        "crop3": 10,
+        "crop4": 14,
+        "num1": 14,
+        "num2": 12,
+        "num3": 12,
+        "num4": 10
+      },
+      {
+        "id": 609,
+        "quality": 6,
+        "crop1": 1,
+        "crop2": 6,
+        "crop3": 10,
+        "crop4": 11,
+        "num1": 14,
+        "num2": 12,
+        "num3": 12,
+        "num4": 10
+      },
+      {
+        "id": 610,
+        "quality": 6,
+        "crop1": 2,
+        "crop2": 5,
+        "crop3": 9,
+        "crop4": 12,
+        "num1": 14,
+        "num2": 12,
+        "num3": 12,
+        "num4": 10
+      },
+      {
+        "id": 611,
+        "quality": 6,
+        "crop1": 3,
+        "crop2": 9,
+        "crop3": 11,
+        "crop4": 13,
+        "num1": 14,
+        "num2": 12,
+        "num3": 10,
+        "num4": 10
+      },
+      {
+        "id": 612,
+        "quality": 6,
+        "crop1": 4,
+        "crop2": 10,
+        "crop3": 12,
+        "crop4": 14,
+        "num1": 14,
+        "num2": 12,
+        "num3": 10,
+        "num4": 10
+      },
+      {
+        "id": 613,
+        "quality": 6,
+        "crop1": 1,
+        "crop2": 4,
+        "crop3": 8,
+        "crop4": 9,
+        "num1": 14,
+        "num2": 14,
+        "num3": 12,
+        "num4": 12
+      },
+      {
+        "id": 614,
+        "quality": 6,
+        "crop1": 2,
+        "crop2": 3,
+        "crop3": 7,
+        "crop4": 10,
+        "num1": 14,
+        "num2": 14,
+        "num3": 12,
+        "num4": 12
+      },
+      {
+        "id": 615,
+        "quality": 6,
+        "crop1": 3,
+        "crop2": 6,
+        "crop3": 9,
+        "crop4": 11,
+        "num1": 14,
+        "num2": 12,
+        "num3": 12,
+        "num4": 10
+      },
+      {
+        "id": 616,
+        "quality": 6,
+        "crop1": 4,
+        "crop2": 5,
+        "crop3": 10,
+        "crop4": 12,
+        "num1": 14,
+        "num2": 12,
+        "num3": 12,
+        "num4": 10
+      },
+      {
+        "id": 617,
+        "quality": 6,
+        "crop1": 1,
+        "crop2": 5,
+        "crop3": 12,
+        "crop4": 13,
+        "num1": 14,
+        "num2": 12,
+        "num3": 10,
+        "num4": 10
+      },
+      {
+        "id": 618,
+        "quality": 6,
+        "crop1": 2,
+        "crop2": 6,
+        "crop3": 11,
+        "crop4": 14,
+        "num1": 14,
+        "num2": 12,
+        "num3": 10,
+        "num4": 10
+      },
+      {
+        "id": 619,
+        "quality": 6,
+        "crop1": 1,
+        "crop2": 7,
+        "crop3": 9,
+        "crop4": 13,
+        "num1": 14,
+        "num2": 12,
+        "num3": 12,
+        "num4": 10
+      },
+      {
+        "id": 620,
+        "quality": 6,
+        "crop1": 2,
+        "crop2": 8,
+        "crop3": 10,
+        "crop4": 14,
+        "num1": 14,
+        "num2": 12,
+        "num3": 12,
+        "num4": 10
+      }
     ],
-    "guide_task": [
-      {
-        "id": 1,
-        "desc": "小木桩",
-        "type": 1,
-        "money": -1,
-        "target": 101
-      },
-      {
-        "id": 2,
-        "desc": "生锈的水管",
-        "type": 1,
-        "money": 154,
-        "target": 501
-      },
-      {
-        "id": 3,
-        "desc": "2号破地摊",
-        "type": 3,
-        "money": 174,
-        "target": 201
-      },
-      {
-        "id": 4,
-        "desc": "3号破地摊",
-        "type": 3,
-        "money": 194,
-        "target": 301
-      },
-      {
-        "id": 5,
-        "desc": "4号破地摊",
-        "type": 3,
-        "money": 215,
-        "target": 401
-      },
-      {
-        "id": 6,
-        "desc": "5号破地摊",
-        "type": 3,
-        "money": 235,
-        "target": 501
-      },
-      {
-        "id": 7,
-        "desc": "小木棍围栏",
-        "type": 1,
-        "money": 509,
-        "target": 601
-      },
-      {
-        "id": 8,
-        "desc": "普通稻草人",
-        "type": 1,
-        "money": 549,
-        "target": 701
-      },
-      {
-        "id": 9,
-        "desc": "4号普通土地",
-        "type": 2,
-        "money": 588,
-        "target": 401
-      },
-      {
-        "id": 10,
-        "desc": "5号普通土地",
-        "type": 2,
-        "money": 626,
-        "target": 501
-      },
-      {
-        "id": 11,
-        "desc": "6号普通土地",
-        "type": 2,
-        "money": 664,
-        "target": 601
-      },
-      {
-        "id": 12,
-        "desc": "石子路",
-        "type": 1,
-        "money": 790,
-        "target": 402
-      },
-      {
-        "id": 13,
-        "desc": "大青砖围墙",
-        "type": 1,
-        "money": 833,
-        "target": 302
-      },
-      {
-        "id": 14,
-        "desc": "实木收银柜",
-        "type": 1,
-        "money": 875,
-        "target": 102
-      },
-      {
-        "id": 15,
-        "desc": "1号实木货架",
-        "type": 3,
-        "money": 915,
-        "target": 102
-      },
-      {
-        "id": 16,
-        "desc": "2号实木货架",
-        "type": 3,
-        "money": 956,
-        "target": 202
-      },
-      {
-        "id": 17,
-        "desc": "3号实木货架",
-        "type": 3,
-        "money": 1509,
-        "target": 302
-      },
-      {
-        "id": 18,
-        "desc": "4号实木货架",
-        "type": 3,
-        "money": 1581,
-        "target": 402
-      },
-      {
-        "id": 19,
-        "desc": "5号实木货架",
-        "type": 3,
-        "money": 1653,
-        "target": 502
-      },
-      {
-        "id": 20,
-        "desc": "小木屋",
-        "type": 1,
-        "money": 1724,
-        "target": 202
-      },
-      {
-        "id": 21,
-        "desc": "塑料水管",
-        "type": 1,
-        "money": 1795,
-        "target": 502
-      },
-      {
-        "id": 22,
-        "desc": "竹艺围栏",
-        "type": 1,
-        "money": 2504,
-        "target": 602
-      },
-      {
-        "id": 23,
-        "desc": "铁艺稻草人",
-        "type": 1,
-        "money": 2614,
-        "target": 702
-      },
-      {
-        "id": 24,
-        "desc": "1号黑土地",
-        "type": 2,
-        "money": 2723,
-        "target": 102
-      },
-      {
-        "id": 25,
-        "desc": "2号黑土地",
-        "type": 2,
-        "money": 2830,
-        "target": 202
-      },
-      {
-        "id": 26,
-        "desc": "3号黑土地",
-        "type": 2,
-        "money": 2937,
-        "target": 302
-      },
-      {
-        "id": 27,
-        "desc": "4号黑土地",
-        "type": 2,
-        "money": 3232,
-        "target": 402
-      },
-      {
-        "id": 28,
-        "desc": "5号黑土地",
-        "type": 2,
-        "money": 3363,
-        "target": 502
-      },
-      {
-        "id": 29,
-        "desc": "6号黑土地",
-        "type": 2,
-        "money": 2083,
-        "target": 602
-      },
-      {
-        "id": 30,
-        "desc": "水泥路",
-        "type": 1,
-        "money": 2077,
-        "target": 403
-      },
-      {
-        "id": 31,
-        "desc": "水泥锌钢围墙",
-        "type": 1,
-        "money": 2072,
-        "target": 303
-      },
-      {
-        "id": 32,
-        "desc": "梨花木收银柜",
-        "type": 1,
-        "money": 4923,
-        "target": 103
-      },
-      {
-        "id": 33,
-        "desc": "1号亚克力板货架",
-        "type": 3,
-        "money": 5108,
-        "target": 103
-      },
-      {
-        "id": 34,
-        "desc": "2号亚克力板货架",
-        "type": 3,
-        "money": 5292,
-        "target": 203
-      },
-      {
-        "id": 35,
-        "desc": "3号亚克力板货架",
-        "type": 3,
-        "money": 5475,
-        "target": 303
-      },
-      {
-        "id": 36,
-        "desc": "4号亚克力板货架",
-        "type": 3,
-        "money": 5656,
-        "target": 403
-      },
-      {
-        "id": 37,
-        "desc": "5号亚克力板货架",
-        "type": 3,
-        "money": 6952,
-        "target": 503
-      },
-      {
-        "id": 38,
-        "desc": "传统瓦房",
-        "type": 1,
-        "money": 8820,
-        "target": 203
-      },
-      {
-        "id": 39,
-        "desc": "不锈钢水管",
-        "type": 1,
-        "money": 9520,
-        "target": 503
-      },
-      {
-        "id": 40,
-        "desc": "实木围栏",
-        "type": 1,
-        "money": 11046,
-        "target": 603
-      },
-      {
-        "id": 41,
-        "desc": "仿真稻草人",
-        "type": 1,
-        "money": 6960,
-        "target": 703
-      },
-      {
-        "id": 42,
-        "desc": "1号红土地",
-        "type": 2,
-        "money": 8930,
-        "target": 103
-      },
-      {
-        "id": 43,
-        "desc": "2号红土地",
-        "type": 2,
-        "money": 9227,
-        "target": 203
-      },
-      {
-        "id": 44,
-        "desc": "3号红土地",
-        "type": 2,
-        "money": 9521,
-        "target": 303
-      },
-      {
-        "id": 45,
-        "desc": "4号红土地",
-        "type": 2,
-        "money": 9812,
-        "target": 403
-      },
-      {
-        "id": 46,
-        "desc": "5号红土地",
-        "type": 2,
-        "money": 10100,
-        "target": 503
-      },
-      {
-        "id": 47,
-        "desc": "6号红土地",
-        "type": 2,
-        "money": 14124,
-        "target": 603
-      },
-      {
-        "id": 48,
-        "desc": "沥青路",
-        "type": 1,
-        "money": 14261,
-        "target": 404
-      },
-      {
-        "id": 49,
-        "desc": "铁艺安全围墙",
-        "type": 1,
-        "money": 14361,
-        "target": 304
-      },
-      {
-        "id": 50,
-        "desc": "铁质收银柜",
-        "type": 1,
-        "money": 12136,
-        "target": 104
-      },
-      {
-        "id": 51,
-        "desc": "1号金丝楠木货架",
-        "type": 3,
-        "money": 15120,
-        "target": 104
-      },
-      {
-        "id": 52,
-        "desc": "2号金丝楠木货架",
-        "type": 3,
-        "money": 15585,
-        "target": 204
-      },
-      {
-        "id": 53,
-        "desc": "3号金丝楠木货架",
-        "type": 3,
-        "money": 16046,
-        "target": 304
-      },
-      {
-        "id": 54,
-        "desc": "4号金丝楠木货架",
-        "type": 3,
-        "money": 16502,
-        "target": 404
-      },
-      {
-        "id": 55,
-        "desc": "5号金丝楠木货架",
-        "type": 3,
-        "money": 15189,
-        "target": 504
-      },
-      {
-        "id": 56,
-        "desc": "现代房",
-        "type": 1,
-        "money": 15249,
-        "target": 204
-      },
-      {
-        "id": 57,
-        "desc": "精铜水管",
-        "type": 1,
-        "money": 16099,
-        "target": 504
-      },
-      {
-        "id": 58,
-        "desc": "铁艺围栏",
-        "type": 1,
-        "money": 16326,
-        "target": 604
-      },
-      {
-        "id": 59,
-        "desc": "恐怖稻草人",
-        "type": 1,
-        "money": 23633,
-        "target": 704
-      },
-      {
-        "id": 60,
-        "desc": "1号金土地",
-        "type": 2,
-        "money": 24247,
-        "target": 104
-      },
-      {
-        "id": 61,
-        "desc": "2号金土地",
-        "type": 2,
-        "money": 24856,
-        "target": 204
-      },
-      {
-        "id": 62,
-        "desc": "3号金土地",
-        "type": 2,
-        "money": 25540,
-        "target": 304
-      },
-      {
-        "id": 63,
-        "desc": "4号金土地",
-        "type": 2,
-        "money": 28315,
-        "target": 404
-      },
-      {
-        "id": 64,
-        "desc": "5号金土地",
-        "type": 2,
-        "money": 29039,
-        "target": 504
-      },
-      {
-        "id": 65,
-        "desc": "6号金土地",
-        "type": 2,
-        "money": 29904,
-        "target": 604
-      },
-      {
-        "id": 66,
-        "desc": "青砖大道",
-        "type": 1,
-        "money": 30049,
-        "target": 405
-      },
-      {
-        "id": 67,
-        "desc": "中式园林围墙",
-        "type": 1,
-        "money": 30427,
-        "target": 305
-      },
-      {
-        "id": 68,
-        "desc": "玻璃收银柜",
-        "type": 1,
-        "money": 36797,
-        "target": 105
-      },
-      {
-        "id": 69,
-        "desc": "1号鸡血石货架",
-        "type": 3,
-        "money": 37691,
-        "target": 105
-      },
-      {
-        "id": 70,
-        "desc": "2号鸡血石货架",
-        "type": 3,
-        "money": 38577,
-        "target": 205
-      },
-      {
-        "id": 71,
-        "desc": "3号鸡血石货架",
-        "type": 3,
-        "money": 41363,
-        "target": 305
-      },
-      {
-        "id": 72,
-        "desc": "4号鸡血石货架",
-        "type": 3,
-        "money": 42387,
-        "target": 405
-      },
-      {
-        "id": 73,
-        "desc": "5号鸡血石货架",
-        "type": 3,
-        "money": 30733,
-        "target": 505
-      },
-      {
-        "id": 74,
-        "desc": "中式别墅",
-        "type": 1,
-        "money": 30738,
-        "target": 205
-      },
-      {
-        "id": 75,
-        "desc": "陶瓷水管",
-        "type": 1,
-        "money": 31230,
-        "target": 505
-      },
-      {
-        "id": 76,
-        "desc": "中式艺术围栏",
-        "type": 1,
-        "money": 40495,
-        "target": 605
-      },
-      {
-        "id": 77,
-        "desc": "机器人",
-        "type": 1,
-        "money": 54775,
-        "target": 705
-      },
-      {
-        "id": 78,
-        "desc": "1号紫晶土地",
-        "type": 2,
-        "money": 56021,
-        "target": 105
-      },
-      {
-        "id": 79,
-        "desc": "2号紫晶土地",
-        "type": 2,
-        "money": 61071,
-        "target": 205
-      },
-      {
-        "id": 80,
-        "desc": "3号紫晶土地",
-        "type": 2,
-        "money": 62373,
-        "target": 305
-      },
-      {
-        "id": 81,
-        "desc": "4号紫晶土地",
-        "type": 2,
-        "money": 63661,
-        "target": 405
-      },
-      {
-        "id": 82,
-        "desc": "5号紫晶土地",
-        "type": 2,
-        "money": 65085,
-        "target": 505
-      },
-      {
-        "id": 83,
-        "desc": "6号紫晶土地",
-        "type": 2,
-        "money": 50244,
-        "target": 605
-      },
-      {
-        "id": 84,
-        "desc": "红地毯",
-        "type": 1,
-        "money": 52843,
-        "target": 406
-      },
-      {
-        "id": 85,
-        "desc": "欧式艺术围墙",
-        "type": 1,
-        "money": 57196,
-        "target": 306
-      },
-      {
-        "id": 86,
-        "desc": "电子收银柜",
-        "type": 1,
-        "money": 79462,
-        "target": 106
-      },
-      {
-        "id": 87,
-        "desc": "1号镀金豪华货架",
-        "type": 3,
-        "money": 90172,
-        "target": 106
-      },
-      {
-        "id": 88,
-        "desc": "2号镀金豪华货架",
-        "type": 3,
-        "money": 92032,
-        "target": 206
-      },
-      {
-        "id": 89,
-        "desc": "3号镀金豪华货架",
-        "type": 3,
-        "money": 93872,
-        "target": 306
-      },
-      {
-        "id": 90,
-        "desc": "4号镀金豪华货架",
-        "type": 3,
-        "money": 95692,
-        "target": 406
-      },
-      {
-        "id": 91,
-        "desc": "5号镀金豪华货架",
-        "type": 3,
-        "money": 86459,
-        "target": 506
-      },
-      {
-        "id": 92,
-        "desc": "小洋房",
-        "type": 1,
-        "money": 86736,
-        "target": 206
-      },
-      {
-        "id": 93,
-        "desc": "镀金水管",
-        "type": 1,
-        "money": 90367,
-        "target": 506
-      },
-      {
-        "id": 94,
-        "desc": "欧式围栏",
-        "type": 1,
-        "money": 90411,
-        "target": 606
-      },
-      {
-        "id": 95,
-        "desc": "黄蜂机器人",
-        "type": 1,
-        "money": 168494,
-        "target": 706
-      },
-      {
-        "id": 96,
-        "desc": "1号五彩土地",
-        "type": 2,
-        "money": 191689,
-        "target": 106
-      },
-      {
-        "id": 97,
-        "desc": "2号五彩土地",
-        "type": 2,
-        "money": 247419,
-        "target": 206
-      },
-      {
-        "id": 98,
-        "desc": "3号五彩土地",
-        "type": 2,
-        "money": 367825,
-        "target": 306
-      },
-      {
-        "id": 99,
-        "desc": "4号五彩土地",
-        "type": 2,
-        "money": 681784,
-        "target": 406
-      },
-      {
-        "id": 100,
-        "desc": "5号五彩土地",
-        "type": 2,
-        "money": 1638680,
-        "target": 506
-      },
-      {
-        "id": 101,
-        "desc": "6号五彩土地",
-        "type": 2,
-        "money": 3951680,
-        "target": 606
+    "order_weight": [
+      {
+        "limit": 0,
+        "lv1": 20,
+        "lv2": 10,
+        "lv3": 5,
+        "lv4": 0,
+        "lv5": 0,
+        "lv6": 0
+      },
+      {
+        "limit": 50,
+        "lv1": 15,
+        "lv2": 20,
+        "lv3": 10,
+        "lv4": 5,
+        "lv5": 0,
+        "lv6": 0
+      },
+      {
+        "limit": 150,
+        "lv1": 15,
+        "lv2": 15,
+        "lv3": 20,
+        "lv4": 10,
+        "lv5": 5,
+        "lv6": 0
+      },
+      {
+        "limit": 300,
+        "lv1": 10,
+        "lv2": 15,
+        "lv3": 15,
+        "lv4": 20,
+        "lv5": 10,
+        "lv6": 5
+      },
+      {
+        "limit": 500,
+        "lv1": 5,
+        "lv2": 10,
+        "lv3": 15,
+        "lv4": 15,
+        "lv5": 20,
+        "lv6": 10
+      },
+      {
+        "limit": 800,
+        "lv1": 0,
+        "lv2": 5,
+        "lv3": 10,
+        "lv4": 15,
+        "lv5": 15,
+        "lv6": 15
+      },
+      {
+        "limit": 1200,
+        "lv1": 0,
+        "lv2": 0,
+        "lv3": 13,
+        "lv4": 13,
+        "lv5": 20,
+        "lv6": 20
       }
     ],
     "prop": [
       {
-        "id": 101,
-        "name": "小木桩",
-        "type": 1,
-        "money": 80,
-        "need_degree": 0,
-        "reward_degree": 5,
-        "other_reward_type": 1,
-        "other_reward": 180,
-        "other_reward_desc": "自动服务持续3分钟",
-        "video_money": 20
+        "id": 3101,
+        "name": "收银台",
+        "type": 31,
+        "unlock_state": 1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 3,
+        "add_type": 1,
+        "add_num": 5000,
+        "add_desc": "每日最多自动产出5000钞票"
       },
       {
-        "id": 102,
-        "name": "实木收银柜",
-        "type": 1,
-        "money": 590,
-        "need_degree": 56,
-        "reward_degree": 4,
-        "other_reward_type": 1,
-        "other_reward": 240,
-        "other_reward_desc": "自动服务时间+1分钟",
-        "video_money": 20
+        "id": 3102,
+        "name": "收银台",
+        "type": 31,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 4,
+        "add_type": 1,
+        "add_num": 6000,
+        "add_desc": "每日最多自动产出6000钞票"
       },
       {
-        "id": 103,
-        "name": "梨花木收银柜",
-        "type": 1,
-        "money": 5600,
-        "need_degree": 114,
-        "reward_degree": 2,
-        "other_reward_type": 1,
-        "other_reward": 300,
-        "other_reward_desc": "自动服务时间+2分钟",
-        "video_money": 20
+        "id": 3103,
+        "name": "收银台",
+        "type": 31,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 5,
+        "add_type": 1,
+        "add_num": 7000,
+        "add_desc": "每日最多自动产出7000钞票"
       },
       {
-        "id": 104,
-        "name": "铁质收银柜",
-        "type": 1,
-        "money": 40800,
-        "need_degree": 140,
-        "reward_degree": 1,
-        "other_reward_type": 1,
-        "other_reward": 360,
-        "other_reward_desc": "自动服务时间+3分钟",
-        "video_money": 20
+        "id": 3104,
+        "name": "收银台",
+        "type": 31,
+        "unlock_state": -1,
+        "money": 5000,
+        "video_num": 2,
+        "reward": 8,
+        "add_type": 1,
+        "add_num": 8000,
+        "add_desc": "每日最多自动产出8000钞票"
       },
       {
-        "id": 105,
-        "name": "玻璃收银柜",
-        "type": 1,
-        "money": 91100,
-        "need_degree": 158,
-        "reward_degree": 1,
-        "other_reward_type": 1,
-        "other_reward": 420,
-        "other_reward_desc": "自动服务时间+4分钟",
-        "video_money": 20
+        "id": 3105,
+        "name": "收银台",
+        "type": 31,
+        "unlock_state": -1,
+        "money": 6000,
+        "video_num": 2,
+        "reward": 10,
+        "add_type": 1,
+        "add_num": 9000,
+        "add_desc": "每日最多自动产出9000钞票"
       },
       {
-        "id": 106,
-        "name": "电子收银柜",
-        "type": 1,
-        "money": 181000,
-        "need_degree": 176,
-        "reward_degree": 1,
-        "other_reward_type": 1,
-        "other_reward": 480,
-        "other_reward_desc": "自动服务时间+5分钟",
-        "video_money": 20
-      },
-      {
-        "id": 201,
-        "name": "茅草房",
-        "type": 2,
+        "id": 3106,
+        "name": "收银台",
+        "type": 31,
+        "unlock_state": -1,
         "money": -1,
-        "need_degree": -1,
-        "reward_degree": 0,
-        "other_reward_type": 2,
-        "other_reward": 100,
-        "other_reward_desc": "可存放100斤作物",
-        "video_money": 40
+        "video_num": -1,
+        "reward": -1,
+        "add_type": 1,
+        "add_num": 10000,
+        "add_desc": "每日最多自动产出10000钞票"
       },
       {
-        "id": 202,
-        "name": "小木屋",
-        "type": 2,
-        "money": 4200,
-        "need_degree": 80,
-        "reward_degree": 3,
-        "other_reward_type": 2,
-        "other_reward": 200,
-        "other_reward_desc": "可存放200斤作物",
-        "video_money": 40
+        "id": 3201,
+        "name": "水管",
+        "type": 32,
+        "unlock_state": 1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 3,
+        "add_type": 2,
+        "add_num": 10,
+        "add_desc": "所有加速减少作物生长10分钟"
       },
       {
-        "id": 203,
-        "name": "传统瓦房",
-        "type": 2,
-        "money": 19100,
-        "need_degree": 126,
-        "reward_degree": 2,
-        "other_reward_type": 2,
-        "other_reward": 400,
-        "other_reward_desc": "可存放400斤作物",
-        "video_money": 40
+        "id": 3202,
+        "name": "水管",
+        "type": 32,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 4,
+        "add_type": 2,
+        "add_num": 11,
+        "add_desc": "所有加速减少作物生长11分钟"
       },
       {
-        "id": 204,
-        "name": "现代房",
-        "type": 2,
-        "money": 43900,
-        "need_degree": 146,
-        "reward_degree": 1,
-        "other_reward_type": 2,
-        "other_reward": 600,
-        "other_reward_desc": "可存放600斤作物",
-        "video_money": 40
+        "id": 3203,
+        "name": "水管",
+        "type": 32,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 5,
+        "add_type": 2,
+        "add_num": 12,
+        "add_desc": "所有加速减少作物生长12分钟"
       },
       {
-        "id": 205,
-        "name": "中式别墅",
-        "type": 2,
-        "money": 93700,
-        "need_degree": 164,
-        "reward_degree": 1,
-        "other_reward_type": 2,
-        "other_reward": 800,
-        "other_reward_desc": "可存放800斤作物",
-        "video_money": 40
+        "id": 3204,
+        "name": "水管",
+        "type": 32,
+        "unlock_state": -1,
+        "money": 5000,
+        "video_num": 2,
+        "reward": 8,
+        "add_type": 2,
+        "add_num": 13,
+        "add_desc": "所有加速减少作物生长13分钟"
       },
       {
-        "id": 206,
-        "name": "小洋房",
-        "type": 2,
-        "money": 278900,
-        "need_degree": 182,
-        "reward_degree": 1,
-        "other_reward_type": 2,
-        "other_reward": 1000,
-        "other_reward_desc": "可存放1000斤作物",
-        "video_money": 40
+        "id": 3205,
+        "name": "水管",
+        "type": 32,
+        "unlock_state": -1,
+        "money": 6000,
+        "video_num": 2,
+        "reward": 10,
+        "add_type": 2,
+        "add_num": 14,
+        "add_desc": "所有加速减少作物生长14分钟"
       },
       {
-        "id": 301,
-        "name": "红砖墙",
-        "type": 3,
+        "id": 3206,
+        "name": "水管",
+        "type": 32,
+        "unlock_state": -1,
         "money": -1,
-        "need_degree": -1,
-        "reward_degree": 0,
-        "other_reward_type": -1,
-        "other_reward": -1,
-        "other_reward_desc": -1,
-        "video_money": -20
+        "video_num": -1,
+        "reward": -1,
+        "add_type": 2,
+        "add_num": 15,
+        "add_desc": "所有加速减少作物生长15分钟"
       },
       {
-        "id": 302,
-        "name": "大青砖围墙",
-        "type": 3,
-        "money": 580,
-        "need_degree": 52,
-        "reward_degree": 4,
-        "other_reward_type": -1,
-        "other_reward": -1,
-        "other_reward_desc": -1,
-        "video_money": -20
+        "id": 3301,
+        "name": "围墙",
+        "type": 33,
+        "unlock_state": 1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 3,
+        "add_type": 3,
+        "add_num": 10,
+        "add_desc": "一键招揽10位顾客"
       },
       {
-        "id": 303,
-        "name": "水泥锌钢围墙",
-        "type": 3,
-        "money": 5600,
-        "need_degree": 112,
-        "reward_degree": 2,
-        "other_reward_type": -1,
-        "other_reward": -1,
-        "other_reward_desc": -1,
-        "video_money": -20
+        "id": 3302,
+        "name": "围墙",
+        "type": 33,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 4,
+        "add_type": 3,
+        "add_num": 12,
+        "add_desc": "一键招揽12位顾客"
       },
       {
-        "id": 304,
-        "name": "铁艺安全围墙",
-        "type": 3,
-        "money": 40400,
-        "need_degree": 139,
-        "reward_degree": 1,
-        "other_reward_type": -1,
-        "other_reward": -1,
-        "other_reward_desc": -1,
-        "video_money": -20
+        "id": 3303,
+        "name": "围墙",
+        "type": 33,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 5,
+        "add_type": 3,
+        "add_num": 14,
+        "add_desc": "一键招揽14位顾客"
       },
       {
-        "id": 305,
-        "name": "中式园林围墙",
-        "type": 3,
-        "money": 89700,
-        "need_degree": 157,
-        "reward_degree": 1,
-        "other_reward_type": -1,
-        "other_reward": -1,
-        "other_reward_desc": -1,
-        "video_money": -20
+        "id": 3304,
+        "name": "围墙",
+        "type": 33,
+        "unlock_state": -1,
+        "money": 5000,
+        "video_num": 2,
+        "reward": 8,
+        "add_type": 3,
+        "add_num": 16,
+        "add_desc": "一键招揽16位顾客"
       },
       {
-        "id": 306,
-        "name": "欧式艺术围墙",
-        "type": 3,
-        "money": 166700,
-        "need_degree": 175,
-        "reward_degree": 1,
-        "other_reward_type": -1,
-        "other_reward": -1,
-        "other_reward_desc": -1,
-        "video_money": -20
+        "id": 3305,
+        "name": "围墙",
+        "type": 33,
+        "unlock_state": -1,
+        "money": 6000,
+        "video_num": 2,
+        "reward": 10,
+        "add_type": 3,
+        "add_num": 18,
+        "add_desc": "一键招揽18位顾客"
       },
       {
-        "id": 401,
-        "name": "土路",
-        "type": 4,
+        "id": 3306,
+        "name": "围墙",
+        "type": 33,
+        "unlock_state": -1,
         "money": -1,
-        "need_degree": -1,
-        "reward_degree": 0,
-        "other_reward_type": 3,
-        "other_reward": 0,
-        "other_reward_desc": -1,
-        "video_money": 60
+        "video_num": -1,
+        "reward": -1,
+        "add_type": 3,
+        "add_num": 20,
+        "add_desc": "一键招揽20位顾客"
       },
       {
-        "id": 402,
-        "name": "石子路",
-        "type": 4,
-        "money": 580,
-        "need_degree": 48,
-        "reward_degree": 4,
-        "other_reward_type": 3,
-        "other_reward": 10,
-        "other_reward_desc": "顾客行走加快10%",
-        "video_money": 60
+        "id": 3401,
+        "name": "街道",
+        "type": 34,
+        "unlock_state": 1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 3,
+        "add_type": 4,
+        "add_num": 2,
+        "add_desc": "每个货架最多排队2位顾客"
       },
       {
-        "id": 403,
-        "name": "水泥路",
-        "type": 4,
-        "money": 5600,
-        "need_degree": 110,
-        "reward_degree": 3,
-        "other_reward_type": 3,
-        "other_reward": 20,
-        "other_reward_desc": "顾客行走加快20%",
-        "video_money": 60
+        "id": 3402,
+        "name": "街道",
+        "type": 34,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 4,
+        "add_type": 4,
+        "add_num": 3,
+        "add_desc": "每个货架最多排队3位顾客"
       },
       {
-        "id": 404,
-        "name": "沥青路",
-        "type": 4,
-        "money": 39900,
-        "need_degree": 138,
-        "reward_degree": 1,
-        "other_reward_type": 3,
-        "other_reward": 30,
-        "other_reward_desc": "顾客行走加快30%",
-        "video_money": 60
+        "id": 3403,
+        "name": "街道",
+        "type": 34,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 5,
+        "add_type": 4,
+        "add_num": 4,
+        "add_desc": "每个货架最多排队4位顾客"
       },
       {
-        "id": 405,
-        "name": "青砖大道",
-        "type": 4,
-        "money": 89000,
-        "need_degree": 156,
-        "reward_degree": 1,
-        "other_reward_type": 3,
-        "other_reward": 40,
-        "other_reward_desc": "顾客行走加快40%"
+        "id": 3404,
+        "name": "街道",
+        "type": 34,
+        "unlock_state": -1,
+        "money": 5000,
+        "video_num": 2,
+        "reward": 8,
+        "add_type": 4,
+        "add_num": 4,
+        "add_desc": "每个货架最多排队4位顾客"
       },
       {
-        "id": 406,
-        "name": "红地毯",
-        "type": 4,
-        "money": 158000,
-        "need_degree": 174,
-        "reward_degree": 1,
-        "other_reward_type": 3,
-        "other_reward": 50,
-        "other_reward_desc": "顾客行走加快50%"
+        "id": 3405,
+        "name": "街道",
+        "type": 34,
+        "unlock_state": -1,
+        "money": 6000,
+        "video_num": 2,
+        "reward": 10,
+        "add_type": 4,
+        "add_num": 4,
+        "add_desc": "每个货架最多排队4位顾客"
       },
       {
-        "id": 501,
-        "name": "生锈的水管",
-        "type": 5,
-        "money": 360,
-        "need_degree": 0,
-        "reward_degree": 5,
-        "other_reward_type": 4,
-        "other_reward": 10,
-        "other_reward_desc": "作物生长时间缩短10%"
+        "id": 3406,
+        "name": "街道",
+        "type": 34,
+        "unlock_state": -1,
+        "money": -1,
+        "video_num": -1,
+        "reward": -1,
+        "add_type": 4,
+        "add_num": 4,
+        "add_desc": "每个货架最多排队4位顾客"
       },
       {
-        "id": 502,
-        "name": "塑料水管",
-        "type": 5,
-        "money": 4800,
-        "need_degree": 83,
-        "reward_degree": 3,
-        "other_reward_type": 4,
-        "other_reward": 15,
-        "other_reward_desc": "作物生长时间缩短15%"
+        "id": 3501,
+        "name": "稻草人",
+        "type": 35,
+        "unlock_state": 1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 3,
+        "add_type": 5,
+        "add_num": 100,
+        "add_desc": "作物中害虫无变化"
       },
       {
-        "id": 503,
-        "name": "不锈钢水管",
-        "type": 5,
-        "money": 24300,
-        "need_degree": 128,
-        "reward_degree": 2,
-        "other_reward_type": 4,
-        "other_reward": 20,
-        "other_reward_desc": "作物生长时间缩短20%"
+        "id": 3502,
+        "name": "稻草人",
+        "type": 35,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 4,
+        "add_type": 5,
+        "add_num": 95,
+        "add_desc": "作物中害虫减少5%"
       },
       {
-        "id": 504,
-        "name": "精铜水管",
-        "type": 5,
-        "money": 44200,
-        "need_degree": 147,
-        "reward_degree": 1,
-        "other_reward_type": 4,
-        "other_reward": 25,
-        "other_reward_desc": "作物生长时间缩短25%"
+        "id": 3503,
+        "name": "稻草人",
+        "type": 35,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 5,
+        "add_type": 5,
+        "add_num": 92,
+        "add_desc": "作物中害虫减少8%"
       },
       {
-        "id": 505,
-        "name": "陶瓷水管",
-        "type": 5,
-        "money": 94000,
-        "need_degree": 165,
-        "reward_degree": 1,
-        "other_reward_type": 4,
-        "other_reward": 30,
-        "other_reward_desc": "作物生长时间缩短30%"
+        "id": 3504,
+        "name": "稻草人",
+        "type": 35,
+        "unlock_state": -1,
+        "money": 5000,
+        "video_num": 2,
+        "reward": 8,
+        "add_type": 5,
+        "add_num": 90,
+        "add_desc": "作物中害虫减少10%"
       },
       {
-        "id": 506,
-        "name": "镀金水管",
-        "type": 5,
-        "money": 280700,
-        "need_degree": 183,
-        "reward_degree": 1,
-        "other_reward_type": 4,
-        "other_reward": 40,
-        "other_reward_desc": "作物生长时间缩短40%"
+        "id": 3505,
+        "name": "稻草人",
+        "type": 35,
+        "unlock_state": -1,
+        "money": 6000,
+        "video_num": 2,
+        "reward": 10,
+        "add_type": 5,
+        "add_num": 88,
+        "add_desc": "作物中害虫减少12%"
       },
       {
-        "id": 601,
-        "name": "小木棍围栏",
-        "type": 6,
-        "money": 430,
-        "need_degree": 25,
-        "reward_degree": 5,
-        "other_reward_type": -1,
-        "other_reward": -1,
-        "other_reward_desc": -1
+        "id": 3506,
+        "name": "稻草人",
+        "type": 35,
+        "unlock_state": -1,
+        "money": -1,
+        "video_num": -1,
+        "reward": -1,
+        "add_type": 5,
+        "add_num": 85,
+        "add_desc": "作物中害虫减少15%"
       },
       {
-        "id": 602,
-        "name": "竹艺围栏",
-        "type": 6,
-        "money": 4800,
-        "need_degree": 86,
-        "reward_degree": 3,
-        "other_reward_type": -1,
-        "other_reward": -1,
-        "other_reward_desc": -1
+        "id": 3601,
+        "name": "仓库",
+        "type": 36,
+        "unlock_state": 1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 3,
+        "add_type": 6,
+        "add_num": 100,
+        "add_desc": "仓库中最多存储100个作物"
       },
       {
-        "id": 603,
-        "name": "实木围栏",
-        "type": 6,
-        "money": 26300,
-        "need_degree": 130,
-        "reward_degree": 2,
-        "other_reward_type": -1,
-        "other_reward": -1,
-        "other_reward_desc": -1
+        "id": 3602,
+        "name": "仓库",
+        "type": 36,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 4,
+        "add_type": 6,
+        "add_num": 150,
+        "add_desc": "仓库中最多存储150个作物"
       },
       {
-        "id": 604,
-        "name": "铁艺围栏",
-        "type": 6,
-        "money": 46800,
-        "need_degree": 148,
-        "reward_degree": 1,
-        "other_reward_type": -1,
-        "other_reward": -1,
-        "other_reward_desc": -1
+        "id": 3603,
+        "name": "仓库",
+        "type": 36,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 5,
+        "add_type": 6,
+        "add_num": 200,
+        "add_desc": "仓库中最多存储200个作物"
       },
       {
-        "id": 605,
-        "name": "中式艺术围栏",
-        "type": 6,
-        "money": 95800,
-        "need_degree": 166,
-        "reward_degree": 1,
-        "other_reward_type": -1,
-        "other_reward": -1,
-        "other_reward_desc": -1
+        "id": 3604,
+        "name": "仓库",
+        "type": 36,
+        "unlock_state": -1,
+        "money": 5000,
+        "video_num": 2,
+        "reward": 8,
+        "add_type": 6,
+        "add_num": 250,
+        "add_desc": "仓库中最多存储250个作物"
       },
       {
-        "id": 606,
-        "name": "欧式围栏",
-        "type": 6,
-        "money": 293400,
-        "need_degree": 184,
-        "reward_degree": 1,
-        "other_reward_type": -1,
-        "other_reward": -1,
-        "other_reward_desc": -1
+        "id": 3605,
+        "name": "仓库",
+        "type": 36,
+        "unlock_state": -1,
+        "money": 6000,
+        "video_num": 2,
+        "reward": 10,
+        "add_type": 6,
+        "add_num": 300,
+        "add_desc": "仓库中最多存储300个作物"
       },
       {
-        "id": 701,
-        "name": "普通稻草人",
-        "type": 7,
-        "money": 460,
-        "need_degree": 30,
-        "reward_degree": 5,
-        "other_reward_type": 5,
-        "other_reward": 5,
-        "other_reward_desc": "吓走小部分麻雀"
+        "id": 3606,
+        "name": "仓库",
+        "type": 36,
+        "unlock_state": -1,
+        "money": -1,
+        "video_num": -1,
+        "reward": -1,
+        "add_type": 6,
+        "add_num": 400,
+        "add_desc": "仓库中最多存储400个作物"
       },
       {
-        "id": 702,
-        "name": "铁艺稻草人",
-        "type": 7,
-        "money": 4900,
-        "need_degree": 89,
-        "reward_degree": 3,
-        "other_reward_type": 5,
-        "other_reward": 10,
-        "other_reward_desc": "吓走小部分麻雀"
+        "id": 3701,
+        "name": "护栏",
+        "type": 37,
+        "unlock_state": 1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 3,
+        "add_type": 7,
+        "add_num": 0,
+        "add_desc": "顾客行走速度无变化"
       },
       {
-        "id": 703,
-        "name": "仿真稻草人",
-        "type": 7,
-        "money": 30600,
-        "need_degree": 131,
-        "reward_degree": 1,
-        "other_reward_type": 5,
-        "other_reward": 15,
-        "other_reward_desc": "吓走部分麻雀"
+        "id": 3702,
+        "name": "护栏",
+        "type": 37,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 4,
+        "add_type": 7,
+        "add_num": 10,
+        "add_desc": "顾客行走速度增加10%"
       },
       {
-        "id": 704,
-        "name": "恐怖稻草人",
-        "type": 7,
-        "money": 47600,
-        "need_degree": 149,
-        "reward_degree": 1,
-        "other_reward_type": 5,
-        "other_reward": 20,
-        "other_reward_desc": "吓走部分麻雀"
+        "id": 3703,
+        "name": "护栏",
+        "type": 37,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 5,
+        "add_type": 7,
+        "add_num": 20,
+        "add_desc": "顾客行走速度增加20%"
       },
       {
-        "id": 705,
-        "name": "机器人",
-        "type": 7,
-        "money": 124600,
-        "need_degree": 167,
-        "reward_degree": 1,
-        "other_reward_type": 5,
-        "other_reward": 25,
-        "other_reward_desc": "吓走大部分麻雀"
+        "id": 3704,
+        "name": "护栏",
+        "type": 37,
+        "unlock_state": -1,
+        "money": 5000,
+        "video_num": 2,
+        "reward": 8,
+        "add_type": 7,
+        "add_num": 30,
+        "add_desc": "顾客行走速度增加30%"
       },
       {
-        "id": 706,
-        "name": "黄蜂机器人",
-        "type": 7,
-        "money": 294500,
-        "need_degree": 185,
-        "reward_degree": 1,
-        "other_reward_type": 5,
-        "other_reward": 30,
-        "other_reward_desc": "吓走大部分麻雀"
+        "id": 3705,
+        "name": "护栏",
+        "type": 37,
+        "unlock_state": -1,
+        "money": 6000,
+        "video_num": 2,
+        "reward": 10,
+        "add_type": 7,
+        "add_num": 40,
+        "add_desc": "顾客行走速度增加40%"
+      },
+      {
+        "id": 3706,
+        "name": "护栏",
+        "type": 37,
+        "unlock_state": -1,
+        "money": -1,
+        "video_num": -1,
+        "reward": -1,
+        "add_type": 7,
+        "add_num": 50,
+        "add_desc": "顾客行走速度增加50%"
       }
     ],
     "shelves": [
       {
-        "id": 101,
-        "name": "破地摊",
-        "type": 1,
+        "id": 2101,
+        "name": "1号货架",
+        "type": 21,
+        "unlock_state": 1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 3,
+        "add_type": 1,
+        "add_num": 0,
+        "add_desc": "招待顾客收益无变化"
+      },
+      {
+        "id": 2102,
+        "name": "1号货架",
+        "type": 21,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 4,
+        "add_type": 1,
+        "add_num": 10,
+        "add_desc": "招待顾客收益增加10%"
+      },
+      {
+        "id": 2103,
+        "name": "1号货架",
+        "type": 21,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 5,
+        "add_type": 1,
+        "add_num": 15,
+        "add_desc": "招待顾客收益增加15%"
+      },
+      {
+        "id": 2104,
+        "name": "1号货架",
+        "type": 21,
+        "unlock_state": -1,
+        "money": 5000,
+        "video_num": 2,
+        "reward": 8,
+        "add_type": 1,
+        "add_num": 20,
+        "add_desc": "招待顾客收益增加20%"
+      },
+      {
+        "id": 2105,
+        "name": "1号货架",
+        "type": 21,
+        "unlock_state": -1,
+        "money": 6000,
+        "video_num": 2,
+        "reward": 10,
+        "add_type": 1,
+        "add_num": 30,
+        "add_desc": "招待顾客收益增加30%"
+      },
+      {
+        "id": 2106,
+        "name": "1号货架",
+        "type": 21,
+        "unlock_state": -1,
         "money": -1,
-        "need_degree": -1,
-        "reward_degree": 0,
-        "video_money": -1
-      },
-      {
-        "id": 102,
-        "name": "实木货架",
-        "type": 1,
-        "money": 2261,
-        "need_degree": 60,
-        "reward_degree": 4,
-        "video_money": 3300
-      },
-      {
-        "id": 103,
-        "name": "亚克力板货架",
-        "type": 1,
-        "money": 13342,
-        "need_degree": 116,
-        "reward_degree": 2,
-        "video_money": 5200
-      },
-      {
-        "id": 104,
-        "name": "金丝楠木货架",
-        "type": 1,
-        "money": 34576,
-        "need_degree": 141,
-        "reward_degree": 1,
-        "video_money": 11000
-      },
-      {
-        "id": 105,
-        "name": "鸡血石货架",
-        "type": 1,
-        "money": 110503,
-        "need_degree": 159,
-        "reward_degree": 1,
-        "video_money": 18500
-      },
-      {
-        "id": 106,
-        "name": "镀金豪华货架",
-        "type": 1,
-        "money": 252262,
-        "need_degree": 177,
-        "reward_degree": 1,
-        "video_money": 40700
-      },
-      {
-        "id": 201,
-        "name": "破地摊",
-        "type": 2,
-        "money": 386,
-        "need_degree": 5,
-        "reward_degree": 5,
-        "video_money": -1
-      },
-      {
-        "id": 202,
-        "name": "实木货架",
-        "type": 2,
-        "money": 2374,
-        "need_degree": 64,
-        "reward_degree": 4,
-        "video_money": 3400
-      },
-      {
-        "id": 203,
-        "name": "亚克力板货架",
-        "type": 2,
-        "money": 13883,
-        "need_degree": 118,
-        "reward_degree": 2,
-        "video_money": 6400
-      },
-      {
-        "id": 204,
-        "name": "金丝楠木货架",
-        "type": 2,
-        "money": 43200,
-        "need_degree": 142,
-        "reward_degree": 1,
-        "video_money": 11200
-      },
-      {
-        "id": 205,
-        "name": "鸡血石货架",
-        "type": 2,
-        "money": 113530,
-        "need_degree": 160,
-        "reward_degree": 1,
-        "video_money": 18700
-      },
-      {
-        "id": 206,
-        "name": "镀金豪华货架",
-        "type": 2,
-        "money": 287172,
-        "need_degree": 178,
-        "reward_degree": 1,
-        "video_money": 45200
-      },
-      {
-        "id": 301,
-        "name": "破地摊",
-        "type": 3,
-        "money": 438,
-        "need_degree": 10,
-        "reward_degree": 5,
-        "video_money": -1
-      },
-      {
-        "id": 302,
-        "name": "实木货架",
-        "type": 3,
-        "money": 2487,
-        "need_degree": 68,
-        "reward_degree": 4,
-        "video_money": 3400
-      },
-      {
-        "id": 303,
-        "name": "亚克力板货架",
-        "type": 3,
-        "money": 14422,
-        "need_degree": 120,
-        "reward_degree": 2,
-        "video_money": 6300
-      },
-      {
-        "id": 304,
-        "name": "金丝楠木货架",
-        "type": 3,
-        "money": 44657,
-        "need_degree": 143,
-        "reward_degree": 1,
-        "video_money": 11400
-      },
-      {
-        "id": 305,
-        "name": "鸡血石货架",
-        "type": 3,
-        "money": 116548,
-        "need_degree": 161,
-        "reward_degree": 1,
-        "video_money": 20100
-      },
-      {
-        "id": 306,
-        "name": "镀金豪华货架",
-        "type": 3,
-        "money": 294032,
-        "need_degree": 179,
-        "reward_degree": 1,
-        "video_money": 56900
-      },
-      {
-        "id": 401,
-        "name": "破地摊",
-        "type": 4,
-        "money": 490,
-        "need_degree": 15,
-        "reward_degree": 5,
-        "video_money": 970
-      },
-      {
-        "id": 402,
-        "name": "实木货架",
-        "type": 4,
-        "money": 3931,
-        "need_degree": 72,
-        "reward_degree": 4,
-        "video_money": 3500
-      },
-      {
-        "id": 403,
-        "name": "亚克力板货架",
-        "type": 4,
-        "money": 14960,
-        "need_degree": 122,
-        "reward_degree": 2,
-        "video_money": 6200
-      },
-      {
-        "id": 404,
-        "name": "金丝楠木货架",
-        "type": 4,
-        "money": 46110,
-        "need_degree": 144,
-        "reward_degree": 1,
-        "video_money": 11600
-      },
-      {
-        "id": 405,
-        "name": "鸡血石货架",
-        "type": 4,
-        "money": 125343,
-        "need_degree": 162,
-        "reward_degree": 1,
-        "video_money": 20200
-      },
-      {
-        "id": 406,
-        "name": "镀金豪华货架",
-        "type": 4,
-        "money": 300872,
-        "need_degree": 180,
-        "reward_degree": 1,
-        "video_money": 82500
-      },
-      {
-        "id": 501,
-        "name": "破地摊",
-        "type": 5,
-        "money": 543,
-        "need_degree": 20,
-        "reward_degree": 5,
-        "video_money": 1000
-      },
-      {
-        "id": 502,
-        "name": "实木货架",
-        "type": 5,
-        "money": 4130,
-        "need_degree": 76,
-        "reward_degree": 4,
-        "video_money": 3800
-      },
-      {
-        "id": 503,
-        "name": "亚克力板货架",
-        "type": 5,
-        "money": 15496,
-        "need_degree": 124,
-        "reward_degree": 2,
-        "video_money": 6100
-      },
-      {
-        "id": 504,
-        "name": "金丝楠木货架",
-        "type": 5,
-        "money": 47558,
-        "need_degree": 145,
-        "reward_degree": 1,
-        "video_money": 12700
-      },
-      {
-        "id": 505,
-        "name": "鸡血石货架",
-        "type": 5,
-        "money": 128837,
-        "need_degree": 163,
-        "reward_degree": 1,
-        "video_money": 20200
-      },
-      {
-        "id": 506,
-        "name": "镀金豪华货架",
-        "type": 5,
-        "money": 307692,
-        "need_degree": 181,
-        "reward_degree": 1,
-        "video_money": 112800
-      },
-      {},
-      {},
-      {},
-      {},
-      {},
-      {},
-      {},
-      {},
-      {},
-      {},
-      {},
-      {}
-    ],
-    "task": [
-      {
-        "id": 1,
-        "desc": "解锁生锈的水管",
-        "type": 6,
-        "money": 154,
-        "target": 501
-      },
-      {
-        "id": 2,
-        "desc": "解锁2号破地摊",
-        "type": 8,
-        "money": 174,
-        "target": 201
-      },
-      {
-        "id": 3,
-        "desc": "【顾客满意度】达到50",
-        "type": 3,
-        "money": 182,
-        "target": 50
-      },
-      {
-        "id": 4,
-        "desc": "解锁3号破地摊",
-        "type": 8,
-        "money": 194,
-        "target": 301
-      },
-      {
-        "id": 5,
-        "desc": "累计招揽500次",
-        "type": 1,
-        "money": 195,
-        "target": 500
-      },
-      {
-        "id": 6,
-        "desc": "解锁4号破地摊",
-        "type": 8,
-        "money": 215,
-        "target": 401
-      },
-      {
-        "id": 7,
-        "desc": "解锁5号破地摊",
-        "type": 8,
-        "money": 235,
-        "target": 501
-      },
-      {
-        "id": 8,
-        "desc": "累计招待100位顾客",
-        "type": 2,
-        "money": 292,
-        "target": 100
-      },
-      {
-        "id": 9,
-        "desc": "累计获得20000钞票",
-        "type": 5,
-        "money": 292,
-        "target": 20000
-      },
-      {
-        "id": 10,
-        "desc": "累计观看10个广告",
-        "type": 4,
-        "money": 484,
-        "target": 10
-      },
-      {
-        "id": 11,
-        "desc": "解锁小木棍围栏",
-        "type": 6,
-        "money": 509,
-        "target": 601
-      },
-      {
-        "id": 12,
-        "desc": "累计招揽1000次",
-        "type": 1,
-        "money": 510,
-        "target": 1000
-      },
-      {
-        "id": 13,
-        "desc": "解锁普通稻草人",
-        "type": 6,
-        "money": 549,
-        "target": 701
-      },
-      {
-        "id": 14,
-        "desc": "【顾客满意度】达到100",
-        "type": 3,
-        "money": 586,
-        "target": 100
-      },
-      {
-        "id": 15,
-        "desc": "解锁4号普通土地",
-        "type": 7,
-        "money": 588,
-        "target": 401
-      },
-      {
-        "id": 16,
-        "desc": "解锁5号普通土地",
-        "type": 7,
-        "money": 626,
-        "target": 501
-      },
-      {
-        "id": 17,
-        "desc": "解锁6号普通土地",
-        "type": 7,
-        "money": 664,
-        "target": 601
-      },
-      {
-        "id": 18,
-        "desc": "解锁石子路",
-        "type": 6,
-        "money": 790,
-        "target": 402
-      },
-      {
-        "id": 19,
-        "desc": "解锁大青砖围墙",
-        "type": 6,
-        "money": 833,
-        "target": 302
-      },
-      {
-        "id": 20,
-        "desc": "解锁实木收银柜",
-        "type": 6,
-        "money": 875,
-        "target": 102
-      },
-      {
-        "id": 21,
-        "desc": "解锁1号实木货架",
-        "type": 8,
-        "money": 915,
-        "target": 102
-      },
-      {
-        "id": 22,
-        "desc": "累计观看20个广告",
-        "type": 4,
-        "money": 940,
-        "target": 20
-      },
-      {
-        "id": 23,
-        "desc": "累计获得90000钞票",
-        "type": 5,
-        "money": 940,
-        "target": 90000
-      },
-      {
-        "id": 24,
-        "desc": "解锁2号实木货架",
-        "type": 8,
-        "money": 956,
-        "target": 202
-      },
-      {
-        "id": 25,
-        "desc": "累计招待300位顾客",
-        "type": 2,
-        "money": 1180,
-        "target": 300
-      },
-      {
-        "id": 26,
-        "desc": "累计招揽3500次",
-        "type": 1,
-        "money": 1277,
-        "target": 3500
-      },
-      {
-        "id": 27,
-        "desc": "解锁3号实木货架",
-        "type": 8,
-        "money": 1509,
-        "target": 302
-      },
-      {
-        "id": 28,
-        "desc": "解锁4号实木货架",
-        "type": 8,
-        "money": 1581,
-        "target": 402
-      },
-      {
-        "id": 29,
-        "desc": "解锁5号实木货架",
-        "type": 8,
-        "money": 1653,
-        "target": 502
-      },
-      {
-        "id": 30,
-        "desc": "累计观看30个广告",
-        "type": 4,
-        "money": 1684,
-        "target": 30
-      },
-      {
-        "id": 31,
-        "desc": "解锁小木屋",
-        "type": 6,
-        "money": 1724,
-        "target": 202
-      },
-      {
-        "id": 32,
-        "desc": "【顾客满意度】达到130",
-        "type": 3,
-        "money": 1755,
-        "target": 130
-      },
-      {
-        "id": 33,
-        "desc": "解锁塑料水管",
-        "type": 6,
-        "money": 1795,
-        "target": 502
-      },
-      {
-        "id": 34,
-        "desc": "累计获得200000钞票",
-        "type": 5,
-        "money": 1826,
-        "target": 200000
-      },
-      {
-        "id": 35,
-        "desc": "累计招待500位顾客",
-        "type": 2,
-        "money": 2220,
-        "target": 500
-      },
-      {
-        "id": 36,
-        "desc": "累计招揽6000次",
-        "type": 1,
-        "money": 2390,
-        "target": 6000
-      },
-      {
-        "id": 37,
-        "desc": "累计观看50个广告",
-        "type": 4,
-        "money": 2390,
-        "target": 50
-      },
-      {
-        "id": 38,
-        "desc": "【顾客满意度】达到140",
-        "type": 3,
-        "money": 2475,
-        "target": 140
-      },
-      {
-        "id": 39,
-        "desc": "累计获得350000钞票",
-        "type": 5,
-        "money": 2475,
-        "target": 350000
-      },
-      {
-        "id": 40,
-        "desc": "解锁竹艺围栏",
-        "type": 6,
-        "money": 2504,
-        "target": 602
-      },
-      {
-        "id": 41,
-        "desc": "解锁铁艺稻草人",
-        "type": 6,
-        "money": 2614,
-        "target": 702
-      },
-      {
-        "id": 42,
-        "desc": "解锁1号黑土地",
-        "type": 7,
-        "money": 2723,
-        "target": 102
-      },
-      {
-        "id": 43,
-        "desc": "解锁2号黑土地",
-        "type": 7,
-        "money": 2830,
-        "target": 202
-      },
-      {
-        "id": 44,
-        "desc": "解锁3号黑土地",
-        "type": 7,
-        "money": 2937,
-        "target": 302
-      },
-      {
-        "id": 45,
-        "desc": "解锁4号黑土地",
-        "type": 7,
-        "money": 3232,
-        "target": 402
-      },
-      {
-        "id": 46,
-        "desc": "解锁5号黑土地",
-        "type": 7,
-        "money": 3363,
-        "target": 502
-      },
-      {
-        "id": 47,
-        "desc": "累计招待700位顾客",
-        "type": 2,
-        "money": 3430,
-        "target": 700
-      },
-      {
-        "id": 48,
-        "desc": "解锁6号黑土地",
-        "type": 7,
-        "money": 3493,
-        "target": 602
-      },
-      {
-        "id": 49,
-        "desc": "解锁水泥路",
-        "type": 6,
-        "money": 3621,
-        "target": 403
-      },
-      {
-        "id": 50,
-        "desc": "累计招揽8000次",
-        "type": 1,
-        "money": 3670,
-        "target": 8000
-      },
-      {
-        "id": 51,
-        "desc": "解锁水泥锌钢围墙",
-        "type": 6,
-        "money": 3749,
-        "target": 303
-      },
-      {
-        "id": 52,
-        "desc": "【顾客满意度】达到150",
-        "type": 3,
-        "money": 4198,
-        "target": 150
-      },
-      {
-        "id": 53,
-        "desc": "累计观看70个广告",
-        "type": 4,
-        "money": 4198,
-        "target": 70
-      },
-      {
-        "id": 54,
-        "desc": "累计获得600000钞票",
-        "type": 5,
-        "money": 4343,
-        "target": 600000
-      },
-      {
-        "id": 55,
-        "desc": "解锁梨花木收银柜",
-        "type": 6,
-        "money": 4922,
-        "target": 103
-      },
-      {
-        "id": 56,
-        "desc": "解锁1号亚克力板货架",
-        "type": 8,
-        "money": 5108,
-        "target": 103
-      },
-      {
-        "id": 57,
-        "desc": "解锁2号亚克力板货架",
-        "type": 8,
-        "money": 5292,
-        "target": 203
-      },
-      {
-        "id": 58,
-        "desc": "解锁3号亚克力板货架",
-        "type": 8,
-        "money": 5475,
-        "target": 303
-      },
-      {
-        "id": 59,
-        "desc": "累计招待1000位顾客",
-        "type": 2,
-        "money": 5616,
-        "target": 1000
-      },
-      {
-        "id": 60,
-        "desc": "解锁4号亚克力板货架",
-        "type": 8,
-        "money": 5656,
-        "target": 403
-      },
-      {
-        "id": 61,
-        "desc": "累计招揽10000次",
-        "type": 1,
-        "money": 5814,
-        "target": 10000
-      },
-      {
-        "id": 62,
-        "desc": "【顾客满意度】达到155",
-        "type": 3,
-        "money": 6013,
-        "target": 155
-      },
-      {
-        "id": 63,
-        "desc": "累计观看90个广告",
-        "type": 4,
-        "money": 6013,
-        "target": 90
-      },
-      {
-        "id": 64,
-        "desc": "累计获得800000钞票",
-        "type": 5,
-        "money": 6013,
-        "target": 800000
-      },
-      {
-        "id": 65,
-        "desc": "解锁5号亚克力板货架",
-        "type": 8,
-        "money": 6109,
-        "target": 503
-      },
-      {
-        "id": 66,
-        "desc": "解锁传统瓦房",
-        "type": 6,
-        "money": 6325,
-        "target": 203
-      },
-      {
-        "id": 67,
-        "desc": "解锁不锈钢水管",
-        "type": 6,
-        "money": 6539,
-        "target": 503
-      },
-      {
-        "id": 68,
-        "desc": "解锁实木围栏",
-        "type": 6,
-        "money": 6750,
-        "target": 603
-      },
-      {
-        "id": 69,
-        "desc": "累计招待1200位顾客",
-        "type": 2,
-        "money": 6938,
-        "target": 1200
-      },
-      {
-        "id": 70,
-        "desc": "解锁仿真稻草人",
-        "type": 6,
-        "money": 6959,
-        "target": 703
-      },
-      {
-        "id": 71,
-        "desc": "累计招揽13000次",
-        "type": 1,
-        "money": 7172,
-        "target": 13000
-      },
-      {
-        "id": 72,
-        "desc": "累计获得1000000钞票",
-        "type": 5,
-        "money": 7172,
-        "target": 1000000
-      },
-      {
-        "id": 73,
-        "desc": "【顾客满意度】达到160",
-        "type": 3,
-        "money": 7405,
-        "target": 160
-      },
-      {
-        "id": 74,
-        "desc": "累计观看110个广告",
-        "type": 4,
-        "money": 7405,
-        "target": 110
-      },
-      {
-        "id": 75,
-        "desc": "解锁1号红土地",
-        "type": 7,
-        "money": 8930,
-        "target": 103
-      },
-      {
-        "id": 76,
-        "desc": "解锁2号红土地",
-        "type": 7,
-        "money": 9227,
-        "target": 203
-      },
-      {
-        "id": 77,
-        "desc": "解锁3号红土地",
-        "type": 7,
-        "money": 9520,
-        "target": 303
-      },
-      {
-        "id": 78,
-        "desc": "累计招待1500位顾客",
-        "type": 2,
-        "money": 9650,
-        "target": 1500
-      },
-      {
-        "id": 79,
-        "desc": "累计获得1300000钞票",
-        "type": 5,
-        "money": 9650,
-        "target": 1300000
-      },
-      {
-        "id": 80,
-        "desc": "解锁4号红土地",
-        "type": 7,
-        "money": 9812,
-        "target": 403
-      },
-      {
-        "id": 81,
-        "desc": "累计招揽16000次",
-        "type": 1,
-        "money": 9960,
-        "target": 16000
-      },
-      {
-        "id": 82,
-        "desc": "【顾客满意度】达到165",
-        "type": 3,
-        "money": 9960,
-        "target": 165
-      },
-      {
-        "id": 83,
-        "desc": "累计观看130个广告",
-        "type": 4,
-        "money": 9960,
-        "target": 130
-      },
-      {
-        "id": 84,
-        "desc": "解锁5号红土地",
-        "type": 7,
-        "money": 10100,
-        "target": 503
-      },
-      {
-        "id": 85,
-        "desc": "解锁6号红土地",
-        "type": 7,
-        "money": 11103,
-        "target": 603
-      },
-      {
-        "id": 86,
-        "desc": "累计招待1700位顾客",
-        "type": 2,
-        "money": 11426,
-        "target": 1700
-      },
-      {
-        "id": 87,
-        "desc": "解锁沥青路",
-        "type": 6,
-        "money": 11450,
-        "target": 404
-      },
-      {
-        "id": 88,
-        "desc": "累计招揽18000次",
-        "type": 1,
-        "money": 11761,
-        "target": 18000
-      },
-      {
-        "id": 89,
-        "desc": "累计观看150个广告",
-        "type": 4,
-        "money": 11761,
-        "target": 150
-      },
-      {
-        "id": 90,
-        "desc": "累计获得1800000钞票",
-        "type": 5,
-        "money": 11761,
-        "target": 1800000
-      },
-      {
-        "id": 91,
-        "desc": "解锁铁艺安全围墙",
-        "type": 6,
-        "money": 11795,
-        "target": 304
-      },
-      {
-        "id": 92,
-        "desc": "【顾客满意度】达到170",
-        "type": 3,
-        "money": 12096,
-        "target": 170
-      },
-      {
-        "id": 93,
-        "desc": "解锁铁质收银柜",
-        "type": 6,
-        "money": 12136,
-        "target": 104
-      },
-      {
-        "id": 94,
-        "desc": "解锁1号金丝楠木货架",
-        "type": 8,
-        "money": 15120,
-        "target": 104
-      },
-      {
-        "id": 95,
-        "desc": "累计招待2000位顾客",
-        "type": 2,
-        "money": 15168,
-        "target": 2000
-      },
-      {
-        "id": 96,
-        "desc": "累计观看170个广告",
-        "type": 4,
-        "money": 15168,
-        "target": 170
-      },
-      {
-        "id": 97,
-        "desc": "解锁2号金丝楠木货架",
-        "type": 8,
-        "money": 15585,
-        "target": 204
-      },
-      {
-        "id": 98,
-        "desc": "累计招揽21000次",
-        "type": 1,
-        "money": 15594,
-        "target": 21000
-      },
-      {
-        "id": 99,
-        "desc": "解锁3号金丝楠木货架",
-        "type": 8,
-        "money": 16046,
-        "target": 304
-      },
-      {
-        "id": 100,
-        "desc": "解锁4号金丝楠木货架",
-        "type": 8,
-        "money": 16502,
-        "target": 404
-      },
-      {
-        "id": 101,
-        "desc": "累计获得2500000钞票",
-        "type": 5,
-        "money": 16796,
-        "target": 2500000
-      },
-      {
-        "id": 102,
-        "desc": "【顾客满意度】达到175",
-        "type": 3,
-        "money": 16798,
-        "target": 175
-      },
-      {
-        "id": 103,
-        "desc": "累计观看190个广告",
-        "type": 4,
-        "money": 17290,
-        "target": 190
-      },
-      {
-        "id": 104,
-        "desc": "解锁5号金丝楠木货架",
-        "type": 8,
-        "money": 17802,
-        "target": 504
-      },
-      {
-        "id": 105,
-        "desc": "解锁现代房",
-        "type": 6,
-        "money": 18272,
-        "target": 204
-      },
-      {
-        "id": 106,
-        "desc": "累计观看210个广告",
-        "type": 4,
-        "money": 18278,
-        "target": 210
-      },
-      {
-        "id": 107,
-        "desc": "解锁精铜水管",
-        "type": 6,
-        "money": 18804,
-        "target": 504
-      },
-      {
-        "id": 108,
-        "desc": "解锁铁艺围栏",
-        "type": 6,
-        "money": 19329,
-        "target": 604
-      },
-      {
-        "id": 109,
-        "desc": "累计招待2500位顾客",
-        "type": 2,
-        "money": 21660,
-        "target": 2500
-      },
-      {
-        "id": 110,
-        "desc": "累计招揽26000次",
-        "type": 1,
-        "money": 22230,
-        "target": 26000
-      },
-      {
-        "id": 111,
-        "desc": "累计获得3500000钞票",
-        "type": 5,
-        "money": 22230,
-        "target": 3500000
-      },
-      {
-        "id": 112,
-        "desc": "【顾客满意度】达到180",
-        "type": 3,
-        "money": 22857,
-        "target": 180
-      },
-      {
-        "id": 113,
-        "desc": "累计观看230个广告",
-        "type": 4,
-        "money": 22857,
-        "target": 230
-      },
-      {
-        "id": 114,
-        "desc": "解锁恐怖稻草人",
-        "type": 6,
-        "money": 23633,
-        "target": 704
-      },
-      {
-        "id": 115,
-        "desc": "解锁1号金土地",
-        "type": 7,
-        "money": 24247,
-        "target": 104
-      },
-      {
-        "id": 116,
-        "desc": "解锁2号金土地",
-        "type": 7,
-        "money": 24856,
-        "target": 204
-      },
-      {
-        "id": 117,
-        "desc": "解锁3号金土地",
-        "type": 7,
-        "money": 25540,
-        "target": 304
-      },
-      {
-        "id": 118,
-        "desc": "累计观看250个广告",
-        "type": 4,
-        "money": 25718,
-        "target": 250
-      },
-      {
-        "id": 119,
-        "desc": "累计招待3000位顾客",
-        "type": 2,
-        "money": 26387,
-        "target": 3000
-      },
-      {
-        "id": 120,
-        "desc": "累计招揽32000次",
-        "type": 1,
-        "money": 27056,
-        "target": 32000
-      },
-      {
-        "id": 121,
-        "desc": "【顾客满意度】达到185",
-        "type": 3,
-        "money": 27789,
-        "target": 185
-      },
-      {
-        "id": 122,
-        "desc": "累计观看270个广告",
-        "type": 4,
-        "money": 27789,
-        "target": 270
-      },
-      {
-        "id": 123,
-        "desc": "累计获得4500000钞票",
-        "type": 5,
-        "money": 27789,
-        "target": 4500000
-      },
-      {
-        "id": 124,
-        "desc": "解锁4号金土地",
-        "type": 7,
-        "money": 28315,
-        "target": 404
-      },
-      {
-        "id": 125,
-        "desc": "解锁5号金土地",
-        "type": 7,
-        "money": 29039,
-        "target": 504
-      },
-      {
-        "id": 126,
-        "desc": "解锁6号金土地",
-        "type": 7,
-        "money": 29757,
-        "target": 604
-      },
-      {
-        "id": 127,
-        "desc": "解锁青砖大道",
-        "type": 6,
-        "money": 30467,
-        "target": 405
-      },
-      {
-        "id": 128,
-        "desc": "累计招待3500位顾客",
-        "type": 2,
-        "money": 32911,
-        "target": 3500
-      },
-      {
-        "id": 129,
-        "desc": "累计观看290个广告",
-        "type": 4,
-        "money": 32911,
-        "target": 290
-      },
-      {
-        "id": 130,
-        "desc": "累计招揽36000次",
-        "type": 1,
-        "money": 33736,
-        "target": 36000
-      },
-      {
-        "id": 131,
-        "desc": "【顾客满意度】达到190",
-        "type": 3,
-        "money": 34560,
-        "target": 190
-      },
-      {
-        "id": 132,
-        "desc": "累计观看310个广告",
-        "type": 4,
-        "money": 34560,
-        "target": 310
-      },
-      {
-        "id": 133,
-        "desc": "解锁中式园林围墙",
-        "type": 6,
-        "money": 35893,
-        "target": 305
-      },
-      {
-        "id": 134,
-        "desc": "解锁玻璃收银柜",
-        "type": 6,
-        "money": 36797,
-        "target": 105
-      },
-      {
-        "id": 135,
-        "desc": "解锁1号鸡血石货架",
-        "type": 8,
-        "money": 37691,
-        "target": 105
-      },
-      {
-        "id": 136,
-        "desc": "解锁2号鸡血石货架",
-        "type": 8,
-        "money": 38576,
-        "target": 205
-      },
-      {
-        "id": 137,
-        "desc": "累计获得5500000钞票",
-        "type": 5,
-        "money": 39400,
-        "target": 5500000
-      },
-      {
-        "id": 138,
-        "desc": "累计观看330个广告",
-        "type": 4,
-        "money": 40400,
-        "target": 330
-      },
-      {
-        "id": 139,
-        "desc": "解锁3号鸡血石货架",
-        "type": 8,
-        "money": 41363,
-        "target": 305
-      },
-      {
-        "id": 140,
-        "desc": "累计招待4000位顾客",
-        "type": 2,
-        "money": 41400,
-        "target": 4000
-      },
-      {
-        "id": 141,
-        "desc": "解锁4号鸡血石货架",
-        "type": 8,
-        "money": 42387,
-        "target": 405
-      },
-      {
-        "id": 142,
-        "desc": "累计招揽42000次",
-        "type": 1,
-        "money": 42400,
-        "target": 42000
-      },
-      {
-        "id": 143,
-        "desc": "【顾客满意度】达到195",
-        "type": 3,
-        "money": 42400,
-        "target": 195
-      },
-      {
-        "id": 144,
-        "desc": "累计观看350个广告",
-        "type": 4,
-        "money": 42400,
-        "target": 350
-      },
-      {
-        "id": 145,
-        "desc": "累计获得6500000钞票",
-        "type": 5,
-        "money": 42400,
-        "target": 6500000
-      },
-      {
-        "id": 146,
-        "desc": "解锁5号鸡血石货架",
-        "type": 8,
-        "money": 43401,
-        "target": 505
-      },
-      {
-        "id": 147,
-        "desc": "解锁中式别墅",
-        "type": 6,
-        "money": 44404,
-        "target": 205
-      },
-      {
-        "id": 148,
-        "desc": "累计观看370个广告",
-        "type": 4,
-        "money": 52080,
-        "target": 370
-      },
-      {
-        "id": 149,
-        "desc": "解锁陶瓷水管",
-        "type": 6,
-        "money": 52382,
-        "target": 505
-      },
-      {
-        "id": 150,
-        "desc": "累计招待4500位顾客",
-        "type": 2,
-        "money": 53386,
-        "target": 4500
-      },
-      {
-        "id": 151,
-        "desc": "解锁中式艺术围栏",
-        "type": 6,
-        "money": 53515,
-        "target": 605
-      },
-      {
-        "id": 152,
-        "desc": "解锁机器人",
-        "type": 6,
-        "money": 54774,
-        "target": 705
-      },
-      {
-        "id": 153,
-        "desc": "累计招揽47000次",
-        "type": 1,
-        "money": 54931,
-        "target": 47000
-      },
-      {
-        "id": 154,
-        "desc": "累计观看390个广告",
-        "type": 4,
-        "money": 54931,
-        "target": 390
-      },
-      {
-        "id": 155,
-        "desc": "累计获得8000000钞票",
-        "type": 5,
-        "money": 54931,
-        "target": 8000000
-      },
-      {
-        "id": 156,
-        "desc": "解锁1号紫晶土地",
-        "type": 7,
-        "money": 56020,
-        "target": 105
-      },
-      {
-        "id": 157,
-        "desc": "【顾客满意度】达到200",
-        "type": 3,
-        "money": 57197,
-        "target": 200
-      },
-      {
-        "id": 158,
-        "desc": "解锁2号紫晶土地",
-        "type": 7,
-        "money": 61070,
-        "target": 205
-      },
-      {
-        "id": 159,
-        "desc": "解锁3号紫晶土地",
-        "type": 7,
-        "money": 62372,
-        "target": 305
-      },
-      {
-        "id": 160,
-        "desc": "解锁4号紫晶土地",
-        "type": 7,
-        "money": 63660,
-        "target": 405
-      },
-      {
-        "id": 161,
-        "desc": "解锁5号紫晶土地",
-        "type": 7,
-        "money": 65084,
-        "target": 505
-      },
-      {
-        "id": 162,
-        "desc": "解锁6号紫晶土地",
-        "type": 7,
-        "money": 74805,
-        "target": 605
-      },
-      {
-        "id": 163,
-        "desc": "解锁红地毯",
-        "type": 6,
-        "money": 76374,
-        "target": 406
-      },
-      {
-        "id": 164,
-        "desc": "累计观看410个广告",
-        "type": 4,
-        "money": 76428,
-        "target": 410
-      },
-      {
-        "id": 165,
-        "desc": "累计获得10000000钞票",
-        "type": 5,
-        "money": 76428,
-        "target": 10000000
-      },
-      {
-        "id": 166,
-        "desc": "解锁欧式艺术围墙",
-        "type": 6,
-        "money": 77926,
-        "target": 306
-      },
-      {
-        "id": 167,
-        "desc": "解锁电子收银柜",
-        "type": 6,
-        "money": 79461,
-        "target": 106
-      },
-      {
-        "id": 168,
-        "desc": "累计招待5000位顾客",
-        "type": 2,
-        "money": 87360,
-        "target": 5000
-      },
-      {
-        "id": 169,
-        "desc": "累计观看430个广告",
-        "type": 4,
-        "money": 87360,
-        "target": 430
-      },
-      {
-        "id": 170,
-        "desc": "解锁1号镀金豪华货架",
-        "type": 8,
-        "money": 90171,
-        "target": 106
-      },
-      {
-        "id": 171,
-        "desc": "解锁2号镀金豪华货架",
-        "type": 8,
-        "money": 92031,
-        "target": 206
-      },
-      {
-        "id": 172,
-        "desc": "解锁3号镀金豪华货架",
-        "type": 8,
-        "money": 93871,
-        "target": 306
-      },
-      {
-        "id": 173,
-        "desc": "解锁4号镀金豪华货架",
-        "type": 8,
-        "money": 95691,
-        "target": 406
-      },
-      {
-        "id": 174,
-        "desc": "累计招揽54000次",
-        "type": 1,
-        "money": 113292,
-        "target": 54000
-      },
-      {
-        "id": 175,
-        "desc": "【顾客满意度】达到205",
-        "type": 3,
-        "money": 113292,
-        "target": 205
-      },
-      {
-        "id": 176,
-        "desc": "累计观看450个广告",
-        "type": 4,
-        "money": 113292,
-        "target": 450
-      },
-      {
-        "id": 177,
-        "desc": "解锁5号镀金豪华货架",
-        "type": 8,
-        "money": 116991,
-        "target": 506
-      },
-      {
-        "id": 178,
-        "desc": "解锁小洋房",
-        "type": 6,
-        "money": 119364,
-        "target": 206
-      },
-      {
-        "id": 179,
-        "desc": "解锁镀金水管",
-        "type": 6,
-        "money": 122245,
-        "target": 506
-      },
-      {
-        "id": 180,
-        "desc": "解锁欧式围栏",
-        "type": 6,
-        "money": 126691,
-        "target": 606
-      },
-      {
-        "id": 181,
-        "desc": "解锁黄蜂机器人",
-        "type": 6,
-        "money": 168494,
-        "target": 706
-      },
-      {
-        "id": 182,
-        "desc": "累计观看470个广告",
-        "type": 4,
-        "money": 169224,
-        "target": 470
-      },
-      {
-        "id": 183,
-        "desc": "累计获得15000000钞票",
-        "type": 5,
-        "money": 169224,
-        "target": 15000000
-      },
-      {
-        "id": 184,
-        "desc": "解锁1号五彩土地",
-        "type": 7,
-        "money": 191689,
-        "target": 106
-      },
-      {
-        "id": 185,
-        "desc": "解锁2号五彩土地",
-        "type": 7,
-        "money": 247419,
-        "target": 206
-      },
-      {
-        "id": 186,
-        "desc": "累计招揽64000次",
-        "type": 1,
-        "money": 315156,
-        "target": 64000
-      },
-      {
-        "id": 187,
-        "desc": "累计招待6000位顾客",
-        "type": 2,
-        "money": 315156,
-        "target": 6000
-      },
-      {
-        "id": 188,
-        "desc": "【顾客满意度】达到210",
-        "type": 3,
-        "money": 315316,
-        "target": 210
-      },
-      {
-        "id": 189,
-        "desc": "累计观看550个广告",
-        "type": 4,
-        "money": 315316,
-        "target": 550
-      },
-      {
-        "id": 190,
-        "desc": "解锁3号五彩土地",
-        "type": 7,
-        "money": 367825,
-        "target": 306
-      },
-      {
-        "id": 191,
-        "desc": "解锁4号五彩土地",
-        "type": 7,
-        "money": 681784,
-        "target": 406
-      },
-      {
-        "id": 192,
-        "desc": "累计招待8000位顾客",
-        "type": 2,
-        "money": 761088,
-        "target": 8000
-      },
-      {
-        "id": 193,
-        "desc": "累计观看700个广告",
-        "type": 4,
-        "money": 761088,
-        "target": 700
-      },
-      {
-        "id": 194,
-        "desc": "解锁5号五彩土地",
-        "type": 7,
-        "money": 1638680,
-        "target": 506
-      },
-      {
-        "id": 195,
-        "desc": "解锁6号五彩土地",
-        "type": 7,
-        "money": 5118385,
-        "target": 606
+        "video_num": -1,
+        "reward": -1,
+        "add_type": 1,
+        "add_num": 40,
+        "add_desc": "招待顾客收益增加40%"
+      },
+      {
+        "id": 2201,
+        "name": "2号货架",
+        "type": 22,
+        "unlock_state": 1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 3,
+        "add_type": 1,
+        "add_num": 0,
+        "add_desc": "招待顾客收益无变化"
+      },
+      {
+        "id": 2202,
+        "name": "2号货架",
+        "type": 22,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 4,
+        "add_type": 1,
+        "add_num": 10,
+        "add_desc": "招待顾客收益增加10%"
+      },
+      {
+        "id": 2203,
+        "name": "2号货架",
+        "type": 22,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 5,
+        "add_type": 1,
+        "add_num": 15,
+        "add_desc": "招待顾客收益增加15%"
+      },
+      {
+        "id": 2204,
+        "name": "2号货架",
+        "type": 22,
+        "unlock_state": -1,
+        "money": 5000,
+        "video_num": 2,
+        "reward": 8,
+        "add_type": 1,
+        "add_num": 20,
+        "add_desc": "招待顾客收益增加20%"
+      },
+      {
+        "id": 2205,
+        "name": "2号货架",
+        "type": 22,
+        "unlock_state": -1,
+        "money": 6000,
+        "video_num": 2,
+        "reward": 10,
+        "add_type": 1,
+        "add_num": 30,
+        "add_desc": "招待顾客收益增加30%"
+      },
+      {
+        "id": 2206,
+        "name": "2号货架",
+        "type": 22,
+        "unlock_state": -1,
+        "money": -1,
+        "video_num": -1,
+        "reward": -1,
+        "add_type": 1,
+        "add_num": 40,
+        "add_desc": "招待顾客收益增加40%"
+      },
+      {
+        "id": 2301,
+        "name": "3号货架",
+        "type": 23,
+        "unlock_state": 1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 3,
+        "add_type": 1,
+        "add_num": 0,
+        "add_desc": "招待顾客收益无变化"
+      },
+      {
+        "id": 2302,
+        "name": "3号货架",
+        "type": 23,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 4,
+        "add_type": 1,
+        "add_num": 10,
+        "add_desc": "招待顾客收益增加10%"
+      },
+      {
+        "id": 2303,
+        "name": "3号货架",
+        "type": 23,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 5,
+        "add_type": 1,
+        "add_num": 15,
+        "add_desc": "招待顾客收益增加15%"
+      },
+      {
+        "id": 2304,
+        "name": "3号货架",
+        "type": 23,
+        "unlock_state": -1,
+        "money": 5000,
+        "video_num": 2,
+        "reward": 8,
+        "add_type": 1,
+        "add_num": 20,
+        "add_desc": "招待顾客收益增加20%"
+      },
+      {
+        "id": 2305,
+        "name": "3号货架",
+        "type": 23,
+        "unlock_state": -1,
+        "money": 6000,
+        "video_num": 2,
+        "reward": 10,
+        "add_type": 1,
+        "add_num": 30,
+        "add_desc": "招待顾客收益增加30%"
+      },
+      {
+        "id": 2306,
+        "name": "3号货架",
+        "type": 23,
+        "unlock_state": -1,
+        "money": -1,
+        "video_num": -1,
+        "reward": -1,
+        "add_type": 1,
+        "add_num": 40,
+        "add_desc": "招待顾客收益增加40%"
+      },
+      {
+        "id": 2401,
+        "name": "4号货架",
+        "type": 24,
+        "unlock_state": 0,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 3,
+        "add_type": 1,
+        "add_num": 0,
+        "add_desc": "招待顾客收益无变化"
+      },
+      {
+        "id": 2402,
+        "name": "4号货架",
+        "type": 24,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 4,
+        "add_type": 1,
+        "add_num": 10,
+        "add_desc": "招待顾客收益增加10%"
+      },
+      {
+        "id": 2403,
+        "name": "4号货架",
+        "type": 24,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 5,
+        "add_type": 1,
+        "add_num": 15,
+        "add_desc": "招待顾客收益增加15%"
+      },
+      {
+        "id": 2404,
+        "name": "4号货架",
+        "type": 24,
+        "unlock_state": -1,
+        "money": 5000,
+        "video_num": 2,
+        "reward": 8,
+        "add_type": 1,
+        "add_num": 20,
+        "add_desc": "招待顾客收益增加20%"
+      },
+      {
+        "id": 2405,
+        "name": "4号货架",
+        "type": 24,
+        "unlock_state": -1,
+        "money": 6000,
+        "video_num": 2,
+        "reward": 10,
+        "add_type": 1,
+        "add_num": 30,
+        "add_desc": "招待顾客收益增加30%"
+      },
+      {
+        "id": 2406,
+        "name": "4号货架",
+        "type": 24,
+        "unlock_state": -1,
+        "money": -1,
+        "video_num": -1,
+        "reward": -1,
+        "add_type": 1,
+        "add_num": 40,
+        "add_desc": "招待顾客收益增加40%"
+      },
+      {
+        "id": 2501,
+        "name": "5号货架",
+        "type": 25,
+        "unlock_state": 0,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 3,
+        "add_type": 1,
+        "add_num": 0,
+        "add_desc": "招待顾客收益无变化"
+      },
+      {
+        "id": 2502,
+        "name": "5号货架",
+        "type": 25,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 4,
+        "add_type": 1,
+        "add_num": 10,
+        "add_desc": "招待顾客收益增加10%"
+      },
+      {
+        "id": 2503,
+        "name": "5号货架",
+        "type": 25,
+        "unlock_state": -1,
+        "money": 3000,
+        "video_num": 1,
+        "reward": 5,
+        "add_type": 1,
+        "add_num": 15,
+        "add_desc": "招待顾客收益增加15%"
+      },
+      {
+        "id": 2504,
+        "name": "5号货架",
+        "type": 25,
+        "unlock_state": -1,
+        "money": 5000,
+        "video_num": 2,
+        "reward": 8,
+        "add_type": 1,
+        "add_num": 20,
+        "add_desc": "招待顾客收益增加20%"
+      },
+      {
+        "id": 2505,
+        "name": "5号货架",
+        "type": 25,
+        "unlock_state": -1,
+        "money": 6000,
+        "video_num": 2,
+        "reward": 10,
+        "add_type": 1,
+        "add_num": 30,
+        "add_desc": "招待顾客收益增加30%"
+      },
+      {
+        "id": 2506,
+        "name": "5号货架",
+        "type": 25,
+        "unlock_state": -1,
+        "money": -1,
+        "video_num": -1,
+        "reward": -1,
+        "add_type": 1,
+        "add_num": 40,
+        "add_desc": "招待顾客收益增加40%"
       }
     ]
   }

@@ -838,8 +838,8 @@ var MKUtils = /** @class */ (function () {
             return cc.warn('未找到统计面板节点！');
         // 文字
         profiler.children.forEach(function (node) {
-            node.color = font;
-            node.getComponent(cc.Label).fontSize = 18;
+            // node.color = font;
+            // node.getComponent(cc.Label).fontSize = 38
             // node.addComponent(cc.LabelOutline).color = cc.Color.WHITE;
         });
         // 背景
@@ -852,7 +852,7 @@ var MKUtils = /** @class */ (function () {
         }
         var graphics = node.getComponent(cc.Graphics) || node.addComponent(cc.Graphics);
         graphics.clear();
-        graphics.rect(-5, 12.5, node.width + 10, node.height - 10);
+        graphics.rect(-5, 12.5, node.width + 10, 120);
         graphics.fillColor = background;
         graphics.fill();
     };

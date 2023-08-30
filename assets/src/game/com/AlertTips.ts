@@ -12,8 +12,8 @@ export default class AlertTips extends cc.Component {
 
     @property(cc.Label)
     label: cc.Label = null;
-    @property(cc.Label)
-    label1: cc.Label = null;
+
+    // LIFE-CYCLE CALLBACKS:
 
     // onLoad () {}
 

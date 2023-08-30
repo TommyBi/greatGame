@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lvUp_btn1",
+    "texture": "a03800f1-9e91-414f-b8fb-58830cece29b",
+    "atlas": "",
+    "rect": [
+      3,
+      3,
+      198,
+      92
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      204,
+      100
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

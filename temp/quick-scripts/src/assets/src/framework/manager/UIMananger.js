@@ -11,8 +11,10 @@ var UIEffectManager_1 = require("./UIEffectManager");
 var UIState_1 = require("../ui/UIState");
 var BaseTips_1 = require("../ui/BaseTips");
 var BasePanel_1 = require("../ui/BasePanel");
+var SDKManager_1 = require("./SDKManager");
 var UIManager = /** @class */ (function () {
     function UIManager() {
+        //TODO 保存近期打开的3个面板，如果多余3个时 把最早的释放
         //resDic 资源集合
         this.ui_cache = {};
         this.view_cache = {};
@@ -28,24 +30,49 @@ var UIManager = /** @class */ (function () {
     };
     UIManager.prototype.init = function () {
         this.viewLayer = new cc.Node('viewLayer');
+        this.effLayer = new cc.Node('tipLayer');
         this.uiLayer = new cc.Node('uiLayer');
-        this.maskLayer = new cc.Node('maskLayer');
         this.tipLayer = new cc.Node('tipLayer');
         this.sceneLayer = new cc.Node('sceneLayer');
+        this.guideLayer = new cc.Node('guideLayer');
         var canvas = cc.director.getScene().getChildByName('Canvas');
         this.viewLayer.parent = canvas;
         this.sceneLayer.parent = canvas;
-        this.maskLayer.parent = canvas;
+        this.effLayer.parent = canvas;
         this.uiLayer.parent = canvas;
         this.tipLayer.parent = canvas;
+        this.guideLayer.parent = canvas;
         this.currentView = null; //当前的view
+        // this.barragePool = new cc.NodePool();
+        //TODO test
+        // this.viewLayer.opacity = 60;
+        // this.uiLayer.opacity = 60;
     };
     UIManager.prototype.setTop = function () {
         if (!this.top)
             return;
         if (!this.top.parent) {
-            this.uiLayer.addChild(this.top);
-            this.top.setPosition(0, cc.winSize.height / 2 - 110);
+            this.viewLayer.addChild(this.top);
+            if (cc.winSize.height / cc.winSize.width > (16 / 9 + 0.1)) {
+                this.top.setPosition(0, cc.winSize.height / 2 - 210);
+            }
+            else {
+                this.top.setPosition(0, cc.winSize.height / 2 - 110);
+            }
+        }
+    };
+    UIManager.prototype.showGuide = function () {
+        if (!this.guide)
+            return;
+        if (!this.guide.parent) {
+            this.guide.parent = this.guideLayer;
+        }
+    };
+    UIManager.prototype.hideGuide = function () {
+        if (!this.guide)
+            return;
+        if (this.guide.parent) {
+            this.guideLayer.removeAllChildren();
         }
     };
     //显示view
@@ -109,17 +136,21 @@ var UIManager = /** @class */ (function () {
         }
         this.view_cache[name] = null;
     };
-    UIManager.prototype.showPanel = function (pdata, effect) {
+    UIManager.prototype.showPanel = function (pdata, openBack, closeBack, effect) {
         var _this = this;
-        if (effect === void 0) { effect = UIEffectManager_1.UIEffectType.SCALE; }
+        if (effect === void 0) { effect = null; }
         var args = [];
-        for (var _i = 2; _i < arguments.length; _i++) {
-            args[_i - 2] = arguments[_i];
+        for (var _i = 4; _i < arguments.length; _i++) {
+            args[_i - 4] = arguments[_i];
         }
         console.log("打开面板", JSON.stringify(pdata));
         var state = this.checkPanelOpen(pdata); //如果有已经打开，并且不是可以多开的
         if (state) {
             return;
+        }
+        //去掉所有弹框效果
+        if (effect) {
+            effect = null;
         }
         var newSate = this.getUIState(pdata);
         LoaderManager_1.default.loaderPrefab(pdata.uname, Handler_1.default.create(function (res, url, state) {
@@ -131,7 +162,7 @@ var UIManager = /** @class */ (function () {
                     baseUI.setUIName(pdata.uname);
                     baseUI.setModuleName(pdata.mname);
                     baseUI.setEffect(effect);
-                    baseUI._show_(args); //打开前需要执行的函数
+                    baseUI._show_(closeBack, args); //打开前需要执行的函数
                     baseUI.startShow();
                     baseUI.setUIState(state);
                 }
@@ -140,13 +171,15 @@ var UIManager = /** @class */ (function () {
                     return;
                 }
                 // this.ui_cache[pdata.uname] = panel;
+                baseUI.setUIParent(_this.uiLayer);
                 if (!!effect) {
                     UIEffectManager_1.default.effect(effect, panel, false, Handler_1.default.create(_this.effectComplete, _this));
                 }
                 else {
                     baseUI.on_Show(); //真正的打开
                 }
-                baseUI.setUIParent(_this.uiLayer);
+                if (openBack)
+                    openBack();
             }
         }, this, true, newSate), pdata.mname);
     };
@@ -179,11 +212,13 @@ var UIManager = /** @class */ (function () {
         if (!!state) {
             var baseUI = state.ui;
             baseUI.startHide();
-            if (!!baseUI.effect) {
-                //     UIEffectManager.effect(baseUI.effect + "back", baseUI.node, false, Handler.create(this.effectBackComplete, this));
-                // } else {
-                this.effectBackComplete(baseUI.node);
-            }
+            // let isNew = SDKManager.hasNewOrderReward();
+            SDKManager_1.default.reportTrigger();
+            // if (!!baseUI.effect) {
+            //     UIEffectManager.effect(baseUI.effect + "back", baseUI.node, false, Handler.create(this.effectBackComplete, this));
+            // } else {
+            this.effectBackComplete(baseUI.node);
+            // }
         }
     };
     UIManager.prototype.showTips = function (pdata, effect) {

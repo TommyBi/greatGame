@@ -135,7 +135,7 @@ export default class SortUtils {
      * @isBig 是否是从大到小排序
      * @returns 返回排序好的集合
      */
-    static quickSort<T>(collects: Array<T>, key?: string, isBig = true): Array<T> {
+    static quickSort<T>(collects: Array<T>, isBig = true, key?: string): Array<T> {
         SortUtils.quickSortHandle(collects, 0, collects.length - 1, key);
         return collects;
     }

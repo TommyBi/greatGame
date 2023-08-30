@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "xfzs_icon",
+    "texture": "3d6f2293-dd7a-4f95-8648-a441ceccad5b",
+    "atlas": "",
+    "rect": [
+      3,
+      3,
+      124,
+      87
+    ],
+    "offset": [
+      -0.5,
+      1.5
+    ],
+    "originalSize": [
+      131,
+      96
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

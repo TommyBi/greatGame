@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "loginDayBg",
+    "texture": "91f48d99-5a00-4016-8c8d-b62ff35c6c1e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      719,
+      861
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      719,
+      861
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

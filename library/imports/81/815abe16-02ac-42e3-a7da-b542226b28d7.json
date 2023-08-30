@@ -203,7 +203,7 @@
       }
     }
   },
-  "_atlasText": "\nyanwu.png\nsize: 1200,329\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n1\n  rotate: false\n  xy: 1040, 27\n  size: 154, 110\n  orig: 156, 112\n  offset: 1, 1\n  index: -1\n2\n  rotate: false\n  xy: 1040, 139\n  size: 158, 188\n  orig: 160, 190\n  offset: 1, 1\n  index: -1\n3\n  rotate: true\n  xy: 327, 4\n  size: 323, 233\n  orig: 325, 235\n  offset: 1, 1\n  index: -1\n4\n  rotate: true\n  xy: 2, 2\n  size: 325, 323\n  orig: 327, 325\n  offset: 1, 1\n  index: -1\n5\n  rotate: false\n  xy: 562, 52\n  size: 260, 275\n  orig: 262, 277\n  offset: 1, 1\n  index: -1\n6\n  rotate: false\n  xy: 824, 100\n  size: 214, 227\n  orig: 216, 229\n  offset: 1, 1\n  index: -1\n",
+  "_atlasText": "\r\nyanwu.png\r\nsize: 1200,329\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\n1\r\n  rotate: false\r\n  xy: 1040, 27\r\n  size: 154, 110\r\n  orig: 156, 112\r\n  offset: 1, 1\r\n  index: -1\r\n2\r\n  rotate: false\r\n  xy: 1040, 139\r\n  size: 158, 188\r\n  orig: 160, 190\r\n  offset: 1, 1\r\n  index: -1\r\n3\r\n  rotate: true\r\n  xy: 327, 4\r\n  size: 323, 233\r\n  orig: 325, 235\r\n  offset: 1, 1\r\n  index: -1\r\n4\r\n  rotate: true\r\n  xy: 2, 2\r\n  size: 325, 323\r\n  orig: 327, 325\r\n  offset: 1, 1\r\n  index: -1\r\n5\r\n  rotate: false\r\n  xy: 562, 52\r\n  size: 260, 275\r\n  orig: 262, 277\r\n  offset: 1, 1\r\n  index: -1\r\n6\r\n  rotate: false\r\n  xy: 824, 100\r\n  size: 214, 227\r\n  orig: 216, 229\r\n  offset: 1, 1\r\n  index: -1\r\n",
   "textures": [
     {
       "__uuid__": "a58efcc8-aef1-4058-a257-911b44357c74"

@@ -525,6 +525,18 @@ var ComponentHelper = /** @class */ (function () {
             node.runAction(cc.repeatForever(action));
         }
     };
+    ComponentHelper.setRotation = function (node, time, x) {
+        if (time === void 0) { time = 0.5; }
+        if (x === void 0) { x = 20; }
+        if (cc.isValid(node)) {
+            node.stopAllActions();
+            var pos = cc.v2(node.x, node.y);
+            var moveUp = cc.rotateTo(time, 10);
+            var moveDown = cc.rotateTo(time, -10);
+            var action = cc.sequence(moveUp, moveDown);
+            node.runAction(cc.repeatForever(action));
+        }
+    };
     ComponentHelper.setScaleGuoDong = function (node, time, isStartBig, bigScale, smallScale) {
         if (time === void 0) { time = 0.1; }
         if (isStartBig === void 0) { isStartBig = true; }

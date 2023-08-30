@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pestBg",
+    "texture": "72231e34-d827-465c-a7e1-8fa4419897e0",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1012,
+      1112
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1012,
+      1112
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

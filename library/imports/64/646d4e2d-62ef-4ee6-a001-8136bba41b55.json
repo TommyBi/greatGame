@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "task3",
+    "texture": "7fe98fb2-3b6c-4d33-865e-4f4c724cd4fe",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      92,
+      65
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      93,
+      65
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

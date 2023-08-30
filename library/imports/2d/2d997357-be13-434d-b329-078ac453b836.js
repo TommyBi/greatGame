@@ -485,6 +485,9 @@ var Utils = /** @class */ (function () {
     Utils.create = function (C) {
         return new C();
     };
+    Utils.returnTime = function () {
+        return new Date().getTime();
+    };
     /**
      * 适配节点到相对于舞台的的边角位置
      * @param node

@@ -1,0 +1,271 @@
+{
+  "projectPath": "E:\\work\\idiom_letu\\happiness-market",
+  "actualPlatform": "android",
+  "mtimes": {
+    "cd7a30de-115a-4a50-a69a-62185f32d11f": {
+      "assetMtime": 1676434497600,
+      "metaMtime": 1676434498704
+    },
+    "03812790-ce48-4bbd-b63a-a8c2a9a6eed5": {
+      "assetMtime": 1672270700000,
+      "metaMtime": 1674550264610
+    },
+    "a38fa1a0-3968-486a-80f7-d5e0155448bd": {
+      "assetMtime": 1672270700000,
+      "metaMtime": 1674550264610
+    },
+    "410e897a-a160-49b0-9656-c44da6991b10": {
+      "assetMtime": 1672270700000,
+      "metaMtime": 1672299695073
+    },
+    "b498827f-ba28-401c-a8dd-6e15472c246c": {
+      "assetMtime": 1672270700000,
+      "metaMtime": 1672299695073
+    },
+    "50d1abc5-79d1-4be6-953d-80aa155a54eb": {
+      "assetMtime": 1672270700000,
+      "metaMtime": 1672299695062
+    },
+    "07537b48-3a06-48c4-84c0-b263f1136007": {
+      "assetMtime": 1672270700000,
+      "metaMtime": 1672299695062
+    },
+    "7ffae7f6-ece2-4ca7-9e19-4e55974ca567": {
+      "assetMtime": 1674550172758,
+      "metaMtime": 1674550206214
+    },
+    "ec504083-346a-4894-903d-ee4f513829e0": {
+      "assetMtime": 1674550172758,
+      "metaMtime": 1674550206214
+    },
+    "8d39af6b-e32a-49f5-892e-0a844360ff93": {
+      "assetMtime": 1672270700000,
+      "metaMtime": 1672299695066
+    },
+    "6beadf57-b8f5-4575-a4a5-26a0bd19453b": {
+      "assetMtime": 1672270700000,
+      "metaMtime": 1672299695066
+    },
+    "ce850dbf-753e-4b94-9583-913c0eaee18b": {
+      "assetMtime": 1672640813923,
+      "metaMtime": 1672640869260
+    },
+    "f3e0d1b6-f658-43da-a2e2-cba47d12e555": {
+      "assetMtime": 1672640813923,
+      "metaMtime": 1672640869260
+    },
+    "e3bc3e74-3de6-4cc8-b0f9-a2013dbd44e3": {
+      "assetMtime": 1672270700000,
+      "metaMtime": 1672299695042
+    },
+    "0100be10-5cd4-47a2-8479-fddee96429a8": {
+      "assetMtime": 1672270700000,
+      "metaMtime": 1672299695042
+    }
+  },
+  "result": {
+    "name": "planet",
+    "width": 1024,
+    "height": 1024,
+    "ver": "1.2.5",
+    "uuid": "cd7a30de-115a-4a50-a69a-62185f32d11f",
+    "importer": "auto-atlas",
+    "maxWidth": 1024,
+    "maxHeight": 1024,
+    "padding": 2,
+    "compressionLevel": 6,
+    "allowRotation": true,
+    "forceSquared": false,
+    "powerOfTwo": false,
+    "algorithm": "MaxRects",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": true,
+    "paddingBleed": true,
+    "filterUnused": true,
+    "packable": false,
+    "premultiplyAlpha": false,
+    "filterMode": "bilinear",
+    "platformSettings": {},
+    "subMetas": {},
+    "bleed": 1,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "plant_1",
+            "uuid": "50d1abc5-79d1-4be6-953d-80aa155a54eb",
+            "textureUuid": "07537b48-3a06-48c4-84c0-b263f1136007",
+            "path": "E:\\work\\idiom_letu\\happiness-market\\temp\\trimImages\\spritesheet_js_1676435282649_image_2.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 97,
+              "height": 95,
+              "rotatedWidth": 97,
+              "rotatedHeight": 95
+            },
+            "rawWidth": 97,
+            "rawHeight": 95,
+            "width": 103,
+            "height": 101,
+            "originalPath": "E:/work/idiom_letu/happiness-market/library/imports/07/07537b48-3a06-48c4-84c0-b263f1136007.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 103,
+            "rotatedHeight": 101
+          },
+          {
+            "name": "plant_4",
+            "uuid": "410e897a-a160-49b0-9656-c44da6991b10",
+            "textureUuid": "b498827f-ba28-401c-a8dd-6e15472c246c",
+            "path": "E:\\work\\idiom_letu\\happiness-market\\temp\\trimImages\\spritesheet_js_1676435282649_image_1.png",
+            "trim": {
+              "x": 106,
+              "y": 3,
+              "width": 127,
+              "height": 127,
+              "rotatedWidth": 127,
+              "rotatedHeight": 127
+            },
+            "rawWidth": 127,
+            "rawHeight": 127,
+            "width": 133,
+            "height": 133,
+            "originalPath": "E:/work/idiom_letu/happiness-market/library/imports/b4/b498827f-ba28-401c-a8dd-6e15472c246c.png",
+            "x": 103,
+            "y": 0,
+            "rotatedWidth": 133,
+            "rotatedHeight": 133
+          },
+          {
+            "name": "plant_2",
+            "uuid": "03812790-ce48-4bbd-b63a-a8c2a9a6eed5",
+            "textureUuid": "a38fa1a0-3968-486a-80f7-d5e0155448bd",
+            "path": "E:\\work\\idiom_letu\\happiness-market\\temp\\trimImages\\spritesheet_js_1676435282649_image_0.png",
+            "trim": {
+              "x": 239,
+              "y": 3,
+              "width": 251,
+              "height": 267,
+              "rotatedWidth": 267,
+              "rotatedHeight": 251
+            },
+            "rawWidth": 251,
+            "rawHeight": 267,
+            "width": 257,
+            "height": 273,
+            "originalPath": "E:/work/idiom_letu/happiness-market/library/imports/a3/a38fa1a0-3968-486a-80f7-d5e0155448bd.png",
+            "x": 236,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 273,
+            "rotatedHeight": 257
+          },
+          {
+            "name": "plant_5",
+            "uuid": "7ffae7f6-ece2-4ca7-9e19-4e55974ca567",
+            "textureUuid": "ec504083-346a-4894-903d-ee4f513829e0",
+            "path": "E:\\work\\idiom_letu\\happiness-market\\temp\\trimImages\\spritesheet_js_1676435282650_image_3.png",
+            "trim": {
+              "x": 512,
+              "y": 3,
+              "width": 263,
+              "height": 305,
+              "rotatedWidth": 305,
+              "rotatedHeight": 263
+            },
+            "rawWidth": 266,
+            "rawHeight": 309,
+            "width": 269,
+            "height": 311,
+            "originalPath": "E:/work/idiom_letu/happiness-market/library/imports/ec/ec504083-346a-4894-903d-ee4f513829e0.png",
+            "x": 509,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 311,
+            "rotatedHeight": 269
+          },
+          {
+            "name": "plant_3",
+            "uuid": "e3bc3e74-3de6-4cc8-b0f9-a2013dbd44e3",
+            "textureUuid": "0100be10-5cd4-47a2-8479-fddee96429a8",
+            "path": "E:\\work\\idiom_letu\\happiness-market\\temp\\trimImages\\spritesheet_js_1676435282650_image_6.png",
+            "trim": {
+              "x": 3,
+              "y": 260,
+              "width": 263,
+              "height": 279,
+              "rotatedWidth": 279,
+              "rotatedHeight": 263
+            },
+            "rawWidth": 266,
+            "rawHeight": 282,
+            "width": 269,
+            "height": 285,
+            "originalPath": "E:/work/idiom_letu/happiness-market/library/imports/01/0100be10-5cd4-47a2-8479-fddee96429a8.png",
+            "x": 0,
+            "y": 257,
+            "rotated": true,
+            "rotatedWidth": 285,
+            "rotatedHeight": 269
+          },
+          {
+            "name": "unlockBg",
+            "uuid": "ce850dbf-753e-4b94-9583-913c0eaee18b",
+            "textureUuid": "f3e0d1b6-f658-43da-a2e2-cba47d12e555",
+            "path": "E:\\work\\idiom_letu\\happiness-market\\temp\\trimImages\\spritesheet_js_1676435282650_image_5.png",
+            "trim": {
+              "x": 3,
+              "y": 529,
+              "width": 808,
+              "height": 290,
+              "rotatedWidth": 808,
+              "rotatedHeight": 290
+            },
+            "rawWidth": 808,
+            "rawHeight": 290,
+            "width": 814,
+            "height": 296,
+            "originalPath": "E:/work/idiom_letu/happiness-market/library/imports/f3/f3e0d1b6-f658-43da-a2e2-cba47d12e555.png",
+            "x": 0,
+            "y": 526,
+            "rotatedWidth": 814,
+            "rotatedHeight": 296
+          }
+        ],
+        "width": 820,
+        "height": 822,
+        "name": "planet-1",
+        "imagePath": "E:\\work\\idiom_letu\\happiness-market\\temp\\TexturePacker\\build\\native\\assets\\res\\texture_new\\planet\\planet.pac\\planet-1.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "E:\\work\\idiom_letu\\happiness-market\\temp\\TexturePacker\\build\\native\\assets\\res\\texture_new\\planet\\planet.pac\\compressed\\planet-1"
+        }
+      }
+    ],
+    "unpackedTextures": [
+      {
+        "name": "plant_bg",
+        "uuid": "8d39af6b-e32a-49f5-892e-0a844360ff93",
+        "textureUuid": "6beadf57-b8f5-4575-a4a5-26a0bd19453b",
+        "path": "E:\\work\\idiom_letu\\happiness-market\\temp\\trimImages\\spritesheet_js_1676435282650_image_4.png",
+        "trim": {
+          "x": 0,
+          "y": 0,
+          "width": 1012,
+          "height": 1742,
+          "rotatedWidth": 1012,
+          "rotatedHeight": 1742
+        },
+        "rawWidth": 1012,
+        "rawHeight": 1742,
+        "width": 1018,
+        "height": 1748,
+        "originalPath": "E:/work/idiom_letu/happiness-market/library/imports/6b/6beadf57-b8f5-4575-a4a5-26a0bd19453b.png"
+      }
+    ]
+  }
+}

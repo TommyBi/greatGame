@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "order_pop_hbBg",
+    "texture": "e1cd5d69-923a-4229-9f57-51df421a446b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      427,
+      281
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      427,
+      281
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

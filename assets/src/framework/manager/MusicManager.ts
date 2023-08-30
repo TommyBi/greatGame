@@ -194,7 +194,25 @@ class MusicManager
 
     getEffectSwitch()
     {
-        return PlayerModel.getSoundYinXiaoSwitch() == true;
+        // let statusStr = StorageHelper.getValueByKey('audio');
+        // let status = true;
+        // if (statusStr != null) {
+        //     if(typeof statusStr != "boolean")
+        //     {
+        //         if(statusStr === 'false') {
+        //             status = false;
+        //         } else {
+        //             status = true;
+        //         }
+        //     } else {
+        //         status = statusStr;
+        //     }
+        // } else {
+        //     status = true;
+        // }
+        
+        // return status;
+        return PlayerModel.getSoundYinXiaoSwitch() == Global.SOUND_YINXIAO_SWITCH_OPEN;
     }
 
     getMusicSwitch()
@@ -216,7 +234,7 @@ class MusicManager
         //     status = true;
         // }
         // return status;
-        return PlayerModel.getSoundSwitch() == true;
+        return PlayerModel.getSoundSwitch() == Global.SOUND_SWITCH_OPEN;
     }
 
     initMusic()

@@ -207,12 +207,11 @@ class GamePoolManager {
         this.objectIndex = this.pobjectCaches.length - 1;
         return obj;
     }
-    
 
     rolePool: cc.NodePool;
     initRolePool(prefab) {
         this.rolePool = new cc.NodePool();
-        let initCount = 5;
+        let initCount = 15;
         for (let i = 0; i < initCount; ++i) {
             let role = cc.instantiate(prefab); // 创建节点
             this.rolePool.put(role); // 通过 put 接口放入对象池

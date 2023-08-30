@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "order_pop_bg",
+    "texture": "47dcd9d7-64d3-43e2-9857-4a8709a8a821",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1012,
+      1742
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1012,
+      1742
+    ],
+    "capInsets": [
+      217,
+      382,
+      205,
+      582
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "barrage_bg",
+    "texture": "8450836c-5847-4708-b828-54bc159de508",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      446,
+      56
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      446,
+      56
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

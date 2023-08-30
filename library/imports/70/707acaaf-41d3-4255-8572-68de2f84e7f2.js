@@ -35,10 +35,10 @@ var AlertTips = /** @class */ (function (_super) {
     function AlertTips() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.label = null;
-        _this.label1 = null;
         return _this;
         // update (dt) {}
     }
+    // LIFE-CYCLE CALLBACKS:
     // onLoad () {}
     AlertTips.prototype.start = function () {
     };
@@ -51,9 +51,6 @@ var AlertTips = /** @class */ (function (_super) {
     __decorate([
         property(cc.Label)
     ], AlertTips.prototype, "label", void 0);
-    __decorate([
-        property(cc.Label)
-    ], AlertTips.prototype, "label1", void 0);
     AlertTips = __decorate([
         ccclass
     ], AlertTips);

@@ -204,7 +204,7 @@ var GamePoolManager = /** @class */ (function () {
     };
     GamePoolManager.prototype.initRolePool = function (prefab) {
         this.rolePool = new cc.NodePool();
-        var initCount = 5;
+        var initCount = 15;
         for (var i = 0; i < initCount; ++i) {
             var role = cc.instantiate(prefab); // 创建节点
             this.rolePool.put(role); // 通过 put 接口放入对象池
